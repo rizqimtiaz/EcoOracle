@@ -10,6 +10,10 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
+- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
+  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
+  thermal-anomaly indices, with per-ecosystem calibration.
+- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
@@ -137,13 +141,6 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
-<!-- metadata: p712bjab32 -->
-<!-- metadata: i8jgl99fqj -->
-<!-- metadata: 2plv1a34tn -->
-<!-- metadata: vl86tyncbw -->
-<!-- metadata: m6573sb7g2 -->
-<!-- metadata: job9ofgmlb -->
-<!-- metadata: 76t44vwlay -->
 
 ### 4. Smart contracts (`contracts/`)
 
