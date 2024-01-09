@@ -112,10 +112,6 @@ timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
-| NDVI | Normalized Difference Vegetation Index (greenness proxy) |
-| Canopy density | Tree cover proportion |
-| Biomass index | Above-ground biomass proxy |
-| Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
@@ -205,6 +201,8 @@ scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
+<!-- metadata: jdlvevq3zn -->
+<!-- metadata: yu7klgvrhs -->
 ---
 
 ## License
