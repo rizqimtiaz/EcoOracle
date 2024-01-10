@@ -93,6 +93,8 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+State persists to `data/runtime/state.json`.
+
 ---
 
 ## How it works
@@ -113,14 +115,6 @@ timestamp it deterministically computes:
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
-<!-- metadata: xa2lp0bgyq -->
-<!-- metadata: hj26ym1wmg -->
-<!-- metadata: t27wfjz0b6 -->
-<!-- metadata: u7adsz3noj -->
-<!-- metadata: mqo6y32mr4 -->
-<!-- metadata: 2js4z68u65 -->
-<!-- metadata: anyf2idihu -->
-<!-- metadata: icir9u8crn -->
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
