@@ -81,13 +81,6 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
-<!-- metadata: c3kgah1q0e -->
-<!-- metadata: 4nlxuy5ir3 -->
-<!-- metadata: 8v6lvjmyvy -->
-<!-- metadata: jbdap3har2 -->
-<!-- metadata: 51p5hex50k -->
-<!-- metadata: 41f3hw3to1 -->
-<!-- metadata: vdezkjdzcp -->
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
@@ -202,6 +195,8 @@ app/                  Next.js 14 App Router
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
+  oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
