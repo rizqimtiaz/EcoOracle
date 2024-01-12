@@ -157,6 +157,7 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
@@ -192,13 +193,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-<!-- metadata: oi7zlzqsjk -->
-<!-- metadata: 2kt4g8fmw5 -->
-<!-- metadata: g3ulrtsdee -->
-<!-- metadata: 06vgvmmdfn -->
-<!-- metadata: 5dyfesv5f7 -->
-<!-- metadata: 6m3mbq3b06 -->
-<!-- metadata: 831wav014b -->
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
