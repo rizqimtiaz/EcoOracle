@@ -54,14 +54,6 @@ dashboard or run `npm run seed`.
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
-<!-- metadata: w61nc1k5lt -->
-<!-- metadata: 2jg8mg417v -->
-<!-- metadata: ynzhhs7bmp -->
-<!-- metadata: 6t20ewt899 -->
-<!-- metadata: g7saveehgr -->
-<!-- metadata: bphx7cx0on -->
-<!-- metadata: 463q8bc91t -->
-<!-- metadata: 8rw3cmr8ib -->
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -186,6 +178,9 @@ traded — the smart contract reverts.
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+   visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
 ---
