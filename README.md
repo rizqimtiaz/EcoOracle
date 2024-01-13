@@ -35,6 +35,11 @@ npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
+<!-- metadata: umnz5jw1zb -->
+<!-- metadata: guna5s7k43 -->
+<!-- metadata: 1t38hfv431 -->
+<!-- metadata: 3vmvuh0d9u -->
+<!-- metadata: 8elswb76x5 -->
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
@@ -202,7 +207,6 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
-data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
