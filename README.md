@@ -42,7 +42,6 @@ dashboard or run `npm run seed`.
 ---
 
 ## Architecture
-
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -101,6 +100,15 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+<!-- metadata: kr79vdascd -->
+<!-- metadata: auhzeh5pnf -->
+<!-- metadata: trj3c5yok9 -->
+<!-- metadata: 95lupjcpgo -->
+<!-- metadata: fmitychi37 -->
+<!-- metadata: fe6aapuu9b -->
+<!-- metadata: o5bz7zeysb -->
+<!-- metadata: v6k16x79g1 -->
+<!-- metadata: 0stucvsstt -->
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
