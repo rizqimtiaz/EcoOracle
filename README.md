@@ -46,6 +46,9 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+<!-- metadata: g7slpu6f97 -->
+<!-- metadata: 0ee90met8c -->
+<!-- metadata: w1y08yhwtc -->
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -141,7 +144,6 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
-
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
