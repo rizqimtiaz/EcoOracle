@@ -160,6 +160,11 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
+<!-- metadata: nmhmkxbeo9 -->
+<!-- metadata: m2vdcdrh18 -->
+<!-- metadata: ypdqeqcy5r -->
+<!-- metadata: 1w8r2yfgz5 -->
+<!-- metadata: 2ncvrg8825 -->
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
@@ -189,8 +194,6 @@ traded — the smart contract reverts.
 
 ```
 app/                  Next.js 14 App Router
-  layout.tsx          Global layout, navbar, footer, background
-  page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
