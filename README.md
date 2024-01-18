@@ -86,6 +86,7 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
@@ -133,13 +134,6 @@ changed.
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
-<!-- metadata: 312uq0vc6w -->
-<!-- metadata: 8e5w9qqut2 -->
-<!-- metadata: 81mvwj230c -->
-<!-- metadata: k44btdcqkq -->
-<!-- metadata: uyfeb45jnc -->
-<!-- metadata: szw4y0nkqo -->
-<!-- metadata: trv10yuslq -->
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
