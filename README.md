@@ -8,6 +8,9 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
+
+- A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
+- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -170,8 +173,6 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
-<!-- metadata: xqmqqsk5qh -->
-<!-- metadata: f1nsggqkj8 -->
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
