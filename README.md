@@ -154,13 +154,6 @@ Run the autonomous oracle across all parcels with:
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
-<!-- metadata: ve3ytl8pww -->
-<!-- metadata: r7wby83mvc -->
-<!-- metadata: so1ikt7s06 -->
-<!-- metadata: i1xyaar4l6 -->
-<!-- metadata: l73ohvnj5v -->
-<!-- metadata: h2tw725dhs -->
-<!-- metadata: uase1msgnn -->
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
@@ -194,6 +187,10 @@ traded — the smart contract reverts.
 
 ## File map
 
+```
+app/                  Next.js 14 App Router
+  layout.tsx          Global layout, navbar, footer, background
+  page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
