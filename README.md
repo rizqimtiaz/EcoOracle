@@ -87,12 +87,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-<!-- metadata: okpm6zif0d -->
-<!-- metadata: jptkhv9cgx -->
-<!-- metadata: ha07gr9f2v -->
-<!-- metadata: rka3b42evo -->
-<!-- metadata: 3ztgb6111n -->
-<!-- metadata: 326n0gs06z -->
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
@@ -199,6 +193,9 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
+  analyze/            Live AI vision demo
+  oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
