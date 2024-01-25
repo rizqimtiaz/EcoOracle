@@ -20,6 +20,8 @@ This repository contains:
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
+
+Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
@@ -71,11 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: wa5fem5rd9 -->
-<!-- metadata: pjd9j5nl8h -->
-<!-- metadata: kn431upi4s -->
-<!-- metadata: x0hmds3h2p -->
-<!-- metadata: toty257dmi -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
