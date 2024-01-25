@@ -39,15 +39,10 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
-<!-- metadata: yjibugyrgp -->
-<!-- metadata: vm7wptpysa -->
-<!-- metadata: pv32ruvucb -->
-<!-- metadata: lr9dp3cnif -->
-<!-- metadata: w09itj7ci3 -->
-<!-- metadata: 2z5pb7mnze -->
-<!-- metadata: n8aifle7ht -->
-<!-- metadata: rob6b5cmib -->
-<!-- metadata: pq793gkfmp -->
+---
+
+## Architecture
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
