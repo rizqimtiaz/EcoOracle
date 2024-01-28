@@ -161,7 +161,6 @@ For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
-<!-- metadata: ydi4c6ryim -->
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
@@ -169,6 +168,7 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
+
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
