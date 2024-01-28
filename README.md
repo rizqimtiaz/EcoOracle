@@ -46,6 +46,10 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+<!-- metadata: kv2ddn5ogu -->
+<!-- metadata: 2t8yubir12 -->
+<!-- metadata: uy8c1wky00 -->
+<!-- metadata: 3tmny3dbty -->
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -203,10 +207,6 @@ contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
-```
-
----
-
 ## License
 
 MIT.
