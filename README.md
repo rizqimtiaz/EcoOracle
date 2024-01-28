@@ -75,6 +75,7 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
+│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
@@ -196,14 +197,6 @@ app/                  Next.js 14 App Router
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
-<!-- metadata: p53llewx5p -->
-<!-- metadata: 5dgsx7t2oo -->
-<!-- metadata: tj90y8lteh -->
-<!-- metadata: vgpivxt0nv -->
-<!-- metadata: 6r834r5x5o -->
-<!-- metadata: 77ewa9ss68 -->
-<!-- metadata: 8rxtfgpvz5 -->
-<!-- metadata: bointitmm0 -->
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
