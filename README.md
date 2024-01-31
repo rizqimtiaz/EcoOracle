@@ -38,6 +38,9 @@ Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
+<!-- metadata: tstsu20sb9 -->
+<!-- metadata: a9vgszoxzv -->
+<!-- metadata: aw2mkt32u0 -->
 
 ---
 
@@ -154,10 +157,6 @@ Run the autonomous oracle across all parcels with:
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
-co-sign a report, and `publishReport(...)` requires at least `minSigners`
-valid signers before it forwards the call to the dNFT.
-
-For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
