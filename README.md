@@ -68,6 +68,9 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
+<!-- metadata: r9jvm9fb5h -->
+<!-- metadata: t1yh785jm4 -->
+<!-- metadata: i3k5libuzn -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -181,7 +184,6 @@ traded — the smart contract reverts.
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
-   (already invalidated) and watch credits gradually re-issue.
 
 ---
 
