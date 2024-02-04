@@ -5,6 +5,7 @@ integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
+credits based on what the planet actually looks like today.
 
 This repository contains:
 
@@ -187,10 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-<!-- metadata: 30couizdue -->
-<!-- metadata: 1rocrt6mwf -->
-<!-- metadata: zabsq49l4t -->
-<!-- metadata: zipm3t7lc3 -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
