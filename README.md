@@ -48,6 +48,7 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
+│   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
@@ -203,10 +204,6 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-<!-- metadata: vw51l28sjp -->
-<!-- metadata: 0adl1fxjfo -->
-<!-- metadata: 263lcc89bs -->
-<!-- metadata: ae86h75cd6 -->
 
 ---
 
