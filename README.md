@@ -21,6 +21,13 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
+<!-- metadata: y1bs1g6x92 -->
+<!-- metadata: gnhee6wzkh -->
+<!-- metadata: ewqfygp7ui -->
+<!-- metadata: a8ko4k8pqr -->
+<!-- metadata: unbprt50b7 -->
+<!-- metadata: nrfmnag73i -->
+<!-- metadata: slys77ui2c -->
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -175,10 +182,6 @@ traded — the smart contract reverts.
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
-   parcel transition to **Invalidated**, all credits burned, an
-   `INVALIDATION` event written to chain.
-3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
-   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
