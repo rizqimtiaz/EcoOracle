@@ -91,10 +91,6 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
-```
-
-State persists to `data/runtime/state.json`.
-
 ---
 
 ## How it works
@@ -209,4 +205,5 @@ data/runtime/         Persistent JSON state (auto-created)
 
 ## License
 
+<!-- metadata: kxaxfar5fu -->
 MIT.
