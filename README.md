@@ -10,8 +10,6 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
@@ -185,6 +183,8 @@ traded — the smart contract reverts.
 
 ---
 
+<!-- metadata: qb6p5jb1c5 -->
+<!-- metadata: sj58ii8rp9 -->
 ## File map
 
 ```
