@@ -7,6 +7,9 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+<!-- metadata: qjotjk9zkz -->
+<!-- metadata: 567zig2i00 -->
+<!-- metadata: r61ib4m2yl -->
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -49,9 +52,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
-│   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
-│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
