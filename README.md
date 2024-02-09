@@ -26,6 +26,8 @@ external services, no network access required.
 
 ---
 
+## Quick start
+
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -46,8 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-<!-- metadata: ucygd8ktq1 -->
-<!-- metadata: 6337etjc33 -->
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
