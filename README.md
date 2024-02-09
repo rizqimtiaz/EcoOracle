@@ -68,14 +68,6 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
-<!-- metadata: 9mkz956xz9 -->
-<!-- metadata: ep07hs55ke -->
-<!-- metadata: j2ifp9e13c -->
-<!-- metadata: 21pvkwn4my -->
-<!-- metadata: pt9kqcdrje -->
-<!-- metadata: cewxjn1vvj -->
-<!-- metadata: fo1imgdy8c -->
-<!-- metadata: stguypzy0w -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -93,6 +85,8 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
