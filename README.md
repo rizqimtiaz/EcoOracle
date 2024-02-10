@@ -142,11 +142,6 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
-<!-- metadata: 5wb485m329 -->
-<!-- metadata: xt4kr6084t -->
-<!-- metadata: yo377zns23 -->
-<!-- metadata: fm6r44n5eb -->
-<!-- metadata: izfdxnae1u -->
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
@@ -168,6 +163,7 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
+retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
