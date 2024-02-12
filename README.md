@@ -125,10 +125,6 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
-changed.
-
-### 3. Autonomous Oracle
-
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
@@ -170,6 +166,11 @@ traded — the smart contract reverts.
 ---
 
 ## Demo scenarios to try
+<!-- metadata: h39hdx05rl -->
+<!-- metadata: sh0ig58zfo -->
+<!-- metadata: 0o3otnxk2f -->
+<!-- metadata: 2jfkkv7d9i -->
+<!-- metadata: f06iucmhaa -->
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
