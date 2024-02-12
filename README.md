@@ -164,6 +164,10 @@ contract — both compile as-is with `solc 0.8.20`.
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
+and aggregate into a global retirement counter. Invalidated dNFTs cannot be
+traded — the smart contract reverts.
+
+---
 
 ## Demo scenarios to try
 
@@ -180,7 +184,6 @@ retire credits permanently against a beneficiary. Retirements are immutable
    (already invalidated) and watch credits gradually re-issue.
 
 ---
-<!-- metadata: i2pbqh0xwn -->
 
 ## File map
 
