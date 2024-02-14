@@ -35,6 +35,7 @@ npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
+
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
@@ -203,10 +204,6 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-<!-- metadata: t2lgbc7ceh -->
-<!-- metadata: n3lxgbstd7 -->
-<!-- metadata: zw9p9smcva -->
-<!-- metadata: ujqanj9wn7 -->
 
 ---
 
