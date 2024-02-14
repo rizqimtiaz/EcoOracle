@@ -31,8 +31,6 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
-npm run dev         # start the Next.js app at http://localhost:3000
-```
 
 Open **http://localhost:3000** and explore.
 
@@ -178,6 +176,12 @@ traded — the smart contract reverts.
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+<!-- metadata: mwikq9n1up -->
+<!-- metadata: l4s3gn33lo -->
+<!-- metadata: ikkfhlleis -->
+<!-- metadata: 84e2yegj6c -->
+<!-- metadata: 0oec663kpe -->
+<!-- metadata: bbyljmpdc1 -->
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
