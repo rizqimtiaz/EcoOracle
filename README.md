@@ -139,6 +139,12 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
+<!-- metadata: nogg9v5io4 -->
+<!-- metadata: az606yw9s6 -->
+<!-- metadata: 2dwyr6bzqm -->
+<!-- metadata: ssphfc555c -->
+<!-- metadata: 2q6uidvq40 -->
+<!-- metadata: nveoabi2m6 -->
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
@@ -172,8 +178,6 @@ traded — the smart contract reverts.
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
-   credit counts shift across all parcels.
-2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
