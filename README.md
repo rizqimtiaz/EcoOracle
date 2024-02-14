@@ -80,7 +80,6 @@ dashboard or run `npm run seed`.
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
-│   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
@@ -145,6 +144,13 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: 6v6xt28b36 -->
+<!-- metadata: xuqkbpdzw5 -->
+<!-- metadata: pbkx5digr9 -->
+<!-- metadata: ucv7qs0ug0 -->
+<!-- metadata: vbymmn3iu0 -->
+<!-- metadata: 6jjxe9g287 -->
+<!-- metadata: ys02tetiw8 -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
