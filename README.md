@@ -94,9 +94,6 @@ dashboard or run `npm run seed`.
 ```
 
 State persists to `data/runtime/state.json`.
-
----
-
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -127,6 +124,15 @@ Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
+<!-- metadata: 83ssl6463z -->
+<!-- metadata: ank74s1zj8 -->
+<!-- metadata: un3s894rwa -->
+<!-- metadata: ummb3qcmyz -->
+<!-- metadata: 55zj771whw -->
+<!-- metadata: gy74einesx -->
+<!-- metadata: g7ualw7pam -->
+<!-- metadata: 6oxkgfraat -->
+<!-- metadata: blb8payagc -->
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
