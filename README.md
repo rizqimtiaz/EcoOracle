@@ -64,6 +64,10 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
+<!-- metadata: 3cdeg4wsls -->
+<!-- metadata: 7at8qk4c0j -->
+<!-- metadata: 5i1r25txws -->
+<!-- metadata: 3spp8m76f8 -->
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
@@ -143,7 +147,6 @@ Run the autonomous oracle across all parcels with:
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
-
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
