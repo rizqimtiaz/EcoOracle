@@ -61,6 +61,13 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
+<!-- metadata: i56h70rsxy -->
+<!-- metadata: x05uuxgpel -->
+<!-- metadata: v2ghrhlb6f -->
+<!-- metadata: bz40gicxv0 -->
+<!-- metadata: fy87xh9te8 -->
+<!-- metadata: eut9k2bmcp -->
+<!-- metadata: rfq1g7fe7f -->
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -139,7 +146,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-- The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
