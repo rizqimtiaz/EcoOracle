@@ -25,12 +25,6 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
-<!-- metadata: xmfypveqk2 -->
-<!-- metadata: 457x8v4h4b -->
-<!-- metadata: 7h8gvznznu -->
-<!-- metadata: cx5ibhalur -->
-<!-- metadata: 7ihx22nsp9 -->
-<!-- metadata: dcs49tigj7 -->
 
 ## Quick start
 
@@ -159,6 +153,8 @@ Run the autonomous oracle across all parcels with:
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
+`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
+co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
