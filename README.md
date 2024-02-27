@@ -15,6 +15,10 @@ This repository contains:
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
+- An autonomous oracle service that bridges AI scans to on-chain state.
+- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+- A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
@@ -82,7 +86,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: bbaj60m726 -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
