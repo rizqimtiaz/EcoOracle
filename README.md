@@ -102,6 +102,8 @@ State persists to `data/runtime/state.json`.
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
+<!-- metadata: pgy3d5p21t -->
+<!-- metadata: 4oodtw0h5z -->
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
@@ -138,9 +140,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-
-- The "Run Oracle Sweep" button on the dashboard, or
-- `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
