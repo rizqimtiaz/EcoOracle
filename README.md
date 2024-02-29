@@ -31,9 +31,6 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
-npm run dev         # start the Next.js app at http://localhost:3000
-```
-
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -93,6 +90,16 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- metadata: vhk4slg8pb -->
+<!-- metadata: 8tzzltc5k6 -->
+<!-- metadata: cgl26m17c0 -->
+<!-- metadata: 4b5fe3r9o4 -->
+<!-- metadata: pkgw9cmeuk -->
+<!-- metadata: jcrnkbbok5 -->
+<!-- metadata: v6nhjxugpa -->
+<!-- metadata: mi41mykfua -->
+<!-- metadata: ldoheb3xo5 -->
+<!-- metadata: mxrsshoj7n -->
 State persists to `data/runtime/state.json`.
 
 ---
