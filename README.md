@@ -68,15 +68,6 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
-<!-- metadata: g08jutdyw4 -->
-<!-- metadata: uwu8me11pi -->
-<!-- metadata: qkr7ze5kgr -->
-<!-- metadata: egme5f7skf -->
-<!-- metadata: 7chdxqq937 -->
-<!-- metadata: ho1qvh5kvr -->
-<!-- metadata: kznywq4hd3 -->
-<!-- metadata: l96rsc25iy -->
-<!-- metadata: 17l3oercee -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -189,6 +180,8 @@ traded — the smart contract reverts.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
+   (already invalidated) and watch credits gradually re-issue.
 
 ---
 
