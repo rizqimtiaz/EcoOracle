@@ -75,10 +75,6 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
-│                                                                     │
-│   types.ts        Shared types for parcels, scans, events, NFTs     │
-│   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
-│   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
@@ -185,6 +181,15 @@ traded — the smart contract reverts.
 
 ---
 
+<!-- metadata: 7h1aiact72 -->
+<!-- metadata: gmsbggot9b -->
+<!-- metadata: 3c753vv2it -->
+<!-- metadata: bm4ogbqdlr -->
+<!-- metadata: h39kq9jezw -->
+<!-- metadata: kpur6agnv2 -->
+<!-- metadata: g7tsm2cvrh -->
+<!-- metadata: b8ayvgeved -->
+<!-- metadata: hcrlnwng9j -->
 ## File map
 
 ```
