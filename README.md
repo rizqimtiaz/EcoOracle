@@ -188,9 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-<!-- metadata: mgix554s8m -->
-<!-- metadata: zh0ykqm6wf -->
-<!-- metadata: 3fjts22pa4 -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
@@ -198,6 +195,8 @@ app/                  Next.js 14 App Router
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
+  oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
