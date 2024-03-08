@@ -17,6 +17,10 @@ This repository contains:
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+- A live, interactive dashboard, world map, marketplace, parcel detail
+  pages, oracle event log, and corporate portfolio views.
+
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -192,16 +196,6 @@ app/                  Next.js 14 App Router
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
-<!-- metadata: ubqu1m8a2b -->
-<!-- metadata: k0iq239awm -->
-<!-- metadata: cci80th0w8 -->
-<!-- metadata: knhkcku3ai -->
-<!-- metadata: yh436goiag -->
-<!-- metadata: lok8x4lc8u -->
-<!-- metadata: tw3i8neo85 -->
-<!-- metadata: sajiixnr5z -->
-<!-- metadata: n1nurydbiw -->
-<!-- metadata: fmrieyghbe -->
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
