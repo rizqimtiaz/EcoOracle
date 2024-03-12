@@ -78,6 +78,8 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
+│   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
+│   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
@@ -190,7 +192,6 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
-<!-- metadata: 3k1zfrwlp0 -->
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
