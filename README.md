@@ -9,6 +9,13 @@ credits based on what the planet actually looks like today.
 
 This repository contains:
 
+<!-- metadata: avysf0ds7d -->
+<!-- metadata: 8u6erpfkj8 -->
+<!-- metadata: ppr9nfyxq4 -->
+<!-- metadata: v8zqe1vigp -->
+<!-- metadata: 1mzr3hjygi -->
+<!-- metadata: 11lj4sp095 -->
+<!-- metadata: g66yde7hau -->
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
@@ -189,7 +196,6 @@ traded — the smart contract reverts.
 
 ```
 app/                  Next.js 14 App Router
-  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
