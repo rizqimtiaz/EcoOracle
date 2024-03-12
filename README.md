@@ -73,13 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: tv7weh4vn2 -->
-<!-- metadata: jrilfum0vo -->
-<!-- metadata: 32i2l47ubh -->
-<!-- metadata: welzuab109 -->
-<!-- metadata: pu65euj8q9 -->
-<!-- metadata: fvabqi9hsc -->
-<!-- metadata: udx6kvplrg -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
@@ -211,5 +204,9 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
+---
+
+## License
 
 MIT.
