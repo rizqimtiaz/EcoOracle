@@ -80,6 +80,7 @@ dashboard or run `npm run seed`.
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
+│   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
@@ -93,14 +94,6 @@ dashboard or run `npm run seed`.
 ```
 
 State persists to `data/runtime/state.json`.
-<!-- metadata: hofcvkj9p6 -->
-<!-- metadata: 88q04307kr -->
-<!-- metadata: gyugixbmdk -->
-<!-- metadata: o6ztlhd674 -->
-<!-- metadata: erb3hpeviu -->
-<!-- metadata: 4ct1xiqtlm -->
-<!-- metadata: u888s241qa -->
-<!-- metadata: 952b5urt69 -->
 
 ---
 
