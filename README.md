@@ -184,7 +184,6 @@ traded — the smart contract reverts.
    (already invalidated) and watch credits gradually re-issue.
 
 ---
-
 ## File map
 
 ```
@@ -193,6 +192,14 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+<!-- metadata: mbfyov0acm -->
+<!-- metadata: 6fmgfo4w66 -->
+<!-- metadata: pa4titra9q -->
+<!-- metadata: dn3a5m20i0 -->
+<!-- metadata: huzmp5gw9f -->
+<!-- metadata: 2oghpu3xz4 -->
+<!-- metadata: un7iwgsfpw -->
+<!-- metadata: tzze5n2c5w -->
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
