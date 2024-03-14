@@ -131,6 +131,12 @@ changed.
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
+<!-- metadata: bru451f4sk -->
+<!-- metadata: mut7jtv1ms -->
+<!-- metadata: cq3y574ivq -->
+<!-- metadata: 95xtqbtcby -->
+<!-- metadata: h85wzy9ieh -->
+<!-- metadata: vbqhpjid7m -->
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
@@ -162,8 +168,6 @@ contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
 
-Buyers transfer credits between wallets at the dNFT's current price, or
-retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
