@@ -68,6 +68,12 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
+<!-- metadata: p2l3m6rhxh -->
+<!-- metadata: 58qbl3zu5h -->
+<!-- metadata: cuepuj8s1p -->
+<!-- metadata: tg07v3lnkz -->
+<!-- metadata: u7gconja34 -->
+<!-- metadata: 1ycynrjlba -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -75,7 +81,6 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
-│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
