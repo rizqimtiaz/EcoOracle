@@ -33,10 +33,6 @@ npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
-<!-- metadata: aounvi4xmx -->
-<!-- metadata: cm8eul3z7r -->
-<!-- metadata: mlm6i2199r -->
-<!-- metadata: oa1ili7mzi -->
 
 Open **http://localhost:3000** and explore.
 
@@ -67,6 +63,8 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
+│   /api/analyze      Run AI scan on a parcel (with optional event)   │
+│   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
