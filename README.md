@@ -14,10 +14,6 @@ This repository contains:
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
-  oracle update, invalidate) with a complete event/transaction log.
-- An autonomous oracle service that bridges AI scans to on-chain state.
-- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
-  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -75,6 +71,14 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
+<!-- metadata: y1hq3nb3g4 -->
+<!-- metadata: tdxng8rvqj -->
+<!-- metadata: 0feqyt5h9x -->
+<!-- metadata: tbnu5xqpl5 -->
+<!-- metadata: tgdwnhx00s -->
+<!-- metadata: 6qipv5gqh7 -->
+<!-- metadata: 85qasza87g -->
+<!-- metadata: khkylr9eo6 -->
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
