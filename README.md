@@ -23,6 +23,16 @@ This repository contains:
 
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
+<!-- metadata: 839gkph6ga -->
+<!-- metadata: f1huf5sbuc -->
+<!-- metadata: vplg7wqt0l -->
+<!-- metadata: i9gx430vil -->
+<!-- metadata: aknlpuvqp7 -->
+<!-- metadata: crrt6czjcy -->
+<!-- metadata: 3g7wxyyvoo -->
+<!-- metadata: dtgddqwi1m -->
+<!-- metadata: g1urlwthlg -->
+<!-- metadata: kmxij677fb -->
 
 ---
 
@@ -90,10 +100,6 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-State persists to `data/runtime/state.json`.
 
 ---
 
