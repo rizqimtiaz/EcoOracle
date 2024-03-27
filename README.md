@@ -56,14 +56,6 @@ dashboard or run `npm run seed`.
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
-<!-- metadata: b85wpkb9i4 -->
-<!-- metadata: babfc1zv9u -->
-<!-- metadata: hy9zb768dt -->
-<!-- metadata: wj7pstd0rq -->
-<!-- metadata: bmrr4m5rfa -->
-<!-- metadata: bnxp5ayjw5 -->
-<!-- metadata: sxgiy29nvk -->
-<!-- metadata: q0pi67knxi -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -90,6 +82,8 @@ dashboard or run `npm run seed`.
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
+│   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
