@@ -169,8 +169,6 @@ traded — the smart contract reverts.
 
 ---
 
-## Demo scenarios to try
-
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
@@ -184,6 +182,9 @@ traded — the smart contract reverts.
    (already invalidated) and watch credits gradually re-issue.
 
 ---
+<!-- metadata: ev5xe8hoxm -->
+<!-- metadata: sxmhw4njpc -->
+<!-- metadata: 7efvr5fuyr -->
 
 ## File map
 
