@@ -56,12 +56,6 @@ dashboard or run `npm run seed`.
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
-<!-- metadata: uexhk9qs0a -->
-<!-- metadata: 2xobh2nnf3 -->
-<!-- metadata: 74t7ophcks -->
-<!-- metadata: yt9ueho5fr -->
-<!-- metadata: kyf5e40stj -->
-<!-- metadata: 2x6k5abrhr -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -210,6 +204,7 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
 ---
 
 ## License
