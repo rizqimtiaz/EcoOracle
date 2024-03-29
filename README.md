@@ -63,15 +63,6 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
-<!-- metadata: emtz0ob4sm -->
-<!-- metadata: 0bqf01onqe -->
-<!-- metadata: ygzp7yo76g -->
-<!-- metadata: o6zodumfep -->
-<!-- metadata: i10ego33i2 -->
-<!-- metadata: n1dxpb6jsl -->
-<!-- metadata: em4m2pasee -->
-<!-- metadata: g7i0ql9910 -->
-<!-- metadata: 0j5mvg4ov0 -->
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -133,6 +124,7 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
