@@ -14,6 +14,12 @@ This repository contains:
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
+<!-- metadata: 71m6nr91k6 -->
+<!-- metadata: rc443ifffj -->
+<!-- metadata: kxqcx42zo7 -->
+<!-- metadata: vn3aqh8gzc -->
+<!-- metadata: 0ssghsqtah -->
+<!-- metadata: 2t36winotx -->
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
@@ -83,9 +89,6 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
-                                  ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
