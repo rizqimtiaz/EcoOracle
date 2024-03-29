@@ -90,7 +90,6 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-└─────────────────────────────────────────────────────────────────────┘
 ```
 
 State persists to `data/runtime/state.json`.
@@ -202,6 +201,12 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
+<!-- metadata: t7b7r0r5bd -->
+<!-- metadata: impztdnck1 -->
+<!-- metadata: fe2n4ylyui -->
+<!-- metadata: uteot8j4g7 -->
+<!-- metadata: c4igarw2y3 -->
+<!-- metadata: iqcip33wp8 -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
