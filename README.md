@@ -81,7 +81,6 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
-│   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -98,6 +97,14 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
+<!-- metadata: mcd3ma6rtl -->
+<!-- metadata: j4puzfu8us -->
+<!-- metadata: 1xwppd6gbg -->
+<!-- metadata: c1glhwdw10 -->
+<!-- metadata: 4o5qjdl8r3 -->
+<!-- metadata: ltkwli38e2 -->
+<!-- metadata: 2so9xa8luk -->
+<!-- metadata: jnkvxy1dx5 -->
 
 ### 1. Mint a parcel as a dNFT
 
