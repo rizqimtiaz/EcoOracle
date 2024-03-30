@@ -135,13 +135,6 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-<!-- metadata: ei0xluxkli -->
-<!-- metadata: dwbp2jhum5 -->
-<!-- metadata: zpu7n4jk47 -->
-<!-- metadata: sknruympx4 -->
-<!-- metadata: 2wft8e752j -->
-<!-- metadata: qwtoja5agp -->
-<!-- metadata: fbumyuvpb7 -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
@@ -193,6 +186,10 @@ traded — the smart contract reverts.
 ---
 
 ## File map
+
+```
+app/                  Next.js 14 App Router
+  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
