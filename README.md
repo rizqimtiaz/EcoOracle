@@ -37,6 +37,7 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
+dashboard or run `npm run seed`.
 
 ---
 
@@ -76,16 +77,6 @@ To rebuild the demo network at any time, click **Reset Network** in the
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
-<!-- metadata: 3rcr4jv294 -->
-<!-- metadata: li2t0ug8sv -->
-<!-- metadata: vhne634p6g -->
-<!-- metadata: jtulrd0edr -->
-<!-- metadata: ktsadryqdb -->
-<!-- metadata: ztmy31gbws -->
-<!-- metadata: 4y4ul3dy6j -->
-<!-- metadata: cc3r5pxotl -->
-<!-- metadata: l7d2le7yx3 -->
-<!-- metadata: kf8qireqak -->
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
