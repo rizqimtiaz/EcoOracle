@@ -58,9 +58,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
-│   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -90,6 +87,16 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+<!-- metadata: mnzfa7p0t8 -->
+<!-- metadata: xnu5mez4ni -->
+<!-- metadata: b1nfk99g3b -->
+<!-- metadata: fk24z5s4q7 -->
+<!-- metadata: rbvx1q4169 -->
+<!-- metadata: 6q452sjb8a -->
+<!-- metadata: 2c0bmypxaj -->
+<!-- metadata: 931dgcwz0l -->
+<!-- metadata: 9rsp02jgvf -->
+<!-- metadata: 0oi6o9wloz -->
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
