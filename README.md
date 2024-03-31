@@ -97,8 +97,6 @@ State persists to `data/runtime/state.json`.
 
 ---
 
-## How it works
-
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -164,6 +162,7 @@ contract — both compile as-is with `solc 0.8.20`.
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
+<!-- metadata: l12v2mfhi1 -->
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
