@@ -97,13 +97,6 @@ State persists to `data/runtime/state.json`.
 
 ---
 
-<!-- metadata: n75r8yxegx -->
-<!-- metadata: a0jsvcpqh8 -->
-<!-- metadata: fzrbghkpa9 -->
-<!-- metadata: 65p2d1irtk -->
-<!-- metadata: s86ldptubq -->
-<!-- metadata: lcup1dlvhm -->
-<!-- metadata: bpvwa624bn -->
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -211,6 +204,9 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
+---
+
 ## License
 
 MIT.
