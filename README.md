@@ -108,7 +108,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
-timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
@@ -197,6 +196,8 @@ app/                  Next.js 14 App Router
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
+<!-- metadata: aynjt3mrxe -->
+<!-- metadata: gtu43ow62h -->
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
