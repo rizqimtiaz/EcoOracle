@@ -57,9 +57,6 @@ dashboard or run `npm run seed`.
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
@@ -90,6 +87,13 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+<!-- metadata: 41pbx6joxg -->
+<!-- metadata: fnc8wdsef9 -->
+<!-- metadata: ysu671rppm -->
+<!-- metadata: 3scshwp5yb -->
+<!-- metadata: m1i1adq6v4 -->
+<!-- metadata: wzrei3ktq5 -->
+<!-- metadata: n5phao6qm8 -->
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
