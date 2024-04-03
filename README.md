@@ -22,6 +22,7 @@ This repository contains:
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
+external services, no network access required.
 
 ---
 
@@ -196,14 +197,6 @@ app/                  Next.js 14 App Router
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
-<!-- metadata: yo3fgihc02 -->
-<!-- metadata: qsv9wnyb7k -->
-<!-- metadata: ghv6y5obr2 -->
-<!-- metadata: fb5e69dtwf -->
-<!-- metadata: 9k7t186zj8 -->
-<!-- metadata: 1cri9y0n7d -->
-<!-- metadata: 836vn8vjf0 -->
-<!-- metadata: 5ayzu1q56u -->
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
