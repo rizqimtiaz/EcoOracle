@@ -21,9 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-Everything is fully functional out of the box — no external API keys, no
-external services, no network access required.
-
 ---
 
 ## Quick start
@@ -199,6 +196,10 @@ app/                  Next.js 14 App Router
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
+<!-- metadata: rta0wpnlcq -->
+<!-- metadata: 6wefq2l1m3 -->
+<!-- metadata: o8t3639oy6 -->
+<!-- metadata: ynlcuq7ign -->
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
