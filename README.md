@@ -5,16 +5,6 @@ integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
-<!-- metadata: 2007dl1tpr -->
-<!-- metadata: i8srruorzp -->
-<!-- metadata: qvnofh5750 -->
-<!-- metadata: myttelrq44 -->
-<!-- metadata: tde9ccfwy4 -->
-<!-- metadata: 14u56xxtcp -->
-<!-- metadata: kllas6vfxj -->
-<!-- metadata: jbletr6z6b -->
-<!-- metadata: p6xzjckvb9 -->
-<!-- metadata: k15zfxdv13 -->
 credits based on what the planet actually looks like today.
 
 This repository contains:
@@ -214,6 +204,8 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
+---
 
 ## License
 
