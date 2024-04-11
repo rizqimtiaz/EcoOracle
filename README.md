@@ -139,8 +139,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-<!-- metadata: plx27csooa -->
-<!-- metadata: 9by5gjxsyo -->
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
@@ -153,6 +151,9 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
+  to each token, retired credits flow into a global counter.
+
+`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
