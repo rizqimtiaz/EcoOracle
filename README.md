@@ -37,6 +37,8 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
+dashboard or run `npm run seed`.
+
 ---
 
 ## Architecture
@@ -169,13 +171,6 @@ traded — the smart contract reverts.
 
 ## Demo scenarios to try
 
-<!-- metadata: 29d0lsn9fo -->
-<!-- metadata: qr86rgz2aw -->
-<!-- metadata: hxdhc3dn1x -->
-<!-- metadata: g5ku0ij85f -->
-<!-- metadata: rssoha22ia -->
-<!-- metadata: iqhnbz0umf -->
-<!-- metadata: tao93x5e8n -->
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
