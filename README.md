@@ -153,11 +153,6 @@ Run the autonomous oracle across all parcels with:
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
-<!-- metadata: l1obrlrfty -->
-<!-- metadata: qg5gbbhmsp -->
-<!-- metadata: l5lw5ka1zs -->
-<!-- metadata: mampjsj2lb -->
-<!-- metadata: p1ys497b2l -->
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
@@ -177,6 +172,8 @@ traded — the smart contract reverts.
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
+   credit counts shift across all parcels.
+2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
