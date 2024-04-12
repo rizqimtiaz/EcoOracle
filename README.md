@@ -66,6 +66,10 @@ dashboard or run `npm run seed`.
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
+│   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
+│   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -85,11 +89,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
-<!-- metadata: tbc8r9e8fa -->
-<!-- metadata: kcn79dgdo1 -->
-<!-- metadata: 8ywqyjn01r -->
-<!-- metadata: jutlpmdjl8 -->
-<!-- metadata: c20beyovqi -->
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
