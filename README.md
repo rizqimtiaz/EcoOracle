@@ -136,6 +136,10 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
+
+Run the autonomous oracle across all parcels with:
+
+- The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
@@ -188,15 +192,6 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
-<!-- metadata: 3t66p5z8b4 -->
-<!-- metadata: 65wba22u40 -->
-<!-- metadata: en6wtxnvky -->
-<!-- metadata: 64u8brrfk7 -->
-<!-- metadata: 86ze0xa2te -->
-<!-- metadata: 9gcyyaniwp -->
-<!-- metadata: y9fo69h1oh -->
-<!-- metadata: 0063cxckcj -->
-<!-- metadata: q6cze9byno -->
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
