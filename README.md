@@ -131,7 +131,7 @@ changed.
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
-<!-- metadata: wp3skvd0ra -->
+- Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
