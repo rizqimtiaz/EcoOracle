@@ -130,16 +130,6 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
-<!-- metadata: j0w5zjze1d -->
-<!-- metadata: kjazhnsrtj -->
-<!-- metadata: 6ctdh55tok -->
-<!-- metadata: 4qjp12379u -->
-<!-- metadata: 7n3lawt65n -->
-<!-- metadata: 2c4tznltdn -->
-<!-- metadata: hr52fru80c -->
-<!-- metadata: e7mm0ildmy -->
-<!-- metadata: cj2bzewk3f -->
-<!-- metadata: yiit8wqgug -->
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
@@ -199,6 +189,7 @@ traded — the smart contract reverts.
 
 ```
 app/                  Next.js 14 App Router
+  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
