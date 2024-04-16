@@ -145,6 +145,10 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+
+- A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
+- `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
@@ -200,7 +204,6 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-<!-- metadata: qfh931eqsa -->
 
 ---
 
