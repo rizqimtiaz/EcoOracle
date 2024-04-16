@@ -61,8 +61,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
-│   /api/parcels      List parcels                                    │
-│   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -106,6 +104,11 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
+<!-- metadata: tjkao6z3qe -->
+<!-- metadata: 8qm44txi1g -->
+<!-- metadata: 6boyuo95he -->
+<!-- metadata: 28043l3002 -->
+<!-- metadata: 6u1bp66t6e -->
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
