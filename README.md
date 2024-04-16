@@ -46,7 +46,6 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
-│                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
@@ -167,6 +166,10 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
+<!-- metadata: mqiqfxknbr -->
+<!-- metadata: 9lqcw3at1l -->
+<!-- metadata: s551ultde6 -->
+<!-- metadata: y7pw506tvn -->
 ---
 
 ## Demo scenarios to try
