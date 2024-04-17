@@ -130,6 +130,10 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
+
+- Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
@@ -140,10 +144,6 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
-<!-- metadata: 1xecd8dluu -->
-<!-- metadata: f8fotp1d9b -->
-<!-- metadata: b81n0jm2kk -->
-<!-- metadata: uoezc8i33r -->
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
