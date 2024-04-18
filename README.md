@@ -56,6 +56,7 @@ dashboard or run `npm run seed`.
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: a5klukr2vt -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -182,8 +183,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-
----
 
 ## File map
 
