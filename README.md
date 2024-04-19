@@ -101,15 +101,6 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
-<!-- metadata: krycnhjyc1 -->
-<!-- metadata: agcj19pgt0 -->
-<!-- metadata: v6f1aaxbm8 -->
-<!-- metadata: j8fl5whhb0 -->
-<!-- metadata: 038h3bql1r -->
-<!-- metadata: vmfzquk88a -->
-<!-- metadata: wfq73u038v -->
-<!-- metadata: y6g0f37i76 -->
-<!-- metadata: blw7p1lk72 -->
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
@@ -141,6 +132,8 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
