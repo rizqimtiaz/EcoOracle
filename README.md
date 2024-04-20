@@ -125,13 +125,6 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
-<!-- metadata: ca8xe5hsm2 -->
-<!-- metadata: 0fydrcypzz -->
-<!-- metadata: ay6qeejfos -->
-<!-- metadata: nbz5iw9sii -->
-<!-- metadata: 3cxxiw6d87 -->
-<!-- metadata: k34xg79hqu -->
-<!-- metadata: bnn0xbkgjg -->
 changed.
 
 ### 3. Autonomous Oracle
@@ -151,6 +144,9 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
+`CarbonCreditDNFT.sol` implements:
+
+- A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
