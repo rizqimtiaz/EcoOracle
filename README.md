@@ -108,19 +108,14 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
+| Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
-<!-- metadata: 0b6mg8m9xm -->
-<!-- metadata: ftrvliqiw5 -->
-<!-- metadata: 1wvpt7kg06 -->
-<!-- metadata: twyi6dk0kf -->
-<!-- metadata: 1q5c7niexi -->
-<!-- metadata: pxk622ijgx -->
-<!-- metadata: 0rmkd7139u -->
-<!-- metadata: eqerobdsy5 -->
-<!-- metadata: 1dac98cuos -->
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
