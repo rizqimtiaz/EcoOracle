@@ -167,6 +167,8 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
+---
+
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
@@ -178,12 +180,6 @@ traded — the smart contract reverts.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
-<!-- metadata: acfsmhu5hv -->
-<!-- metadata: 8r5ylgo5sb -->
-<!-- metadata: 8bn2yzr46h -->
-<!-- metadata: l57bqz29c2 -->
-<!-- metadata: mjg8eah1s2 -->
-<!-- metadata: itjnwwqleg -->
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
