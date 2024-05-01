@@ -115,15 +115,6 @@ timestamp it deterministically computes:
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
-<!-- metadata: wauu8y8e4s -->
-<!-- metadata: 37kzpg9xsr -->
-<!-- metadata: t2o2u0oyqq -->
-<!-- metadata: sdftgatoh7 -->
-<!-- metadata: bh3tw78zug -->
-<!-- metadata: n8ehhh5s42 -->
-<!-- metadata: rnuepu9m5r -->
-<!-- metadata: nxzwnedi68 -->
-<!-- metadata: k8hv2xiqoo -->
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
@@ -181,6 +172,9 @@ traded — the smart contract reverts.
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
+   credit counts shift across all parcels.
+2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
+   choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
