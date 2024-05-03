@@ -34,8 +34,6 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
-Open **http://localhost:3000** and explore.
-
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
@@ -191,6 +189,8 @@ traded — the smart contract reverts.
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
+<!-- metadata: wbzpmc5o0q -->
+<!-- metadata: aiq2f45ysj -->
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
