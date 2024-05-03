@@ -110,6 +110,8 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
+| Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
@@ -140,12 +142,6 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
-<!-- metadata: c3lq48qoh0 -->
-<!-- metadata: qjtowboeco -->
-<!-- metadata: 8c6s5y5zfz -->
-<!-- metadata: qz9dfghxbr -->
-<!-- metadata: s2rwbiifk3 -->
-<!-- metadata: d41noh4rbf -->
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
