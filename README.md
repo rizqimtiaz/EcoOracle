@@ -6,16 +6,6 @@ to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
-<!-- metadata: dgzflb1pej -->
-<!-- metadata: kroi7m8eio -->
-<!-- metadata: 9yapg7d9bx -->
-<!-- metadata: n9yyc279og -->
-<!-- metadata: 3ej8jv5nwh -->
-<!-- metadata: ucnvow9pgn -->
-<!-- metadata: 4o683nqoy8 -->
-<!-- metadata: xetzrnhf6o -->
-<!-- metadata: xymerl6m4g -->
-<!-- metadata: f8txmgwazf -->
 
 This repository contains:
 
@@ -189,6 +179,8 @@ traded — the smart contract reverts.
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+   visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
 ---
