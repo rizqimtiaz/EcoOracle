@@ -91,6 +91,12 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: unuwzqsyct -->
+<!-- metadata: 3kyvocc4ez -->
+<!-- metadata: dnqh5dioiv -->
+<!-- metadata: 25iff9i2t3 -->
+<!-- metadata: 99nnhyzm8n -->
+<!-- metadata: ae80uguj32 -->
 ```
 
 State persists to `data/runtime/state.json`.
@@ -104,9 +110,6 @@ State persists to `data/runtime/state.json`.
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
-
-### 2. AI Vision Engine
-
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
