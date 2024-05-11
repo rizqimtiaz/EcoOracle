@@ -91,7 +91,6 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
-```
 
 State persists to `data/runtime/state.json`.
 
@@ -185,6 +184,10 @@ traded — the smart contract reverts.
 
 ---
 
+<!-- metadata: 3yh5cey6dp -->
+<!-- metadata: bdugfnwudm -->
+<!-- metadata: 07zawal91l -->
+<!-- metadata: 1gki0q4q9m -->
 ## File map
 
 ```
