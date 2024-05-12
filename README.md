@@ -48,6 +48,7 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
+│   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
@@ -128,15 +129,6 @@ changed.
 
 ### 3. Autonomous Oracle
 
-<!-- metadata: 3pbtyo9yzo -->
-<!-- metadata: t98263pk9p -->
-<!-- metadata: dwj7jt8pes -->
-<!-- metadata: sh7a83skm8 -->
-<!-- metadata: z8948r4gcd -->
-<!-- metadata: jdytwimz6k -->
-<!-- metadata: 41clo8suii -->
-<!-- metadata: ucpr9rbv3x -->
-<!-- metadata: y9e7wlz42w -->
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
