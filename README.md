@@ -50,6 +50,8 @@ dashboard or run `npm run seed`.
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
+│   /marketplace     Browse and filter dNFT parcels                   │
+│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
@@ -102,14 +104,6 @@ State persists to `data/runtime/state.json`.
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
-<!-- metadata: 9yn3narjx7 -->
-<!-- metadata: y7uln9i5i9 -->
-<!-- metadata: s27lbglvoe -->
-<!-- metadata: qbu0j7ix7x -->
-<!-- metadata: 9xu7i48yd5 -->
-<!-- metadata: 9r5ypjh9k6 -->
-<!-- metadata: quwcedgdid -->
-<!-- metadata: 7trpinc4c9 -->
 
 ### 2. AI Vision Engine
 
