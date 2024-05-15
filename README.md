@@ -118,6 +118,15 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
+<!-- metadata: 8j78conzd0 -->
+<!-- metadata: 7ooiwbrz0w -->
+<!-- metadata: b317wmw9n6 -->
+<!-- metadata: 7l8mq1s1z3 -->
+<!-- metadata: p7c9521sme -->
+<!-- metadata: mgrbkwv3zz -->
+<!-- metadata: 5i46le5vai -->
+<!-- metadata: vn75pkak0i -->
+<!-- metadata: z5xkx4xlxl -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
@@ -197,10 +206,6 @@ app/                  Next.js 14 App Router
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
-  api/                Route handlers (REST endpoints)
-components/           Reusable UI (charts, panels, controls)
-contracts/            Solidity smart contracts
-lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
