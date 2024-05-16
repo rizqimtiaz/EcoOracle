@@ -26,13 +26,14 @@ external services, no network access required.
 
 ---
 
-<!-- metadata: 1i1lk9ccjd -->
-<!-- metadata: hpqm47y0gn -->
-<!-- metadata: c5fpft7rwg -->
 ## Quick start
 
 ```bash
 npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
+```
+
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
