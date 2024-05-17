@@ -8,6 +8,8 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
+
+- A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
@@ -147,14 +149,6 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
-<!-- metadata: wxbnca3set -->
-<!-- metadata: h5zofmbu1e -->
-<!-- metadata: tyvuuz7psc -->
-<!-- metadata: dadzpudhy9 -->
-<!-- metadata: 683grpxddq -->
-<!-- metadata: 3yzz3gp0fx -->
-<!-- metadata: s6alpe1c0u -->
-<!-- metadata: dobanuzx8k -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
