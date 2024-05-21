@@ -149,6 +149,15 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
+<!-- metadata: qbuemqryoe -->
+<!-- metadata: v3m5n7gjww -->
+<!-- metadata: o1vqhxl9dh -->
+<!-- metadata: 310xa5y64r -->
+<!-- metadata: y4mb0w0450 -->
+<!-- metadata: fh0k6uznlb -->
+<!-- metadata: r7gbaw74e0 -->
+<!-- metadata: wu0jl0sjpm -->
+<!-- metadata: o6vvwt5oy6 -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
@@ -204,8 +213,6 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-
----
 
 ## License
 
