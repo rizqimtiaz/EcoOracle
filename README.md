@@ -101,6 +101,9 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
+baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
@@ -157,14 +160,6 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
-<!-- metadata: xx6vu5n5y1 -->
-<!-- metadata: dn0jf27q8g -->
-<!-- metadata: 3uzpl8oaqx -->
-<!-- metadata: kel0vuhjti -->
-<!-- metadata: s202yyh033 -->
-<!-- metadata: aih91xl3ch -->
-<!-- metadata: giwh49a41a -->
-<!-- metadata: 1697esxyvp -->
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
