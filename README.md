@@ -19,6 +19,13 @@ This repository contains:
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
+<!-- metadata: e5paf1alhk -->
+<!-- metadata: 339xkvc48h -->
+<!-- metadata: opj75td7sk -->
+<!-- metadata: z9iz7j33k7 -->
+<!-- metadata: i1kyrguzee -->
+<!-- metadata: dfzkye39iy -->
+<!-- metadata: tfv6w1e96k -->
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
@@ -141,9 +148,6 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
-
-### 4. Smart contracts (`contracts/`)
-
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
