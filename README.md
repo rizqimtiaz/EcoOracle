@@ -122,8 +122,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-
-Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
@@ -201,6 +199,11 @@ app/                  Next.js 14 App Router
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
+<!-- metadata: qdbhlbqqcb -->
+<!-- metadata: 45mltpwm0m -->
+<!-- metadata: blw2ca1giw -->
+<!-- metadata: kstk229cex -->
+<!-- metadata: yim5pno55k -->
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
