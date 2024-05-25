@@ -47,6 +47,16 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
+<!-- metadata: f8ydf6ne1g -->
+<!-- metadata: 8ujbwhgte2 -->
+<!-- metadata: 6ad6zfrmkv -->
+<!-- metadata: hcylfznfic -->
+<!-- metadata: 7x3jeovubt -->
+<!-- metadata: za12piod3z -->
+<!-- metadata: 2t3cpw96up -->
+<!-- metadata: 2fxs07l50g -->
+<!-- metadata: tu17u31jgw -->
+<!-- metadata: ozmaysxv99 -->
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
@@ -110,7 +120,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
-| Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
