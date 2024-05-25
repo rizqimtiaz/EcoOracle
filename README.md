@@ -45,9 +45,6 @@ dashboard or run `npm run seed`.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        EcoOracle Frontend (Next.js)                 │
-│                                                                     │
-│   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -135,6 +132,8 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+<!-- metadata: f35olfgomy -->
+<!-- metadata: xxn8zro5b5 -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
