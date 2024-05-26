@@ -89,7 +89,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
-│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -157,6 +156,12 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+<!-- metadata: g278ryx0zq -->
+<!-- metadata: e1g2xol3v5 -->
+<!-- metadata: gl9q1xijvo -->
+<!-- metadata: bwn5tvyov8 -->
+<!-- metadata: 1zk68oosct -->
+<!-- metadata: zmhw5tcvv7 -->
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
