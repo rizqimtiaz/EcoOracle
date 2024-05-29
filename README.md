@@ -24,6 +24,7 @@ This repository contains:
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
+---
 
 ## Quick start
 
@@ -166,12 +167,6 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
-<!-- metadata: ca3rt2gjac -->
-<!-- metadata: chlpd2imor -->
-<!-- metadata: ayg9ati6hl -->
-<!-- metadata: n5m9vcff9r -->
-<!-- metadata: zzm3hkxhz9 -->
-<!-- metadata: x4179oz5o0 -->
 ---
 
 ## Demo scenarios to try
