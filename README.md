@@ -86,16 +86,10 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-<!-- metadata: ovq9j58k4n -->
-<!-- metadata: 1odinw49p1 -->
-<!-- metadata: ebqc9yyxyr -->
-<!-- metadata: 9v6kh3tjm6 -->
-<!-- metadata: 20cusp2z2p -->
-<!-- metadata: gv8qr1e6me -->
-<!-- metadata: b0jwrg7vdc -->
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
