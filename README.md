@@ -52,13 +52,6 @@ dashboard or run `npm run seed`.
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-<!-- metadata: t0o0y24inz -->
-<!-- metadata: v1tdixrnds -->
-<!-- metadata: gpu664sj2o -->
-<!-- metadata: w6fm8lf20j -->
-<!-- metadata: galop9p41p -->
-<!-- metadata: r13ewmumbn -->
-<!-- metadata: jcq6ntj2rz -->
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
@@ -157,6 +150,8 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
+- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
+  to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
