@@ -110,15 +110,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
-<!-- metadata: czgjmp6wfg -->
-<!-- metadata: asggzj5d6c -->
-<!-- metadata: oih6cu51l2 -->
-<!-- metadata: n5irqjstho -->
-<!-- metadata: bgwl79nbwr -->
-<!-- metadata: yoimvswtyj -->
-<!-- metadata: r7we1tty24 -->
-<!-- metadata: q810yy0hz9 -->
-<!-- metadata: 7q186ljlsr -->
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
@@ -165,6 +156,7 @@ Run the autonomous oracle across all parcels with:
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
+
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
