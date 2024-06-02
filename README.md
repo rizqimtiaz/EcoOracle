@@ -124,9 +124,6 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
-shift the indices, and the engine emits human-readable notes describing what
-changed.
-
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
@@ -183,6 +180,12 @@ traded — the smart contract reverts.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
+<!-- metadata: 6nkra5j8a4 -->
+<!-- metadata: yby5wv9u0f -->
+<!-- metadata: 2hjlo5uubl -->
+<!-- metadata: 24i4ugs082 -->
+<!-- metadata: 18umijcvi2 -->
+<!-- metadata: 6ka231hf7i -->
 ---
 
 ## File map
