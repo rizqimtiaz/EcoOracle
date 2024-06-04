@@ -46,6 +46,12 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+<!-- metadata: lwh6qbgszl -->
+<!-- metadata: 1m6e0r7m6c -->
+<!-- metadata: tl2hki4h8g -->
+<!-- metadata: lpdkuuc8su -->
+<!-- metadata: zrww3xfhe7 -->
+<!-- metadata: 0ob4k93abr -->
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -84,9 +90,6 @@ dashboard or run `npm run seed`.
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
-                                  │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
