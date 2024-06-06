@@ -40,10 +40,6 @@ To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
 ---
-
-## Architecture
-
-```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
@@ -202,6 +198,15 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
+<!-- metadata: qte0qqv66y -->
+<!-- metadata: irtxiu8h9y -->
+<!-- metadata: 2sgk4cb1t0 -->
+<!-- metadata: s9o0ucrz5u -->
+<!-- metadata: cn7mrygqb2 -->
+<!-- metadata: 3t03sqnxz0 -->
+<!-- metadata: 0nrzd4uasm -->
+<!-- metadata: 05vy26db5i -->
+<!-- metadata: ffga5cmvis -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
