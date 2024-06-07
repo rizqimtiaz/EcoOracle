@@ -84,6 +84,9 @@ dashboard or run `npm run seed`.
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
@@ -148,9 +151,6 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-<!-- metadata: 5wv2ymqvo7 -->
-<!-- metadata: kkmtzt5rjk -->
-<!-- metadata: xhbegsrt4x -->
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
