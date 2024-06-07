@@ -76,7 +76,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
-<!-- metadata: dblybw08ed -->
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
@@ -123,6 +122,10 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
+
+Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
+changed.
 
 ### 3. Autonomous Oracle
 
