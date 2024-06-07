@@ -31,6 +31,10 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
+```
+
+Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
@@ -143,10 +147,6 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
-<!-- metadata: w7p7p219uy -->
-<!-- metadata: 05a2o13s2t -->
-<!-- metadata: 2hto7pmm80 -->
-<!-- metadata: o8payyxc8m -->
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
