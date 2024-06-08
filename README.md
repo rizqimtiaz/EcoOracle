@@ -49,6 +49,13 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
+<!-- metadata: d0j7dp210e -->
+<!-- metadata: apakvlzwfv -->
+<!-- metadata: yi0kasnzbu -->
+<!-- metadata: 8dkp2sut8r -->
+<!-- metadata: x31jymi69y -->
+<!-- metadata: epilo915f9 -->
+<!-- metadata: mhk3bzk4c5 -->
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
@@ -126,10 +133,6 @@ sequestration rate.
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
-
-### 3. Autonomous Oracle
-
-`lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
