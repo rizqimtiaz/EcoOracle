@@ -56,6 +56,10 @@ dashboard or run `npm run seed`.
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: 5j54ds022x -->
+<!-- metadata: 3vre5vqq9p -->
+<!-- metadata: fqfphjoov1 -->
+<!-- metadata: wry93a5n5v -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -127,7 +131,6 @@ Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
-### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
