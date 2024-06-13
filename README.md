@@ -29,9 +29,6 @@ external services, no network access required.
 ## Quick start
 
 ```bash
-npm install
-npm run seed        # populate the local devnet with 14 parcels worldwide
-npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
@@ -145,6 +142,12 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: iwmid61c7i -->
+<!-- metadata: q4bjxxfi69 -->
+<!-- metadata: lfi1db9lu1 -->
+<!-- metadata: wmgvtpnhjd -->
+<!-- metadata: nk3fvog771 -->
+<!-- metadata: vj29co2wi8 -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
