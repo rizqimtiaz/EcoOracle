@@ -45,6 +45,10 @@ dashboard or run `npm run seed`.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
+<!-- metadata: 3w0fwscp7v -->
+<!-- metadata: khvsa50925 -->
+<!-- metadata: 1lxo8ew6og -->
+<!-- metadata: zyjyuthtng -->
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
@@ -190,7 +194,6 @@ traded — the smart contract reverts.
 ```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
-  page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
