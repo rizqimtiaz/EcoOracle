@@ -16,6 +16,14 @@ This repository contains:
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
+<!-- metadata: 70eowyvtwv -->
+<!-- metadata: rlhfqwmncw -->
+<!-- metadata: 66rmsiufou -->
+<!-- metadata: 9t809afkbv -->
+<!-- metadata: c63gfeist9 -->
+<!-- metadata: h3k0doceyr -->
+<!-- metadata: 8xqy5bid7b -->
+<!-- metadata: c29kjrh11n -->
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
@@ -27,10 +35,6 @@ external services, no network access required.
 ---
 
 ## Quick start
-
-```bash
-npm install
-npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
