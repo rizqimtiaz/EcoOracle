@@ -69,9 +69,6 @@ dashboard or run `npm run seed`.
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
-│   /api/seed         Reset to seeded state                           │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -84,6 +81,12 @@ dashboard or run `npm run seed`.
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: y5jioicfjr -->
+<!-- metadata: glrkxtnp4x -->
+<!-- metadata: 9pmj2t29hc -->
+<!-- metadata: xw97lon839 -->
+<!-- metadata: kbpuxzl7y8 -->
+<!-- metadata: misbm31ik6 -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
