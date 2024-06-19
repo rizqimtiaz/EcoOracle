@@ -17,9 +17,6 @@ This repository contains:
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
-<!-- metadata: v3gv3grcag -->
-<!-- metadata: 99rhxjxlpo -->
-<!-- metadata: 05djuitupa -->
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -121,6 +118,10 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
+
+It then derives an **estimated tonnes CO₂e** using a calibrated linear model
+that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
