@@ -55,15 +55,6 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
-<!-- metadata: k99w2hl7zl -->
-<!-- metadata: 3ezbj2volu -->
-<!-- metadata: f5fb2u44p2 -->
-<!-- metadata: se5624slu0 -->
-<!-- metadata: mk3ptoj5f2 -->
-<!-- metadata: ie9pqu8swe -->
-<!-- metadata: j010tfb1xb -->
-<!-- metadata: mo9tgy7yxb -->
-<!-- metadata: 4pmx2m0p9b -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -82,6 +73,7 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
