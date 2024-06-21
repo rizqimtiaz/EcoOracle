@@ -107,6 +107,9 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
@@ -182,8 +185,6 @@ traded — the smart contract reverts.
 
 ---
 
-<!-- metadata: 6rsnl61335 -->
-<!-- metadata: nfuvsfb6tk -->
 ## File map
 
 ```
