@@ -1,6 +1,3 @@
-<!-- metadata: 1anl9vbrkv -->
-<!-- metadata: 0zz1a9yi5w -->
-<!-- metadata: zbe6aa1y0l -->
 # EcoOracle — Autonomous Carbon Integrity Network
 
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
@@ -88,6 +85,8 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
