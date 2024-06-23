@@ -32,6 +32,14 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
+<!-- metadata: ee8qj7nqsa -->
+<!-- metadata: 69q2iyg5cg -->
+<!-- metadata: iq71lrlynf -->
+<!-- metadata: vpsfiftolo -->
+<!-- metadata: mc2ypdbbw5 -->
+<!-- metadata: ryxrcu9h03 -->
+<!-- metadata: 2pyfjzv1us -->
+<!-- metadata: pa4tdk89q5 -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -151,9 +159,6 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-  to each token, retired credits flow into a global counter.
-
-`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
