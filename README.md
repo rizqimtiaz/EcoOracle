@@ -99,6 +99,7 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
+### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
@@ -167,10 +168,6 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
-<!-- metadata: nbblr0clnk -->
-<!-- metadata: hxqrjyfs3h -->
-<!-- metadata: hqgnatx0dx -->
-<!-- metadata: g9cwnmxzym -->
 
 ## Demo scenarios to try
 
