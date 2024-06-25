@@ -24,6 +24,10 @@ This repository contains:
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
+---
+
+## Quick start
+
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -69,14 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: rm5k87hnv3 -->
-<!-- metadata: pklbqamtnq -->
-<!-- metadata: 9olwrd04i1 -->
-<!-- metadata: uvgdi1ehwa -->
-<!-- metadata: eazj5syskm -->
-<!-- metadata: g8th3osc8p -->
-<!-- metadata: t4alvtf2ax -->
-<!-- metadata: 46idwsut0l -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
