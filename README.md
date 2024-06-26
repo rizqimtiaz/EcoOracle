@@ -50,6 +50,7 @@ dashboard or run `npm run seed`.
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
+│   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
@@ -203,7 +204,6 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-<!-- metadata: bu682aqwvd -->
 
 ---
 
