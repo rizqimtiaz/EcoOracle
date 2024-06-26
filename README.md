@@ -71,7 +71,6 @@ dashboard or run `npm run seed`.
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -141,6 +140,14 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
+<!-- metadata: 6fx3j1bmve -->
+<!-- metadata: cz3dusl346 -->
+<!-- metadata: znvuc4j4c6 -->
+<!-- metadata: fd7j4bxbki -->
+<!-- metadata: m0r0vgr2yf -->
+<!-- metadata: bglcny89fy -->
+<!-- metadata: bmozpto0zh -->
+<!-- metadata: v67u3lkvbs -->
 
 ### 4. Smart contracts (`contracts/`)
 
