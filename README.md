@@ -41,6 +41,8 @@ dashboard or run `npm run seed`.
 
 ---
 
+## Architecture
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -208,9 +210,3 @@ data/runtime/         Persistent JSON state (auto-created)
 ## License
 
 MIT.
-<!-- metadata: 2jvecrcn8o -->
-<!-- metadata: 7gtmdim8dn -->
-<!-- metadata: g6qk36c2wk -->
-<!-- metadata: azii8ton2a -->
-<!-- metadata: 9awhh9obhh -->
-<!-- metadata: 3v3rek9xhj -->
