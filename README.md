@@ -46,6 +46,8 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+│                                                                     │
+│   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -161,8 +163,6 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
-<!-- metadata: rgxsntxdjs -->
-<!-- metadata: 70fj26no7n -->
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
