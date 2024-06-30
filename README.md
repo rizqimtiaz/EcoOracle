@@ -61,14 +61,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
-<!-- metadata: 52qwhvoba8 -->
-<!-- metadata: tfueuo90rh -->
-<!-- metadata: hmbszi17gt -->
-<!-- metadata: 3fouskzrod -->
-<!-- metadata: s08cpkh98a -->
-<!-- metadata: zxan2d5ksq -->
-<!-- metadata: bf1aegz0jp -->
-<!-- metadata: clo8on1xst -->
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -100,6 +92,10 @@ dashboard or run `npm run seed`.
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+State persists to `data/runtime/state.json`.
+
+---
 
 ## How it works
 
