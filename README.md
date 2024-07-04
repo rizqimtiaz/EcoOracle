@@ -36,6 +36,9 @@ npm run dev         # start the Next.js app at http://localhost:3000
 
 Open **http://localhost:3000** and explore.
 
+To rebuild the demo network at any time, click **Reset Network** in the
+dashboard or run `npm run seed`.
+
 ---
 
 ## Architecture
@@ -190,7 +193,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-<!-- metadata: z4ztp1ucmu -->
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
