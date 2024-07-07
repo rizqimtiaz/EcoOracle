@@ -119,6 +119,10 @@ timestamp it deterministically computes:
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
+It then derives an **estimated tonnes CO₂e** using a calibrated linear model
+that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+sequestration rate.
+
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
@@ -141,14 +145,6 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
-<!-- metadata: 9ni7f94rka -->
-<!-- metadata: ssl7pwwxwp -->
-<!-- metadata: 1x6herbaud -->
-<!-- metadata: v1qghwac4v -->
-<!-- metadata: 4q6f5eftd0 -->
-<!-- metadata: ekeczq9ipt -->
-<!-- metadata: y0p3on3kdn -->
-<!-- metadata: 6au0ey6m6n -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
