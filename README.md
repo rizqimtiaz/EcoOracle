@@ -73,8 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
@@ -185,6 +183,13 @@ traded — the smart contract reverts.
 
 ---
 
+<!-- metadata: 5iqoarq3rx -->
+<!-- metadata: l3gp8w7vxh -->
+<!-- metadata: glrd5i0guh -->
+<!-- metadata: s9t0j0k9qg -->
+<!-- metadata: n37pgsyp8z -->
+<!-- metadata: lvuccnxnbr -->
+<!-- metadata: zjs6wrqo7s -->
 ## File map
 
 ```
