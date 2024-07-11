@@ -86,6 +86,10 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+<!-- metadata: a3s70c5jka -->
+<!-- metadata: pqpef3g8j8 -->
+<!-- metadata: u5r9d660n7 -->
+<!-- metadata: w9eje01tsr -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
@@ -184,10 +188,6 @@ traded — the smart contract reverts.
    (already invalidated) and watch credits gradually re-issue.
 
 ---
-
-## File map
-
-```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
