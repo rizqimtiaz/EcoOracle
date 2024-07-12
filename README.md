@@ -1,11 +1,5 @@
 # EcoOracle — Autonomous Carbon Integrity Network
 
-<!-- metadata: co6ikkqiyz -->
-<!-- metadata: g1wkaa401m -->
-<!-- metadata: db8k0q03rg -->
-<!-- metadata: w7zcbib76p -->
-<!-- metadata: wr5rpf5sj2 -->
-<!-- metadata: udm3uj4oid -->
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
@@ -184,6 +178,9 @@ traded — the smart contract reverts.
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+   visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
 ---
