@@ -62,13 +62,6 @@ dashboard or run `npm run seed`.
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
-<!-- metadata: ly1snvr5lo -->
-<!-- metadata: cl53dj46yc -->
-<!-- metadata: ckf6pr8yni -->
-<!-- metadata: 4rs93j3azl -->
-<!-- metadata: ol3oh0kcbb -->
-<!-- metadata: wuolwbpqmf -->
-<!-- metadata: x828ykpucw -->
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
@@ -131,6 +124,9 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
+changed.
+
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
