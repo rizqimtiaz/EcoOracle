@@ -63,10 +63,6 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
-<!-- metadata: kxcgx6qdkz -->
-<!-- metadata: 3w0a221afr -->
-<!-- metadata: nth2p78qiz -->
-<!-- metadata: svn77wqm66 -->
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -172,6 +168,8 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
+
+## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
