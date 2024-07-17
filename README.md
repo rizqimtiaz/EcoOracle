@@ -107,6 +107,9 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
@@ -170,12 +173,6 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
-<!-- metadata: iy0k3eqfvy -->
-<!-- metadata: 9rux35mj8x -->
-<!-- metadata: nn3vjvv7hq -->
-<!-- metadata: z2dbw5ro99 -->
-<!-- metadata: 7q4hhdityz -->
-<!-- metadata: yyue18xrtk -->
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
