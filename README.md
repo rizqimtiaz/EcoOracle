@@ -93,16 +93,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-<!-- metadata: ul9ldy5pmj -->
-<!-- metadata: tfltb3ap57 -->
-<!-- metadata: vzws2vmz48 -->
-<!-- metadata: z3k55p06ox -->
-<!-- metadata: 5le5nsjjnh -->
-<!-- metadata: pv1gmi1hx1 -->
-<!-- metadata: a4b419hy4w -->
-<!-- metadata: r3lofj1k2d -->
-<!-- metadata: mbo9c5ikr7 -->
-<!-- metadata: zd35pil3wr -->
 State persists to `data/runtime/state.json`.
 
 ---
@@ -191,6 +181,9 @@ traded — the smart contract reverts.
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
+   (already invalidated) and watch credits gradually re-issue.
+
+---
 
 ## File map
 
