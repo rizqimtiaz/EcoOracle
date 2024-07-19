@@ -67,6 +67,9 @@ dashboard or run `npm run seed`.
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
+│   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -199,13 +202,6 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
-<!-- metadata: qdjsg9mfd4 -->
-<!-- metadata: 51i7h0ncrx -->
-<!-- metadata: uo3xnu5yhs -->
-<!-- metadata: n44uzind45 -->
-<!-- metadata: 98nmz2wtye -->
-<!-- metadata: 5gknkrtk3w -->
-<!-- metadata: cqbecbfqva -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
