@@ -7,6 +7,12 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+<!-- metadata: 57qjysdyth -->
+<!-- metadata: eid2g0ktsi -->
+<!-- metadata: kqx0qnvc1w -->
+<!-- metadata: zbxehehnid -->
+<!-- metadata: vw7iybbg2m -->
+<!-- metadata: 1bie1uz4m8 -->
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -122,8 +128,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-
-Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
