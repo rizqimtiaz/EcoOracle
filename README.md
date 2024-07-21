@@ -127,12 +127,6 @@ Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
-<!-- metadata: zfsawrkdy3 -->
-<!-- metadata: zoak6wk2f3 -->
-<!-- metadata: im0l3wayei -->
-<!-- metadata: 1ev4ot9o3l -->
-<!-- metadata: p33xu9830o -->
-<!-- metadata: 0do7cd1kuh -->
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
@@ -199,6 +193,10 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
+  analyze/            Live AI vision demo
+  oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
