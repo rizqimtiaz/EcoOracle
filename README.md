@@ -190,10 +190,10 @@ traded — the smart contract reverts.
 ```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
-<!-- metadata: wnrav5tyk4 -->
-<!-- metadata: 5l1o5s1q5e -->
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
+  map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
