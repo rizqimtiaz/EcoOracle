@@ -29,10 +29,6 @@ external services, no network access required.
 ## Quick start
 
 ```bash
-<!-- metadata: pu6lmq5yel -->
-<!-- metadata: kokc4jh3cb -->
-<!-- metadata: tl9zcq0ckb -->
-<!-- metadata: 38sjj1piim -->
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
@@ -74,6 +70,8 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
