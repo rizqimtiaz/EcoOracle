@@ -93,6 +93,8 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- metadata: m8rkxh7owf -->
+<!-- metadata: jtj3mp13el -->
 State persists to `data/runtime/state.json`.
 
 ---
@@ -150,8 +152,6 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
-- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-  to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
