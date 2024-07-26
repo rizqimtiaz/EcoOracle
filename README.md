@@ -87,6 +87,7 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
+<!-- metadata: j311rma1s1 -->
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
@@ -130,9 +131,6 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
-
-- Computes a target credit count (1 credit = 1 verified tonne).
-- Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
