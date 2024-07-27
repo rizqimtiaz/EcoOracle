@@ -98,7 +98,6 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
-
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -140,6 +139,8 @@ changed.
 Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
+<!-- metadata: x6ntdy7pmx -->
+<!-- metadata: ifdbl5pplf -->
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
