@@ -96,15 +96,6 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
-<!-- metadata: c76w7t4jfe -->
-<!-- metadata: 6lixl5tvnv -->
-<!-- metadata: fesdzsqmhg -->
-<!-- metadata: o543hepltd -->
-<!-- metadata: 4yx0k0q9ke -->
-<!-- metadata: tchubgi3ur -->
-<!-- metadata: phtjy2651x -->
-<!-- metadata: ibhkxr1dcf -->
-<!-- metadata: tlie9tuenj -->
 
 ## How it works
 
@@ -166,6 +157,8 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+For deployment instructions on any EVM chain, see the comments inside each
+contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
 
