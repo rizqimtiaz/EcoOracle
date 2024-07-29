@@ -154,8 +154,6 @@ Run the autonomous oracle across all parcels with:
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
-<!-- metadata: i6rg2dy97n -->
-<!-- metadata: auzs9vvsow -->
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
@@ -179,6 +177,8 @@ traded — the smart contract reverts.
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
+3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
