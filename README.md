@@ -47,6 +47,14 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
+<!-- metadata: f1th61cjjn -->
+<!-- metadata: xgdefptc42 -->
+<!-- metadata: rht36c2mzp -->
+<!-- metadata: kxv3v7voe2 -->
+<!-- metadata: h4na6a7izx -->
+<!-- metadata: pyuozpxsg1 -->
+<!-- metadata: 23khlwq9is -->
+<!-- metadata: 6wh846e13c -->
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
@@ -193,7 +201,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-  marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
