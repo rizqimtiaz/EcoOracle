@@ -29,10 +29,6 @@ external services, no network access required.
 ## Quick start
 
 ```bash
-npm install
-npm run seed        # populate the local devnet with 14 parcels worldwide
-npm run dev         # start the Next.js app at http://localhost:3000
-```
 
 Open **http://localhost:3000** and explore.
 
@@ -190,6 +186,14 @@ traded — the smart contract reverts.
 ```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
+<!-- metadata: 5hccnuh53b -->
+<!-- metadata: uji5lc2vbf -->
+<!-- metadata: ffyqft1fj7 -->
+<!-- metadata: xf361zc8y7 -->
+<!-- metadata: agh1synz8w -->
+<!-- metadata: hhiar0yfwa -->
+<!-- metadata: wsborn1azn -->
+<!-- metadata: p6x5ethfar -->
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
