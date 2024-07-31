@@ -59,8 +59,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-<!-- metadata: 17ew8i4evv -->
-<!-- metadata: 3nk6trccjh -->
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
@@ -124,6 +122,10 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
+
+Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
+changed.
 
 ### 3. Autonomous Oracle
 
