@@ -25,7 +25,6 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
-
 ## Quick start
 
 ```bash
@@ -145,6 +144,12 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: ikssftdq1w -->
+<!-- metadata: 6t19p8wj9x -->
+<!-- metadata: a34gg8ny9p -->
+<!-- metadata: 89sw3b34cb -->
+<!-- metadata: xdtufvcb6e -->
+<!-- metadata: a3wbd3o1ro -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
