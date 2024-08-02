@@ -70,8 +70,6 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -121,6 +119,8 @@ timestamp it deterministically computes:
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+<!-- metadata: w3wvrsyeo0 -->
+<!-- metadata: t5cb2wnddm -->
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
