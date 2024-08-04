@@ -1,3 +1,11 @@
+<!-- metadata: d4yoreesyg -->
+<!-- metadata: qhug0hvloa -->
+<!-- metadata: adu620fkie -->
+<!-- metadata: 2kk4w9ghwg -->
+<!-- metadata: 5olh3ju4s5 -->
+<!-- metadata: iwpbpz2yol -->
+<!-- metadata: zg93399663 -->
+<!-- metadata: i2vf8w735i -->
 # EcoOracle — Autonomous Carbon Integrity Network
 
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
@@ -103,7 +111,6 @@ State persists to `data/runtime/state.json`.
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
-baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
