@@ -106,9 +106,15 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
-
-`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
-timestamp it deterministically computes:
+<!-- metadata: 2b9mv1iyxb -->
+<!-- metadata: ohj51dj5sk -->
+<!-- metadata: g6wsvbfzhx -->
+<!-- metadata: y76os6aprp -->
+<!-- metadata: zd6b7jufds -->
+<!-- metadata: oldn1iaxa0 -->
+<!-- metadata: 247f3r29dx -->
+<!-- metadata: 492m5vrsi4 -->
+<!-- metadata: 57yoy66jvj -->
 
 | Index | Description |
 | ---- | ---- |
