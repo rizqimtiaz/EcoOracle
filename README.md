@@ -96,6 +96,9 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
+
+## How it works
+
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -197,12 +200,6 @@ app/                  Next.js 14 App Router
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
-<!-- metadata: xzntbr19d3 -->
-<!-- metadata: 7o23g2j9yd -->
-<!-- metadata: nunhhvd0sj -->
-<!-- metadata: j90pv50xb6 -->
-<!-- metadata: 3qv4yhozfx -->
-<!-- metadata: amd280hb9k -->
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
