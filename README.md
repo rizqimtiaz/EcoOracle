@@ -73,7 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
@@ -206,6 +205,14 @@ data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
+<!-- metadata: h4atfp75v5 -->
+<!-- metadata: jtdm2rmlgn -->
+<!-- metadata: x43lernsfd -->
+<!-- metadata: 6jiw62cw7q -->
+<!-- metadata: o0veus6bhd -->
+<!-- metadata: zfi2lqplab -->
+<!-- metadata: 33q13su1hl -->
+<!-- metadata: hk4pnklny6 -->
 
 ## License
 
