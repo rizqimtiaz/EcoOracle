@@ -64,6 +64,7 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
+│   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
@@ -134,9 +135,6 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-<!-- metadata: rttzztmi9e -->
-<!-- metadata: s8n5f90zhw -->
-<!-- metadata: rlfn9065qz -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
