@@ -87,6 +87,10 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
+│                        Solidity contracts                           │
+│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
+│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 State persists to `data/runtime/state.json`.
@@ -179,9 +183,6 @@ traded — the smart contract reverts.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
-<!-- metadata: wpuy6ttcom -->
-<!-- metadata: msqv28xvab -->
-<!-- metadata: kh5lyp5i5x -->
 ---
 
 ## File map
