@@ -57,10 +57,6 @@ dashboard or run `npm run seed`.
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-<!-- metadata: 7ivfik0afa -->
-<!-- metadata: isnie4nnh6 -->
-<!-- metadata: 79tkx32nsf -->
-<!-- metadata: 4wtsr2d3qa -->
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
@@ -191,6 +187,8 @@ traded — the smart contract reverts.
 
 ## File map
 
+```
+app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
