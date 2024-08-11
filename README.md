@@ -92,6 +92,15 @@ dashboard or run `npm run seed`.
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+<!-- metadata: vfnlkx8e03 -->
+<!-- metadata: 4kcl7qzvvi -->
+<!-- metadata: 1zaoz9hd03 -->
+<!-- metadata: nc73h8agen -->
+<!-- metadata: 5bs0f0cvnw -->
+<!-- metadata: 327g4kkuhk -->
+<!-- metadata: obqev3g3hn -->
+<!-- metadata: 2zg9g0j597 -->
+<!-- metadata: p4y5ehcbg0 -->
 
 State persists to `data/runtime/state.json`.
 
@@ -159,8 +168,6 @@ valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
-
-### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
