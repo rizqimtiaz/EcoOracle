@@ -81,7 +81,6 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
-<!-- metadata: eoeabc31c5 -->
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
@@ -152,6 +151,9 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
+  to each token, retired credits flow into a global counter.
+
+`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
