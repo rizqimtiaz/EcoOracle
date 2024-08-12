@@ -7,6 +7,7 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
@@ -89,10 +90,6 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-<!-- metadata: j6k7ozkx6p -->
-<!-- metadata: mx58mbk0v3 -->
-<!-- metadata: p3fcugyrk8 -->
-<!-- metadata: kl1bqke98v -->
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
