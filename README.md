@@ -163,8 +163,6 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
-retire credits permanently against a beneficiary. Retirements are immutable
-and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
@@ -176,6 +174,9 @@ traded — the smart contract reverts.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
+<!-- metadata: 4tfhj5fxvv -->
+<!-- metadata: ie0u372110 -->
+<!-- metadata: oqr4hsavq0 -->
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
