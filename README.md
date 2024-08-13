@@ -85,9 +85,6 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
@@ -202,6 +199,13 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
+<!-- metadata: aiw1xjlzzg -->
+<!-- metadata: vv0nkyx4b0 -->
+<!-- metadata: toca9wdrw9 -->
+<!-- metadata: e2dxrp4qpi -->
+<!-- metadata: ozclwnsujp -->
+<!-- metadata: ruh7n1t2b3 -->
+<!-- metadata: 08sbpe2b21 -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
