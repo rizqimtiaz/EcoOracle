@@ -25,11 +25,6 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
-<!-- metadata: wb1u36cyl4 -->
-<!-- metadata: 1x3dr4jxhr -->
-<!-- metadata: plglyip5mf -->
-<!-- metadata: 8ihces5d3k -->
-<!-- metadata: 6fko0e0h9h -->
 
 ## Quick start
 
@@ -111,6 +106,10 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
+
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
