@@ -10,6 +10,12 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
+<!-- metadata: dnod4elcqz -->
+<!-- metadata: jcx01ua9eh -->
+<!-- metadata: 5pzbe7glmx -->
+<!-- metadata: ntf2l6q699 -->
+<!-- metadata: 3r5nsqwep7 -->
+<!-- metadata: 6p3gxbgznk -->
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
@@ -96,9 +102,6 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
-
-## How it works
-
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
