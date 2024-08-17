@@ -99,6 +99,9 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
+### 1. Mint a parcel as a dNFT
+
+A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
@@ -148,16 +151,6 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-<!-- metadata: w79boej9rg -->
-<!-- metadata: xkeml0ba5y -->
-<!-- metadata: y1ockr0u6n -->
-<!-- metadata: 02mj7z5k9w -->
-<!-- metadata: ti2t2ffuxn -->
-<!-- metadata: fa6b56q08y -->
-<!-- metadata: jhpx2nihc4 -->
-<!-- metadata: osavc3hc8j -->
-<!-- metadata: d6k65fdmpi -->
-<!-- metadata: 97z1ji8ck4 -->
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
