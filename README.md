@@ -34,6 +34,13 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
+<!-- metadata: hzv0jevi9b -->
+<!-- metadata: 2xa4sc83o1 -->
+<!-- metadata: j7zlzy6qwi -->
+<!-- metadata: j548qpyv2q -->
+<!-- metadata: h2d9ehciex -->
+<!-- metadata: czuauzgm5r -->
+<!-- metadata: wo3jkidyjx -->
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -200,7 +207,6 @@ app/                  Next.js 14 App Router
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
-lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
