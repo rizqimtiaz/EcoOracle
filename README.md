@@ -66,15 +66,6 @@ dashboard or run `npm run seed`.
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
-<!-- metadata: f7uqo6tek2 -->
-<!-- metadata: 5ichu78w4v -->
-<!-- metadata: 8totyajt45 -->
-<!-- metadata: yx0190b5ku -->
-<!-- metadata: tqoi1x4y1q -->
-<!-- metadata: huplg26k7f -->
-<!-- metadata: n9910nnek8 -->
-<!-- metadata: 1gmzwkjqhh -->
-<!-- metadata: yebk8ll8o4 -->
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
@@ -87,6 +78,10 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
+│   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
+│   oracle.ts       Autonomous oracle bridging vision -> chain        │
+│   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
