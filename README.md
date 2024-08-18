@@ -42,6 +42,7 @@ dashboard or run `npm run seed`.
 ---
 
 ## Architecture
+<!-- metadata: 0l16qwqlgk -->
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -148,7 +149,6 @@ Run the autonomous oracle across all parcels with:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
-- `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
