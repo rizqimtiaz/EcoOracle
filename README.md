@@ -18,8 +18,6 @@ This repository contains:
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
-- A live, interactive dashboard, world map, marketplace, parcel detail
-  pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
@@ -30,6 +28,12 @@ external services, no network access required.
 
 ```bash
 npm install
+<!-- metadata: wqmdo32qxb -->
+<!-- metadata: 2zrgznrkii -->
+<!-- metadata: h2nfm20src -->
+<!-- metadata: qh1wpxep7v -->
+<!-- metadata: un9f2s5vgs -->
+<!-- metadata: ojkj4rywf8 -->
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
