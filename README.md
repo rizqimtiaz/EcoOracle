@@ -126,9 +126,6 @@ sequestration rate.
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
-
-### 3. Autonomous Oracle
-
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
@@ -210,3 +207,4 @@ data/runtime/         Persistent JSON state (auto-created)
 ## License
 
 MIT.
+<!-- metadata: tsylrmbb7w -->
