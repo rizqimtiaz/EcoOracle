@@ -129,11 +129,6 @@ changed.
 
 ### 3. Autonomous Oracle
 
-<!-- metadata: olgbp85kox -->
-<!-- metadata: j7vwez7ybp -->
-<!-- metadata: 8jc69hi1aq -->
-<!-- metadata: kfrue3ulkq -->
-<!-- metadata: fyfik7x601 -->
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
@@ -203,6 +198,10 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
+components/           Reusable UI (charts, panels, controls)
+contracts/            Solidity smart contracts
+lib/                  Domain core (vision, chain, oracle, db, types)
+scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
