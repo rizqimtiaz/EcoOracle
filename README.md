@@ -87,6 +87,11 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
+<!-- metadata: svc3e9yaou -->
+<!-- metadata: e9108ez89r -->
+<!-- metadata: 7132hj15qr -->
+<!-- metadata: 5t1hdjyw82 -->
+<!-- metadata: i0d6s570e1 -->
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
@@ -168,8 +173,6 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
-
-## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
