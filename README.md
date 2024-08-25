@@ -139,9 +139,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-- The "Run Oracle Sweep" button on the dashboard, or
-- `POST /api/oracle/run`.
-
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
@@ -200,6 +197,15 @@ app/                  Next.js 14 App Router
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
+<!-- metadata: x3pa8vpobp -->
+<!-- metadata: xubqy1z0yb -->
+<!-- metadata: 2ao18ueebk -->
+<!-- metadata: 9uwyk5oxtz -->
+<!-- metadata: 1io4fsl62h -->
+<!-- metadata: h9dwk6u3or -->
+<!-- metadata: 95qadoymuq -->
+<!-- metadata: evnfg12gkm -->
+<!-- metadata: msai321n9u -->
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
