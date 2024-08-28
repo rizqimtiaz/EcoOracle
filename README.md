@@ -9,8 +9,6 @@ credits based on what the planet actually looks like today.
 
 This repository contains:
 
-- A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -165,6 +163,16 @@ contract — both compile as-is with `solc 0.8.20`.
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
+<!-- metadata: ghem3kkcwg -->
+<!-- metadata: lnq4238e0n -->
+<!-- metadata: 2u6peayzqd -->
+<!-- metadata: zx83qsihf5 -->
+<!-- metadata: 3l5z3ry3vd -->
+<!-- metadata: upq0q50nzw -->
+<!-- metadata: nu1opajopc -->
+<!-- metadata: ec5f1s1sti -->
+<!-- metadata: sxi6dwey52 -->
+<!-- metadata: uyl6583shx -->
 traded — the smart contract reverts.
 
 ---
