@@ -37,10 +37,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
-dashboard or run `npm run seed`.
-
----
-
 ## Architecture
 
 ```
@@ -136,6 +132,16 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
+<!-- metadata: jqclvj6n3q -->
+<!-- metadata: t6wxrw4zls -->
+<!-- metadata: efmmf3gn7t -->
+<!-- metadata: 4ampxq2s66 -->
+<!-- metadata: 97m0lbpao8 -->
+<!-- metadata: zunr9zuhcm -->
+<!-- metadata: 7nlpvh0v5r -->
+<!-- metadata: foadralp1z -->
+<!-- metadata: 54ooeu76p5 -->
+<!-- metadata: arrsmg50xb -->
 
 Run the autonomous oracle across all parcels with:
 
