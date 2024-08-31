@@ -82,6 +82,12 @@ dashboard or run `npm run seed`.
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
+<!-- metadata: kuk4q8722m -->
+<!-- metadata: vc5zmde9h5 -->
+<!-- metadata: cwzjp7rxy1 -->
+<!-- metadata: vnb95xou3u -->
+<!-- metadata: 61i5j73wny -->
+<!-- metadata: m9eyrscnwm -->
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -139,8 +145,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-- The "Run Oracle Sweep" button on the dashboard, or
-- `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
