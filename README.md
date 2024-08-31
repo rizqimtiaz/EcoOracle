@@ -136,15 +136,16 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
-
-Run the autonomous oracle across all parcels with:
-
-- The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: rr3jwspm7j -->
+<!-- metadata: p11760jw9o -->
+<!-- metadata: rr765cxa25 -->
+<!-- metadata: nbailntuyg -->
+<!-- metadata: j1plgz301z -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
