@@ -32,6 +32,8 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
+```
+
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -105,14 +107,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
-<!-- metadata: 6mah5kc4sp -->
-<!-- metadata: hpaslq6b3c -->
-<!-- metadata: fc3k3jeee9 -->
-<!-- metadata: km3653rl70 -->
-<!-- metadata: 4m4z5nd21e -->
-<!-- metadata: 1ggttgz4em -->
-<!-- metadata: kq5eh1b3l5 -->
-<!-- metadata: tspxvmk0sb -->
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
