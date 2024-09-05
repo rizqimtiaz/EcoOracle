@@ -58,6 +58,9 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        REST API (Next.js Route Handlers)            │
+│   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -119,11 +122,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-<!-- metadata: dsvvsl6k4u -->
-<!-- metadata: lhncuj8q2c -->
-<!-- metadata: kih4lbyxls -->
-<!-- metadata: t4yo9p8duy -->
-<!-- metadata: jlm3n89w2i -->
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
