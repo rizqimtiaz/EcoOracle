@@ -72,8 +72,6 @@ dashboard or run `npm run seed`.
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
@@ -142,6 +140,9 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
+<!-- metadata: 0u1htrfklf -->
+<!-- metadata: y8rjzs5cw5 -->
+<!-- metadata: g4vbclh7d1 -->
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
