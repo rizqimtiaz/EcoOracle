@@ -39,10 +39,6 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
----
-
-## Architecture
-
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -179,6 +175,9 @@ traded — the smart contract reverts.
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+<!-- metadata: hvkzw7hgeo -->
+<!-- metadata: 6kgsj7pff1 -->
+<!-- metadata: xty8ushmtm -->
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
