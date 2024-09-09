@@ -70,6 +70,14 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
+<!-- metadata: 7fek1csd7j -->
+<!-- metadata: ojz2esucx7 -->
+<!-- metadata: 3hkf0c8jft -->
+<!-- metadata: 70sacor4fl -->
+<!-- metadata: 80w7bhg8i5 -->
+<!-- metadata: x8p1age03e -->
+<!-- metadata: so5lzl09a8 -->
+<!-- metadata: w354vsbm4j -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -182,9 +190,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-
----
-
 ## File map
 
 ```
