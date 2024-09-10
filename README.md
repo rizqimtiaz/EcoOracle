@@ -32,6 +32,15 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
+<!-- metadata: 6a1wygw4kx -->
+<!-- metadata: x1d390fmby -->
+<!-- metadata: ezkmol4wcl -->
+<!-- metadata: 7k787qcu3c -->
+<!-- metadata: 2lptygik72 -->
+<!-- metadata: 75vh8zww66 -->
+<!-- metadata: 4u1i27i3nz -->
+<!-- metadata: qcwafp3xmj -->
+<!-- metadata: 6419m8b698 -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -80,9 +89,6 @@ dashboard or run `npm run seed`.
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
-│   db.ts           File-based persistent state w/ mutex              │
-│   stats.ts        Network statistics & timeseries                   │
-│   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
