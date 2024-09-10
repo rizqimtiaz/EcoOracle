@@ -25,7 +25,6 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
-
 ## Quick start
 
 ```bash
@@ -53,6 +52,8 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
+<!-- metadata: 3e9i64rvmq -->
+<!-- metadata: 9bbpwcjt6z -->
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
