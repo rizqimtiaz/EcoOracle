@@ -78,6 +78,13 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
+<!-- metadata: mlvy5zvnve -->
+<!-- metadata: ziacd2x6yt -->
+<!-- metadata: ko51ioq2vm -->
+<!-- metadata: 0i084agb1a -->
+<!-- metadata: gf2ft6mh62 -->
+<!-- metadata: 1lj84gwh4o -->
+<!-- metadata: ar1jjxnnds -->
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
@@ -130,9 +137,6 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
-
-- Computes a target credit count (1 credit = 1 verified tonne).
-- Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
