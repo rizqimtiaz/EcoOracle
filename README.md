@@ -33,6 +33,16 @@ npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
+<!-- metadata: 7opjlbzta3 -->
+<!-- metadata: jf253g2pbu -->
+<!-- metadata: 0fmemvwpxw -->
+<!-- metadata: uz0bwakm4w -->
+<!-- metadata: 8uqbk4w2lv -->
+<!-- metadata: 2gepwir0rf -->
+<!-- metadata: ksuqsrshph -->
+<!-- metadata: ho60mngz9e -->
+<!-- metadata: 19ruxncn7k -->
+<!-- metadata: pwposjfu37 -->
 
 Open **http://localhost:3000** and explore.
 
@@ -193,9 +203,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-  marketplace/        dNFT catalogue & detail pages
-  analyze/            Live AI vision demo
-  oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
