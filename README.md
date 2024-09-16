@@ -38,6 +38,9 @@ Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
+
+---
+
 ## Architecture
 
 ```
@@ -80,7 +83,6 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
-<!-- metadata: k47dt7hudi -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
