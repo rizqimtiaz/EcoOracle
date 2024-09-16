@@ -10,6 +10,10 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
+- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
+  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
+  thermal-anomaly indices, with per-ecosystem calibration.
+- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
@@ -178,11 +182,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-<!-- metadata: uy2bs0ta8y -->
-<!-- metadata: csxsu302io -->
-<!-- metadata: c7mm9m3aky -->
-<!-- metadata: bqujvnh2mi -->
-<!-- metadata: h694vu6yb1 -->
 
 ---
 
