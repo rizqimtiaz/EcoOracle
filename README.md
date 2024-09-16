@@ -44,9 +44,6 @@ dashboard or run `npm run seed`.
 ## Architecture
 
 ```
-<!-- metadata: k7lgia62jv -->
-<!-- metadata: 1ajnbussx1 -->
-<!-- metadata: t0dzyyaasx -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
@@ -80,6 +77,9 @@ dashboard or run `npm run seed`.
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
+│   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
+│   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
+│   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
