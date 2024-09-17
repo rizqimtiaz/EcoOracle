@@ -28,11 +28,6 @@ external services, no network access required.
 
 ## Quick start
 
-<!-- metadata: 0adcookri7 -->
-<!-- metadata: r118q9muv1 -->
-<!-- metadata: q1mhtt59jx -->
-<!-- metadata: ztg9shk7me -->
-<!-- metadata: z6kroqhm5p -->
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -181,6 +176,8 @@ traded — the smart contract reverts.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
+   `INVALIDATION` event written to chain.
+3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
