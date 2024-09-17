@@ -132,6 +132,16 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
+<!-- metadata: 1sekh9qkbv -->
+<!-- metadata: j6z7049225 -->
+<!-- metadata: pg27sg6019 -->
+<!-- metadata: d1ayk5j5hf -->
+<!-- metadata: d0af1xtnxt -->
+<!-- metadata: 6ubay5ah9r -->
+<!-- metadata: bs1mi0q3h9 -->
+<!-- metadata: u81mgs1lbb -->
+<!-- metadata: 8pvaufn08z -->
+<!-- metadata: 6zgqpwh5d2 -->
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
@@ -193,10 +203,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-  marketplace/        dNFT catalogue & detail pages
-  analyze/            Live AI vision demo
-  oracle/             Event + transaction log
-  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
