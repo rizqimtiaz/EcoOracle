@@ -11,10 +11,6 @@ This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
-  thermal-anomaly indices, with per-ecosystem calibration.
-- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
-  oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
@@ -149,6 +145,7 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
+<!-- metadata: 01417onswo -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
