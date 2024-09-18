@@ -61,6 +61,13 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
+<!-- metadata: 39p3wfxlkh -->
+<!-- metadata: 0803ho78mh -->
+<!-- metadata: q6u0d93laz -->
+<!-- metadata: tgpu4ynkap -->
+<!-- metadata: 45al1l90sq -->
+<!-- metadata: 1xsniz6icz -->
+<!-- metadata: 28fbr68tgk -->
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -101,7 +108,6 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
-A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
