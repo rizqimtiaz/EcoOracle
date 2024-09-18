@@ -82,7 +82,6 @@ dashboard or run `npm run seed`.
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
-<!-- metadata: 911ci0ns5n -->
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -130,6 +129,7 @@ changed.
 
 ### 3. Autonomous Oracle
 
+`lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
