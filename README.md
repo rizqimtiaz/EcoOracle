@@ -12,6 +12,7 @@ This repository contains:
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
+  thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
@@ -163,16 +164,6 @@ contract — both compile as-is with `solc 0.8.20`.
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
-<!-- metadata: 4uiui277pu -->
-<!-- metadata: pnp0icd3s4 -->
-<!-- metadata: jvn3p86f42 -->
-<!-- metadata: tzxlh092k2 -->
-<!-- metadata: 3wdf6tzlwt -->
-<!-- metadata: avw9qx4fcq -->
-<!-- metadata: tfrposxmnv -->
-<!-- metadata: 86al0c95sq -->
-<!-- metadata: 3lm8r7npq1 -->
-<!-- metadata: jv8sds59h0 -->
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
