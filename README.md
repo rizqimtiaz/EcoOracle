@@ -135,6 +135,15 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+<!-- metadata: 5c3hhp2iz2 -->
+<!-- metadata: mgzprlljwn -->
+<!-- metadata: rl6r29h7fm -->
+<!-- metadata: u5g5ux23bd -->
+<!-- metadata: 1xiittrocr -->
+<!-- metadata: 776vwpvk3t -->
+<!-- metadata: gn9ryfsy8m -->
+<!-- metadata: 331u3ici0s -->
+<!-- metadata: v6mxbqnuwm -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
@@ -182,9 +191,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-
----
-
 ## File map
 
 ```
