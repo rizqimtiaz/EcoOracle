@@ -73,15 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: f0bhrco7ft -->
-<!-- metadata: gaahw5fhg6 -->
-<!-- metadata: 3sdnarkien -->
-<!-- metadata: 4j0q5jy6gs -->
-<!-- metadata: 5uiipkx9xd -->
-<!-- metadata: af1kpiviyv -->
-<!-- metadata: 8ctvdtvt3a -->
-<!-- metadata: 65qzjymrnq -->
-<!-- metadata: 8dh1tlafk1 -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
@@ -156,6 +147,7 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
