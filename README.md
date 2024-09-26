@@ -99,10 +99,6 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
-### 1. Mint a parcel as a dNFT
-
-A protected plot of land is geo-fenced (polygon + center coordinate) and
-minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
@@ -144,6 +140,12 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
+<!-- metadata: 7s7w9oiyn7 -->
+<!-- metadata: 0kqxy5xwl0 -->
+<!-- metadata: 7xcc0k7ocn -->
+<!-- metadata: 2bbi6i7h17 -->
+<!-- metadata: j81s8t1ctz -->
+<!-- metadata: qttfm84c88 -->
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
