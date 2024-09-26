@@ -135,6 +135,16 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+<!-- metadata: t9r3afgvmm -->
+<!-- metadata: sovvk7m1vo -->
+<!-- metadata: d15y6u1ez4 -->
+<!-- metadata: 50hh4mftv8 -->
+<!-- metadata: 03dtzgtq7a -->
+<!-- metadata: 62rs4onvx8 -->
+<!-- metadata: xxve0uyaa8 -->
+<!-- metadata: ijgqjk2syp -->
+<!-- metadata: 4h1afwb99l -->
+<!-- metadata: q6x8syioty -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
@@ -171,7 +181,6 @@ traded — the smart contract reverts.
 
 ## Demo scenarios to try
 
-1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
