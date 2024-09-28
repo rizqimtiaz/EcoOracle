@@ -188,10 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-app/                  Next.js 14 App Router
-  layout.tsx          Global layout, navbar, footer, background
-  page.tsx            Landing page with hero, problem, pipeline, CTA
-  dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
@@ -204,6 +200,13 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+<!-- metadata: zcbtba2b6e -->
+<!-- metadata: od0ojlsqda -->
+<!-- metadata: f48ph8g2mv -->
+<!-- metadata: mmjkj071pf -->
+<!-- metadata: gf8t6zo4d5 -->
+<!-- metadata: lq88jl9kb1 -->
+<!-- metadata: 9c07y1d8np -->
 
 ---
 
