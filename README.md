@@ -81,6 +81,9 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
+│   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -107,14 +110,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
-<!-- metadata: zddtt5h2og -->
-<!-- metadata: 9519ozpulw -->
-<!-- metadata: nobyfvjlye -->
-<!-- metadata: a77qfkyirx -->
-<!-- metadata: p3xp3pw3vd -->
-<!-- metadata: ut7bxxvoqo -->
-<!-- metadata: ds7vo0113n -->
-<!-- metadata: clvrx241tw -->
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
