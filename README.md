@@ -32,11 +32,6 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
-<!-- metadata: 1vcuvsk6g7 -->
-<!-- metadata: 3x7b8g04q1 -->
-<!-- metadata: c8g5qw6v9x -->
-<!-- metadata: d1q5tshlq9 -->
-<!-- metadata: 8n88v044n0 -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -88,6 +83,10 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
