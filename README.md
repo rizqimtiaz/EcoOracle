@@ -39,6 +39,15 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
+<!-- metadata: aa1s69j211 -->
+<!-- metadata: jxs26ybe7i -->
+<!-- metadata: o7e0sz7xhv -->
+<!-- metadata: ycla3cw8qu -->
+<!-- metadata: coashywo4v -->
+<!-- metadata: kkv3qnn3pl -->
+<!-- metadata: 7wev1eas69 -->
+<!-- metadata: i9jsy494rw -->
+<!-- metadata: co18e7lcym -->
 ---
 
 ## Architecture
@@ -50,9 +59,6 @@ dashboard or run `npm run seed`.
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
-│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-│   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
