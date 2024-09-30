@@ -40,6 +40,7 @@ To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
 ---
+
 ## Architecture
 
 ```
@@ -117,8 +118,6 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
-<!-- metadata: 7kide7ya67 -->
-<!-- metadata: 1o93jv1gsw -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
