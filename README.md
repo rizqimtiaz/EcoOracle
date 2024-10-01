@@ -29,6 +29,9 @@ external services, no network access required.
 ## Quick start
 
 ```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
@@ -170,15 +173,6 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
-<!-- metadata: hqdz3yrzne -->
-<!-- metadata: ea9q6t3w0q -->
-<!-- metadata: 2mmn9hdvom -->
-<!-- metadata: qy1kslgs84 -->
-<!-- metadata: asjxvityef -->
-<!-- metadata: p6o65szxoc -->
-<!-- metadata: dx5xmr8xl8 -->
-<!-- metadata: 8d18kzqq5x -->
-<!-- metadata: u5poap9jo9 -->
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
