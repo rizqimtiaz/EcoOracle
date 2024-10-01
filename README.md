@@ -89,6 +89,8 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
+│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 State persists to `data/runtime/state.json`.
@@ -120,7 +122,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-<!-- metadata: dt2mbuovoi -->
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
