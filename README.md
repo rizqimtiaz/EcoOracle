@@ -144,6 +144,13 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
+<!-- metadata: kb7vcjry5y -->
+<!-- metadata: aifhmczqd3 -->
+<!-- metadata: vk8tl49rt0 -->
+<!-- metadata: ewfwbju8d5 -->
+<!-- metadata: ti1p2p8am8 -->
+<!-- metadata: 2l38ufqa5m -->
+<!-- metadata: r3myfspxke -->
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
@@ -188,8 +195,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-app/                  Next.js 14 App Router
-  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
