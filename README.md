@@ -130,10 +130,6 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
-
-- Computes a target credit count (1 credit = 1 verified tonne).
-- Computes a target price (a function of health + scarcity + thermal risk).
-- Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
@@ -188,6 +184,14 @@ traded — the smart contract reverts.
 ## File map
 
 ```
+<!-- metadata: 8rhijvsvz8 -->
+<!-- metadata: e328vzra7f -->
+<!-- metadata: wdj53vqzc5 -->
+<!-- metadata: 3nml38oypf -->
+<!-- metadata: rywka2m37k -->
+<!-- metadata: 0p2zet0cvz -->
+<!-- metadata: a0pv4q3f35 -->
+<!-- metadata: rem31a4qa2 -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
