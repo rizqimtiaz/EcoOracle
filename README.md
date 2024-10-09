@@ -71,9 +71,6 @@ dashboard or run `npm run seed`.
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
-                                  │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
@@ -145,6 +142,8 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: leppjwtzn4 -->
+<!-- metadata: mxxdvzrcw6 -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
