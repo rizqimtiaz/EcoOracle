@@ -21,15 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-<!-- metadata: 5sudojyo21 -->
-<!-- metadata: fdt0pceo23 -->
-<!-- metadata: 2pabuvufcs -->
-<!-- metadata: ntoqjzc6jf -->
-<!-- metadata: 20ijfs34xe -->
-<!-- metadata: eyryoqplim -->
-<!-- metadata: siuehin0i7 -->
-<!-- metadata: 6c1lx0zwjv -->
-<!-- metadata: j0ncsidmre -->
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -144,6 +135,10 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+  appending a transaction and an event to the network log.
+
+Run the autonomous oracle across all parcels with:
+
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
