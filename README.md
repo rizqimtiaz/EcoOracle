@@ -25,6 +25,12 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
+<!-- metadata: y0txikt6ay -->
+<!-- metadata: 3iet3sn6yi -->
+<!-- metadata: gwyk3g1myu -->
+<!-- metadata: 8koex153u0 -->
+<!-- metadata: umi4ovlq9a -->
+<!-- metadata: bwid9neiaq -->
 
 ## Quick start
 
@@ -52,8 +58,6 @@ dashboard or run `npm run seed`.
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-│   /analyze         Live AI vision pipeline demo                     │
-│   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
