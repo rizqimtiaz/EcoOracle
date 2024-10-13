@@ -32,16 +32,6 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
-<!-- metadata: x4rrfxi77s -->
-<!-- metadata: hxz9sdkys8 -->
-<!-- metadata: z9rdg9rjg1 -->
-<!-- metadata: iy3iubqs5k -->
-<!-- metadata: p18y4qzsz9 -->
-<!-- metadata: 9a1wg84yh1 -->
-<!-- metadata: btb52o6hj8 -->
-<!-- metadata: jkq90bjalo -->
-<!-- metadata: 7ajodtu34z -->
-<!-- metadata: y023g6a8t1 -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -194,6 +184,7 @@ traded — the smart contract reverts.
    (already invalidated) and watch credits gradually re-issue.
 
 ---
+
 ## File map
 
 ```
