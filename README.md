@@ -51,6 +51,8 @@ dashboard or run `npm run seed`.
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
+│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
+│   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -60,9 +62,6 @@ dashboard or run `npm run seed`.
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
-<!-- metadata: yvjon2u7p0 -->
-<!-- metadata: ztbxrs0ael -->
-<!-- metadata: mpeukcvxs6 -->
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
