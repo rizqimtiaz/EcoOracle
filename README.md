@@ -39,6 +39,8 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
+---
+
 ## Architecture
 
 ```
@@ -192,14 +194,6 @@ app/                  Next.js 14 App Router
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
-<!-- metadata: gf185zft1h -->
-<!-- metadata: qwahhjgmrs -->
-<!-- metadata: uarqkcomwa -->
-<!-- metadata: 8bk6ya32c4 -->
-<!-- metadata: 2osp06753x -->
-<!-- metadata: wdhyoagsaq -->
-<!-- metadata: tef2dvq288 -->
-<!-- metadata: u8zqordxk5 -->
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
