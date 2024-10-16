@@ -62,6 +62,11 @@ dashboard or run `npm run seed`.
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
+<!-- metadata: 5oidrzz0ah -->
+<!-- metadata: ubabfz3rds -->
+<!-- metadata: e01unzyqdo -->
+<!-- metadata: sjq5yt6c0v -->
+<!-- metadata: a6mkje0y2o -->
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
@@ -143,7 +148,6 @@ Run the autonomous oracle across all parcels with:
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
-
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
