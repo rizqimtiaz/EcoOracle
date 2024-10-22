@@ -80,10 +80,6 @@ dashboard or run `npm run seed`.
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
-│   db.ts           File-based persistent state w/ mutex              │
-│   stats.ts        Network statistics & timeseries                   │
-│   format.ts       Display formatters & status palettes              │
-└─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -133,6 +129,11 @@ changed.
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
+<!-- metadata: ed1621d0ds -->
+<!-- metadata: nqqn8v0yas -->
+<!-- metadata: t1p12ji13d -->
+<!-- metadata: k8msbm45ia -->
+<!-- metadata: ly5qz4w6xz -->
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
