@@ -1,11 +1,6 @@
 # EcoOracle — Autonomous Carbon Integrity Network
 
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
-<!-- metadata: l3g3p33rvj -->
-<!-- metadata: pvs7pexyr9 -->
-<!-- metadata: vonacf9eg3 -->
-<!-- metadata: 26h1xsjtr1 -->
-<!-- metadata: x2izlgc9z5 -->
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
@@ -20,6 +15,10 @@ This repository contains:
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
+- An autonomous oracle service that bridges AI scans to on-chain state.
+- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+- A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
