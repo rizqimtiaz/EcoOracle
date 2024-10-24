@@ -92,10 +92,6 @@ dashboard or run `npm run seed`.
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
-<!-- metadata: 7ic9d0po9r -->
-<!-- metadata: zvv1mc139u -->
-<!-- metadata: 3xdck6mcm7 -->
-<!-- metadata: hdifdp13fa -->
 
 State persists to `data/runtime/state.json`.
 
@@ -172,6 +168,7 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
+
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
