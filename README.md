@@ -116,6 +116,15 @@ timestamp it deterministically computes:
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
+<!-- metadata: poxx0fmp6l -->
+<!-- metadata: lpqvdzwrq3 -->
+<!-- metadata: 3e0e3yo5bb -->
+<!-- metadata: syafjpaoyv -->
+<!-- metadata: u80wizf9bz -->
+<!-- metadata: 5t6r6dvezu -->
+<!-- metadata: 3ibpdhazrn -->
+<!-- metadata: wwxfnpbjxy -->
+<!-- metadata: wdcqovdyof -->
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
@@ -196,7 +205,6 @@ app/                  Next.js 14 App Router
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
-  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
