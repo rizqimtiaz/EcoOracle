@@ -69,6 +69,7 @@ dashboard or run `npm run seed`.
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -99,13 +100,6 @@ State persists to `data/runtime/state.json`.
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
-<!-- metadata: yrisw9gxb2 -->
-<!-- metadata: rtosmovpoq -->
-<!-- metadata: l4kpetll2b -->
-<!-- metadata: 0n1lwoqlr3 -->
-<!-- metadata: qsqoqwhm2h -->
-<!-- metadata: znot4llrwl -->
-<!-- metadata: r8415r7nr3 -->
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
