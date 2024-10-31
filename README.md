@@ -68,7 +68,6 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
-<!-- metadata: amayj2cbfg -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -82,6 +81,7 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
