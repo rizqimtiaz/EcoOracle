@@ -11,6 +11,10 @@ This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
+<!-- metadata: gar4217g4y -->
+<!-- metadata: kj7nsnqbsj -->
+<!-- metadata: sjs9lgw1bl -->
+<!-- metadata: e7ewt55r5m -->
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -100,10 +104,6 @@ State persists to `data/runtime/state.json`.
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
-
-A protected plot of land is geo-fenced (polygon + center coordinate) and
-minted as an ERC-721 token. The token records the ecosystem type, hectares,
-baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
