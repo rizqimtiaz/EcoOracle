@@ -55,6 +55,10 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
@@ -112,8 +116,6 @@ timestamp it deterministically computes:
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
-<!-- metadata: r2xuu0jew3 -->
-<!-- metadata: bndnlt43ow -->
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
