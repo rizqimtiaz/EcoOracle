@@ -83,11 +83,6 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
-<!-- metadata: jmycpaxquf -->
-<!-- metadata: cjofyebxmh -->
-<!-- metadata: ngmgvaz8zy -->
-<!-- metadata: zpevmq20vk -->
-<!-- metadata: wwgyj346sk -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -106,6 +101,8 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
