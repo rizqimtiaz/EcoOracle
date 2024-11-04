@@ -49,9 +49,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
-│   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
-│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
@@ -77,6 +74,12 @@ dashboard or run `npm run seed`.
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
+<!-- metadata: wdw28s1xyd -->
+<!-- metadata: pehvugvpe6 -->
+<!-- metadata: pyjhmzwhv2 -->
+<!-- metadata: ffj17ke29k -->
+<!-- metadata: ssupeewc0k -->
+<!-- metadata: xo95j4s4yw -->
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
