@@ -55,8 +55,6 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
@@ -194,6 +192,11 @@ app/                  Next.js 14 App Router
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
+<!-- metadata: lgzyi9tqok -->
+<!-- metadata: u5woiw651y -->
+<!-- metadata: u06m59f19k -->
+<!-- metadata: ea9kqe3qjv -->
+<!-- metadata: fr7ardjqs1 -->
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
