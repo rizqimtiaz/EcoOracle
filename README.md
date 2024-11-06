@@ -7,8 +7,6 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
-This repository contains:
-
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
@@ -186,6 +184,10 @@ traded — the smart contract reverts.
 ---
 
 ## File map
+<!-- metadata: q6jjai9tvx -->
+<!-- metadata: 11x6z8kutj -->
+<!-- metadata: owtypp5gql -->
+<!-- metadata: awagtv4yc3 -->
 
 ```
 app/                  Next.js 14 App Router
