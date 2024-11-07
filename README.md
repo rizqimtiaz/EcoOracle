@@ -36,6 +36,7 @@ npm run dev         # start the Next.js app at http://localhost:3000
 
 Open **http://localhost:3000** and explore.
 
+To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
 ---
@@ -54,13 +55,6 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
-<!-- metadata: fsdrqfx4c5 -->
-<!-- metadata: o9cickqhsh -->
-<!-- metadata: gvrpt2pstm -->
-<!-- metadata: 0drjou8pqo -->
-<!-- metadata: a7u9bsvuwm -->
-<!-- metadata: 8r8i77wz2j -->
-<!-- metadata: dbb1ddmcvz -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
