@@ -97,12 +97,6 @@ State persists to `data/runtime/state.json`.
 
 ---
 
-<!-- metadata: m4x8cynxkd -->
-<!-- metadata: ir1h4tvsej -->
-<!-- metadata: 3cetmighcl -->
-<!-- metadata: xh15jvbz5m -->
-<!-- metadata: db8ja6qqeg -->
-<!-- metadata: 7ayu23g24q -->
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -199,6 +193,10 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
+  analyze/            Live AI vision demo
+  oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
