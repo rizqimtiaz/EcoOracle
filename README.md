@@ -30,6 +30,10 @@ external services, no network access required.
 
 ```bash
 npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
+```
+
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -147,12 +151,6 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-<!-- metadata: 89aiq4vma1 -->
-<!-- metadata: fwtfy3500v -->
-<!-- metadata: 8rkg6kjmn8 -->
-<!-- metadata: fkgtblcazn -->
-<!-- metadata: kx7zcxpzim -->
-<!-- metadata: o4ln29hz9e -->
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
