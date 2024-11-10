@@ -165,6 +165,10 @@ contract — both compile as-is with `solc 0.8.20`.
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
+traded — the smart contract reverts.
+
+---
+
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
@@ -196,8 +200,6 @@ app/                  Next.js 14 App Router
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
-<!-- metadata: j3mpv8jk83 -->
-<!-- metadata: xfu560e8t8 -->
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
