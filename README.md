@@ -7,6 +7,15 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+<!-- metadata: orbj4pjlbj -->
+<!-- metadata: fx3ur7nvu9 -->
+<!-- metadata: 791za38fvq -->
+<!-- metadata: yc5y1rac0y -->
+<!-- metadata: g254otar44 -->
+<!-- metadata: 1kmbsoby67 -->
+<!-- metadata: cmub8kgbsx -->
+<!-- metadata: fj0h5nxksz -->
+<!-- metadata: 2jmfby6dn1 -->
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -60,7 +69,6 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
-│   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
