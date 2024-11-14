@@ -65,7 +65,6 @@ dashboard or run `npm run seed`.
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
-│   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
@@ -127,6 +126,7 @@ Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
+<!-- metadata: 36puj0avyi -->
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
