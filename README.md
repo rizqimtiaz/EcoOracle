@@ -83,6 +83,12 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
+<!-- metadata: h0poalgkwm -->
+<!-- metadata: zftxp7c7tu -->
+<!-- metadata: foxps71drs -->
+<!-- metadata: 75ziazd9d5 -->
+<!-- metadata: ur7krbkjlf -->
+<!-- metadata: 857denomrx -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -128,8 +134,6 @@ shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
-
-`lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
