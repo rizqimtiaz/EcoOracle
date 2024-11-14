@@ -6,6 +6,10 @@ to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
+<!-- metadata: tuiwezmuul -->
+<!-- metadata: fdzi877klp -->
+<!-- metadata: hgsjv8032t -->
+<!-- metadata: yiex0b21wd -->
 
 This repository contains:
 
@@ -111,7 +115,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 timestamp it deterministically computes:
 
 | Index | Description |
-| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
