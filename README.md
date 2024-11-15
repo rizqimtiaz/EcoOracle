@@ -81,15 +81,13 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
+│   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
-<!-- metadata: p85din38ez -->
-<!-- metadata: 0tucxsaei8 -->
-<!-- metadata: fua8d2p2wg -->
-<!-- metadata: lvd3wixwze -->
-<!-- metadata: 6n2k9ld6nq -->
-<!-- metadata: k5q7ssl5g1 -->
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
