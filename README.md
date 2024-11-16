@@ -79,6 +79,7 @@ dashboard or run `npm run seed`.
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
+<!-- metadata: sugc7mu8nt -->
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
@@ -154,7 +155,6 @@ Run the autonomous oracle across all parcels with:
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
-co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
