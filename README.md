@@ -76,8 +76,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
-│   types.ts        Shared types for parcels, scans, events, NFTs     │
-│   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
@@ -114,6 +112,16 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
+<!-- metadata: tw8493bsqh -->
+<!-- metadata: 02c5mm5t9h -->
+<!-- metadata: n2sqbjxpy3 -->
+<!-- metadata: k13il0e4r3 -->
+<!-- metadata: 98lk2crphn -->
+<!-- metadata: 5ls6ixx1qz -->
+<!-- metadata: 5i3l49pqas -->
+<!-- metadata: pghwtns65c -->
+<!-- metadata: 1gwo63lqg0 -->
+<!-- metadata: 3pggvic0b7 -->
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
