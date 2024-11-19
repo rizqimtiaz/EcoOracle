@@ -119,10 +119,6 @@ timestamp it deterministically computes:
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
-It then derives an **estimated tonnes CO₂e** using a calibrated linear model
-that accounts for the parcel's age, hectares, and ecosystem-specific yearly
-sequestration rate.
-
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
@@ -159,6 +155,12 @@ valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
+<!-- metadata: zg1d5i178n -->
+<!-- metadata: 8fajjqty5j -->
+<!-- metadata: 7ejqjeprk7 -->
+<!-- metadata: n6y4vsmrpo -->
+<!-- metadata: vnt6xj1uo7 -->
+<!-- metadata: dn5dqmw1lr -->
 
 ### 5. Marketplace & Portfolio
 
