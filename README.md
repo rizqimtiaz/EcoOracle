@@ -133,14 +133,6 @@ changed.
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
-<!-- metadata: cikxag4nyb -->
-<!-- metadata: x3d2ukivuq -->
-<!-- metadata: hi881ip9be -->
-<!-- metadata: bhdehr8to6 -->
-<!-- metadata: 3m96cllldr -->
-<!-- metadata: 8qqwu4t5e8 -->
-<!-- metadata: oeo5oes7by -->
-<!-- metadata: tu1u4olppr -->
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
@@ -176,6 +168,10 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
+
+## Demo scenarios to try
+
+1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
