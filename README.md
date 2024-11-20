@@ -103,9 +103,6 @@ State persists to `data/runtime/state.json`.
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
-baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
-
-### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
@@ -149,6 +146,10 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
+<!-- metadata: gpws2wqbx1 -->
+<!-- metadata: l9yd7js1hk -->
+<!-- metadata: vr0iptok7i -->
+<!-- metadata: nhowgwcm1k -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
