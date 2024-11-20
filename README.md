@@ -64,6 +64,8 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
+│   /api/oracle/run   Run autonomous oracle across the network        │
+│   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
@@ -196,12 +198,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-<!-- metadata: 4wda344qkf -->
-<!-- metadata: 1bd6k5w4vb -->
-<!-- metadata: lfp0koxp9r -->
-<!-- metadata: 3q6kjeuup9 -->
-<!-- metadata: umvb9cdngf -->
-<!-- metadata: v39pnvwop8 -->
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
