@@ -34,6 +34,8 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
+Open **http://localhost:3000** and explore.
+
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
@@ -84,12 +86,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: 7wkqjwgffq -->
-<!-- metadata: idzp37755z -->
-<!-- metadata: 7bi5mjt93a -->
-<!-- metadata: 05kvmiye7m -->
-<!-- metadata: lc2lzj0wqf -->
-<!-- metadata: xqxnp1fu09 -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
