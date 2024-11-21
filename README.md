@@ -158,8 +158,6 @@ co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
-contract — both compile as-is with `solc 0.8.20`.
-
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
@@ -170,6 +168,11 @@ traded — the smart contract reverts.
 ---
 
 ## Demo scenarios to try
+<!-- metadata: 7kc48n3la4 -->
+<!-- metadata: fxbram4kue -->
+<!-- metadata: 6ztosperbk -->
+<!-- metadata: u2x6ggl3nc -->
+<!-- metadata: 9whuwxx1mm -->
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
