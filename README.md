@@ -98,9 +98,6 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
-
-### 1. Mint a parcel as a dNFT
-
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
@@ -115,6 +112,12 @@ timestamp it deterministically computes:
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
+<!-- metadata: 32motwunrw -->
+<!-- metadata: i5gx58ijsp -->
+<!-- metadata: qjhyz4yrah -->
+<!-- metadata: gy25uu0dpa -->
+<!-- metadata: fhh0fpalou -->
+<!-- metadata: 8804fq7xch -->
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
