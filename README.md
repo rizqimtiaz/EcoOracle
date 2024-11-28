@@ -117,9 +117,6 @@ timestamp it deterministically computes:
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
-| Thermal anomaly | Heat anomaly (fire-risk proxy) |
-
-It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
@@ -183,6 +180,9 @@ traded — the smart contract reverts.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
+<!-- metadata: jgy1hqqyzj -->
+<!-- metadata: plbqr4ecnm -->
+<!-- metadata: t2n1efojlt -->
 ---
 
 ## File map
