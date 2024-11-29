@@ -128,9 +128,6 @@ shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
-
-`lib/oracle.ts` is the bridge. After each scan it:
-
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
@@ -166,6 +163,11 @@ Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
+<!-- metadata: 1ghrl71vi9 -->
+<!-- metadata: 2pxv9nyq5p -->
+<!-- metadata: obpspitpd7 -->
+<!-- metadata: 8uyq47tpvi -->
+<!-- metadata: 64qyp9l4mf -->
 
 ---
 
