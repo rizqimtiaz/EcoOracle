@@ -91,6 +91,8 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
+```
+
 State persists to `data/runtime/state.json`.
 
 ---
@@ -162,12 +164,6 @@ contract — both compile as-is with `solc 0.8.20`.
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
-<!-- metadata: jpqlzfuq1p -->
-<!-- metadata: 3lil2vwfdf -->
-<!-- metadata: ivinopp0cw -->
-<!-- metadata: j1stlo2wcl -->
-<!-- metadata: 0q2xw28pla -->
-<!-- metadata: uwlowl40tj -->
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
