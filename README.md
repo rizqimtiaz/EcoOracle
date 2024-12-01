@@ -25,6 +25,7 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
+
 ## Quick start
 
 ```bash
@@ -193,8 +194,6 @@ app/                  Next.js 14 App Router
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
-<!-- metadata: cn0r085j5o -->
-<!-- metadata: 346lcejkul -->
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
