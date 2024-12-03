@@ -98,6 +98,15 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
+<!-- metadata: zzhdb1texg -->
+<!-- metadata: 3puhb1rftk -->
+<!-- metadata: ngmsjcm339 -->
+<!-- metadata: k9vzpzwvo8 -->
+<!-- metadata: hpyh8t5l3q -->
+<!-- metadata: wjp72x4yin -->
+<!-- metadata: seytz1am9h -->
+<!-- metadata: arttvr24io -->
+<!-- metadata: 70ve54hmtj -->
 
 ### 1. Mint a parcel as a dNFT
 
@@ -180,7 +189,6 @@ traded — the smart contract reverts.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
-4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
 ---
