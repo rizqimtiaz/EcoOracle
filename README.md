@@ -53,15 +53,6 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
-<!-- metadata: uw6eel3rrb -->
-<!-- metadata: t0unbka635 -->
-<!-- metadata: 4ecsslgcut -->
-<!-- metadata: d49u2pdr2c -->
-<!-- metadata: i1qxsxwt54 -->
-<!-- metadata: a53mj5l38q -->
-<!-- metadata: 55bnx6yhvt -->
-<!-- metadata: ag0vlfug5h -->
-<!-- metadata: x03vm3t3ey -->
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -140,6 +131,9 @@ changed.
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
+- Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
