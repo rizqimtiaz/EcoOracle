@@ -48,9 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-│   /dashboard       Live metrics, oracle controls, charts            │
-│   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
@@ -188,6 +185,13 @@ traded — the smart contract reverts.
 ## File map
 
 ```
+<!-- metadata: 5ndw5hjox9 -->
+<!-- metadata: vb67s53rig -->
+<!-- metadata: b7z77okqkd -->
+<!-- metadata: jdmhkss58s -->
+<!-- metadata: mkwmf3pay4 -->
+<!-- metadata: vaexg1mrci -->
+<!-- metadata: ubo3df39a8 -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
