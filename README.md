@@ -17,6 +17,14 @@ This repository contains:
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+<!-- metadata: uqxn6xkiz7 -->
+<!-- metadata: l8fhhr4sbw -->
+<!-- metadata: mhtv9jxh9k -->
+<!-- metadata: 8dxn0h1jst -->
+<!-- metadata: h3rdv88rok -->
+<!-- metadata: 4lgqhzxy2z -->
+<!-- metadata: uqlf6zdudg -->
+<!-- metadata: tkpugcpls2 -->
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -82,10 +90,6 @@ dashboard or run `npm run seed`.
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
-│   format.ts       Display formatters & status palettes              │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
-                                  ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
