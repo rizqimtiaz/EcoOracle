@@ -58,11 +58,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: 5aj4ue0sda -->
-<!-- metadata: m0cll2a0cy -->
-<!-- metadata: 0qdl4jlxr1 -->
-<!-- metadata: io7vdtkkiw -->
-<!-- metadata: vrq7k50ta2 -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
@@ -112,6 +107,10 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
+| Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
