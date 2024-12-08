@@ -99,11 +99,6 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
-<!-- metadata: 6viixprf10 -->
-<!-- metadata: 6f407tbh7t -->
-<!-- metadata: 7z5woi5nmf -->
-<!-- metadata: g0ucfengv6 -->
-<!-- metadata: x08skle268 -->
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -197,6 +192,9 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
+  map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
+  analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
