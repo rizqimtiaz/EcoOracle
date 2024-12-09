@@ -153,6 +153,14 @@ Run the autonomous oracle across all parcels with:
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
+<!-- metadata: vitynim432 -->
+<!-- metadata: y1r4vd555m -->
+<!-- metadata: 387xnge40c -->
+<!-- metadata: t47gso2w5k -->
+<!-- metadata: s2pehbwkov -->
+<!-- metadata: uhazh05ccm -->
+<!-- metadata: 5p1sxku1iq -->
+<!-- metadata: 0b4e54u7wo -->
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
@@ -192,8 +200,6 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
-  map/                Interactive global map
-  marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
