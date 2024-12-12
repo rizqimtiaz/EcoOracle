@@ -137,6 +137,9 @@ changed.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
+Run the autonomous oracle across all parcels with:
+
+- The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
@@ -148,8 +151,6 @@ changed.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-<!-- metadata: t3g80n71pm -->
-<!-- metadata: 6x4zi3m30n -->
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
