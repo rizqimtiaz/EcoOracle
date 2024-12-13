@@ -22,9 +22,6 @@ This repository contains:
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
-external services, no network access required.
-
----
 
 ## Quick start
 
@@ -77,6 +74,10 @@ dashboard or run `npm run seed`.
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
+<!-- metadata: u0yqsr8wh7 -->
+<!-- metadata: 4z3a156cx1 -->
+<!-- metadata: 5cf5zggsvr -->
+<!-- metadata: upir77r7ve -->
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
