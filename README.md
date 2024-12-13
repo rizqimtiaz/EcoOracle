@@ -24,6 +24,10 @@ This repository contains:
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
+---
+
+## Quick start
+
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -72,10 +76,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
-<!-- metadata: lp5utafzu4 -->
-<!-- metadata: 7kdvpzcgh7 -->
-<!-- metadata: ji4c1je17b -->
-<!-- metadata: gs33bcvpa8 -->
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
