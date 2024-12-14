@@ -20,8 +20,6 @@ This repository contains:
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
-<!-- metadata: ujw7emqsnf -->
-<!-- metadata: xnmqbn0jvl -->
 
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
@@ -194,6 +192,10 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
+  map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
+  analyze/            Live AI vision demo
+  oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
