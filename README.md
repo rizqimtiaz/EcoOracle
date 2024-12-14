@@ -193,10 +193,12 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-  marketplace/        dNFT catalogue & detail pages
-  analyze/            Live AI vision demo
-  oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
+<!-- metadata: 8wr4wmvxbp -->
+<!-- metadata: chxrdbcnex -->
+<!-- metadata: qujnej4vey -->
+<!-- metadata: 89txdkyh43 -->
+<!-- metadata: jdpeif786q -->
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
