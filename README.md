@@ -21,6 +21,9 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
+Everything is fully functional out of the box — no external API keys, no
+external services, no network access required.
+
 ---
 
 ## Quick start
@@ -71,12 +74,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-<!-- metadata: 2eye4f4umy -->
-<!-- metadata: 2rdzfvb3dl -->
-<!-- metadata: dq82fzfs8g -->
-<!-- metadata: jbuy00why4 -->
-<!-- metadata: 0h2zw9gg5k -->
-<!-- metadata: 5uwh4gotgm -->
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
