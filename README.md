@@ -26,8 +26,6 @@ external services, no network access required.
 
 ---
 
-## Quick start
-
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -116,6 +114,16 @@ timestamp it deterministically computes:
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
+<!-- metadata: 1jwhbjiix1 -->
+<!-- metadata: yyor474vfe -->
+<!-- metadata: ipfmnzzps1 -->
+<!-- metadata: jsqnjufhxp -->
+<!-- metadata: mqylqq0ac6 -->
+<!-- metadata: cl3lnuypp2 -->
+<!-- metadata: y2qfsngmfi -->
+<!-- metadata: d3a1n1v9cn -->
+<!-- metadata: k4ileoxbnn -->
+<!-- metadata: pygp5vy1av -->
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
