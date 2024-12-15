@@ -55,6 +55,8 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
+<!-- metadata: gkwhiioz58 -->
+<!-- metadata: kn16e4fif1 -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -98,7 +100,6 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
-
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
