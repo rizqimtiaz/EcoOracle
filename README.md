@@ -138,6 +138,7 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
+<!-- metadata: 2gr1p873tc -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
@@ -202,10 +203,6 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
-data/runtime/         Persistent JSON state (auto-created)
-```
-
----
 
 ## License
 
