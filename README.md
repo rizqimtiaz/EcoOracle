@@ -8,10 +8,19 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
-
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
+<!-- metadata: 6toxpopeqs -->
+<!-- metadata: 1c1jywbj7k -->
+<!-- metadata: tkzs31eqrz -->
+<!-- metadata: l1io5t9mky -->
+<!-- metadata: r1jspby6gj -->
+<!-- metadata: mn0darr830 -->
+<!-- metadata: 6x40h08c8i -->
+<!-- metadata: rvs56ql8fp -->
+<!-- metadata: mweri89hgc -->
+<!-- metadata: 18faijoj73 -->
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
