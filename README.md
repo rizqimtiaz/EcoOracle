@@ -94,6 +94,12 @@ dashboard or run `npm run seed`.
 ```
 
 State persists to `data/runtime/state.json`.
+<!-- metadata: jm9tqgp04d -->
+<!-- metadata: 41600lk2bf -->
+<!-- metadata: mmyhqr87hq -->
+<!-- metadata: hlivkcnzua -->
+<!-- metadata: 3243ussgy4 -->
+<!-- metadata: n2srqbgpvf -->
 
 ---
 
@@ -166,7 +172,6 @@ Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
-
 ---
 
 ## Demo scenarios to try
