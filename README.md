@@ -111,6 +111,7 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 timestamp it deterministically computes:
 
 | Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
@@ -149,10 +150,6 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
-<!-- metadata: f27s8ulox8 -->
-<!-- metadata: ml1ufppurm -->
-<!-- metadata: hdo0wr1zd0 -->
-<!-- metadata: x08l22avpv -->
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
