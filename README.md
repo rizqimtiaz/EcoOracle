@@ -20,9 +20,6 @@ This repository contains:
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
-<!-- metadata: v67fqul10p -->
-<!-- metadata: 5dwbnt1mw5 -->
-<!-- metadata: bk7r7akqgq -->
 
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
@@ -143,6 +140,9 @@ changed.
 Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
+- `POST /api/oracle/run`.
+
+### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
 
