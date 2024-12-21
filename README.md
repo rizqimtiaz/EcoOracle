@@ -183,7 +183,6 @@ traded — the smart contract reverts.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
----
 
 ## File map
 
@@ -195,6 +194,13 @@ app/                  Next.js 14 App Router
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
+<!-- metadata: 48xubukius -->
+<!-- metadata: p7j8symrcd -->
+<!-- metadata: ypbhgdn772 -->
+<!-- metadata: bj4xz12l81 -->
+<!-- metadata: m24y8fxmzv -->
+<!-- metadata: q3zyacx5ox -->
+<!-- metadata: 9tljlq00kv -->
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
