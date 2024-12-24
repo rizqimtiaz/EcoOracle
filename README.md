@@ -95,9 +95,6 @@ dashboard or run `npm run seed`.
 
 State persists to `data/runtime/state.json`.
 
-<!-- metadata: 94s368wsxq -->
-<!-- metadata: qz59cj0b0z -->
-<!-- metadata: q58sm19yzf -->
 ---
 
 ## How it works
@@ -107,6 +104,10 @@ State persists to `data/runtime/state.json`.
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
+
+### 2. AI Vision Engine
+
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
 | Index | Description |
