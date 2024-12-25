@@ -20,6 +20,7 @@ This repository contains:
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
+
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -85,10 +86,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: ah2yory7h8 -->
-<!-- metadata: atwcx2enl4 -->
-<!-- metadata: c4w3z963at -->
-<!-- metadata: l2lf5my5vw -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
