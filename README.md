@@ -100,8 +100,10 @@ State persists to `data/runtime/state.json`.
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
-
 A protected plot of land is geo-fenced (polygon + center coordinate) and
+<!-- metadata: ua94g8ep3e -->
+<!-- metadata: oqqsgzfgie -->
+<!-- metadata: aebtcp5ity -->
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
