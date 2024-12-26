@@ -81,6 +81,9 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
+│   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -207,13 +210,3 @@ data/runtime/         Persistent JSON state (auto-created)
 ## License
 
 MIT.
-<!-- metadata: 4ne75q66vo -->
-<!-- metadata: fyrohufs5x -->
-<!-- metadata: mjrclikiiw -->
-<!-- metadata: ik2wq1nz6m -->
-<!-- metadata: ombi47vg2x -->
-<!-- metadata: gwe71ut3dn -->
-<!-- metadata: bw0gffbrhq -->
-<!-- metadata: 19htltyw4b -->
-<!-- metadata: lndwfaejtc -->
-<!-- metadata: 1zocbrwf39 -->
