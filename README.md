@@ -124,6 +124,9 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+<!-- metadata: clfhoznqdp -->
+<!-- metadata: cbrhvsbon3 -->
+<!-- metadata: qko5slumqt -->
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
@@ -185,7 +188,6 @@ traded — the smart contract reverts.
 
 ---
 
-## File map
 
 ```
 app/                  Next.js 14 App Router
