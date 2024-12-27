@@ -114,6 +114,16 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
+<!-- metadata: c360cihkhv -->
+<!-- metadata: 0tks5fmycg -->
+<!-- metadata: zd07nwkpjs -->
+<!-- metadata: 47sc5rn6my -->
+<!-- metadata: pxuxrc3il3 -->
+<!-- metadata: nrn0mixo5c -->
+<!-- metadata: 5jkxniyzi3 -->
+<!-- metadata: glfw26eho7 -->
+<!-- metadata: qfmoqh0jo1 -->
+<!-- metadata: qpgeoj1lbg -->
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
@@ -192,7 +202,6 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
-  map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
