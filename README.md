@@ -25,7 +25,6 @@ Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
 ---
-
 ## Quick start
 
 ```bash
@@ -91,6 +90,13 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: y0sh6otcu2 -->
+<!-- metadata: c02k5mgi0n -->
+<!-- metadata: nk7l13rhyx -->
+<!-- metadata: k7wjzn2yvc -->
+<!-- metadata: rgcld3q1l3 -->
+<!-- metadata: 7cuj9hgqoc -->
+<!-- metadata: p1tn01q1im -->
 ```
 
 State persists to `data/runtime/state.json`.
