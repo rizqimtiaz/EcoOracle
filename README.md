@@ -42,10 +42,6 @@ dashboard or run `npm run seed`.
 ---
 
 ## Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -138,6 +134,8 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
+<!-- metadata: desf5gdehs -->
+<!-- metadata: u3ugeo3atg -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
