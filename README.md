@@ -10,7 +10,6 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -84,6 +83,14 @@ dashboard or run `npm run seed`.
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: 1acaylws0i -->
+<!-- metadata: tr2axgd979 -->
+<!-- metadata: 2bx5dmdtle -->
+<!-- metadata: 0zxd26nmei -->
+<!-- metadata: 2ktac1ncrf -->
+<!-- metadata: 8tdf3t0n9q -->
+<!-- metadata: low8mzsjui -->
+<!-- metadata: ewkh9ej79v -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
