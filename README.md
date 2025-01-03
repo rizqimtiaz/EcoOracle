@@ -70,8 +70,6 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -104,6 +102,12 @@ State persists to `data/runtime/state.json`.
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
+<!-- metadata: bsh5zesaac -->
+<!-- metadata: guexhwlxw9 -->
+<!-- metadata: 0bnmcxs55s -->
+<!-- metadata: owig157lxn -->
+<!-- metadata: 6gwnwnzmb2 -->
+<!-- metadata: qfssvs35ix -->
 
 ### 2. AI Vision Engine
 
