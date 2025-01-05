@@ -149,12 +149,6 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
-<!-- metadata: s4d0jokzpq -->
-<!-- metadata: il4g7reg0z -->
-<!-- metadata: wgykwordon -->
-<!-- metadata: nc06ddzmnj -->
-<!-- metadata: vel4wkym2e -->
-<!-- metadata: b5lb325s01 -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
@@ -194,6 +188,8 @@ traded — the smart contract reverts.
 ## File map
 
 ```
+app/                  Next.js 14 App Router
+  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
