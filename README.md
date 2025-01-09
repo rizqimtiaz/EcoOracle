@@ -141,15 +141,6 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
-<!-- metadata: pqgpwadu8k -->
-<!-- metadata: erw55uz55b -->
-<!-- metadata: r6qqygnqu2 -->
-<!-- metadata: ap8bca6ozl -->
-<!-- metadata: xlhh73jtb9 -->
-<!-- metadata: gitzcivxup -->
-<!-- metadata: gn29jw395p -->
-<!-- metadata: 9ww3b9e74h -->
-<!-- metadata: 5e5asdtjbw -->
 
 ### 4. Smart contracts (`contracts/`)
 
@@ -204,6 +195,10 @@ app/                  Next.js 14 App Router
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
+  oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
+  api/                Route handlers (REST endpoints)
+components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
