@@ -123,10 +123,6 @@ It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
-Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
-shift the indices, and the engine emits human-readable notes describing what
-changed.
-
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
@@ -195,6 +191,8 @@ app/                  Next.js 14 App Router
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
+<!-- metadata: c2y4ap44dr -->
+<!-- metadata: mbqg7ln2s1 -->
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
