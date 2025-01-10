@@ -90,6 +90,9 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
 State persists to `data/runtime/state.json`.
 
 ---
@@ -170,9 +173,6 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
-<!-- metadata: eupuwyqzap -->
-<!-- metadata: scf27g9b5c -->
-<!-- metadata: t266nph4cc -->
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
