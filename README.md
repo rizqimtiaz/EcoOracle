@@ -101,6 +101,9 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
+baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
@@ -166,11 +169,6 @@ traded — the smart contract reverts.
 
 ---
 
-<!-- metadata: b3ngt4iq5y -->
-<!-- metadata: zv2p41ngcu -->
-<!-- metadata: 5qpm6v7kur -->
-<!-- metadata: 7afbmigd4d -->
-<!-- metadata: l6uqo5fle8 -->
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
