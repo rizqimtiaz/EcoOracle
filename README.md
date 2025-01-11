@@ -39,14 +39,6 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
-<!-- metadata: a2lxatzmb0 -->
-<!-- metadata: 3olbc42ep2 -->
-<!-- metadata: 108qe0516t -->
-<!-- metadata: uvq4140hr2 -->
-<!-- metadata: m14okdd2c0 -->
-<!-- metadata: 6eu925socj -->
-<!-- metadata: b04gux2012 -->
-<!-- metadata: s21y57w158 -->
 ---
 
 ## Architecture
@@ -170,6 +162,9 @@ contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
 
+Buyers transfer credits between wallets at the dNFT's current price, or
+retire credits permanently against a beneficiary. Retirements are immutable
+and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
