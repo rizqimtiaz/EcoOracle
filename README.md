@@ -85,6 +85,9 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+<!-- metadata: 30xjjez7v2 -->
+<!-- metadata: 1dnml7qoxp -->
+<!-- metadata: pwh38yqznq -->
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
@@ -204,9 +207,5 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
-
----
-
-## License
 
 MIT.
