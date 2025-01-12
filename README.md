@@ -142,8 +142,6 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
-### 4. Smart contracts (`contracts/`)
-
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
@@ -151,6 +149,15 @@ Run the autonomous oracle across all parcels with:
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
+<!-- metadata: 7fenwt5j1b -->
+<!-- metadata: i7k46un1v7 -->
+<!-- metadata: coi9wfq1lt -->
+<!-- metadata: ws78srw6tm -->
+<!-- metadata: 6b1o1y0aqb -->
+<!-- metadata: fpqvhgyjlb -->
+<!-- metadata: qmqsa421ev -->
+<!-- metadata: hh5ojw22cc -->
+<!-- metadata: 6367gonox0 -->
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
