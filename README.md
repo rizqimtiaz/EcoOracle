@@ -45,9 +45,6 @@ dashboard or run `npm run seed`.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        EcoOracle Frontend (Next.js)                 │
-│                                                                     │
-│   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -149,6 +146,8 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
+<!-- metadata: tw5wuvdlvw -->
+<!-- metadata: 19nup1qrj0 -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
