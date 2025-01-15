@@ -11,15 +11,6 @@ This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-<!-- metadata: bz3ih6b8mp -->
-<!-- metadata: 7fuvn85u4g -->
-<!-- metadata: fu28gzz3kt -->
-<!-- metadata: rzogdm68b7 -->
-<!-- metadata: ntpln6c0sh -->
-<!-- metadata: ff6mk54722 -->
-<!-- metadata: 9ph772ew2i -->
-<!-- metadata: u8fd4e3n4l -->
-<!-- metadata: 1x2f23n69v -->
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -131,6 +122,7 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
+
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
