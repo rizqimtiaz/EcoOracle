@@ -58,13 +58,15 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
-│   /api/state        Aggregated network snapshot                     │
-│   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
+<!-- metadata: 2vnf0vlfwb -->
+<!-- metadata: mav9v8si2g -->
+<!-- metadata: mdjd8slmd0 -->
+<!-- metadata: 4l9x0j94y2 -->
+<!-- metadata: eup7pj12no -->
+<!-- metadata: dldzio4kux -->
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
