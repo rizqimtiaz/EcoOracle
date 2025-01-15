@@ -202,11 +202,12 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
+<!-- metadata: t3ss89szmu -->
+<!-- metadata: vw5oz694qy -->
+<!-- metadata: ukf9b10foo -->
+<!-- metadata: ighzzj22ge -->
+<!-- metadata: 7kjjlbcnc3 -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
-
----
-
-## License
 
 MIT.
