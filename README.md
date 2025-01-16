@@ -53,9 +53,6 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
-<!-- metadata: m62b78w86v -->
-<!-- metadata: s4vz946z4v -->
-<!-- metadata: g00o3klt23 -->
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -145,6 +142,9 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
+### 4. Smart contracts (`contracts/`)
+
+`CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
