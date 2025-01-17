@@ -18,6 +18,11 @@ This repository contains:
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+<!-- metadata: fo1qqw0z79 -->
+<!-- metadata: ekzwi56ves -->
+<!-- metadata: 07jef64psb -->
+<!-- metadata: 17gpg071i4 -->
+<!-- metadata: wgn0j6a5zf -->
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -135,10 +140,6 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-  appending a transaction and an event to the network log.
-
-Run the autonomous oracle across all parcels with:
-
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
