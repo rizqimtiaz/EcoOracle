@@ -34,10 +34,6 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
-<!-- metadata: yjodgk4n0r -->
-<!-- metadata: 9vsjzm161g -->
-<!-- metadata: sjen8buhgx -->
-<!-- metadata: ydqphcxstn -->
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -96,6 +92,8 @@ dashboard or run `npm run seed`.
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+State persists to `data/runtime/state.json`.
 
 ---
 
