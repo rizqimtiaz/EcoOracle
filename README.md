@@ -124,6 +124,7 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
@@ -137,7 +138,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-<!-- metadata: vk7equ0yb7 -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
