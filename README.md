@@ -75,6 +75,7 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
+│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
@@ -107,8 +108,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
-<!-- metadata: ebi1t7fz69 -->
-<!-- metadata: qi2b5rxjq6 -->
 timestamp it deterministically computes:
 
 | Index | Description |
