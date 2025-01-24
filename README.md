@@ -47,6 +47,16 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
+<!-- metadata: o8gitkix61 -->
+<!-- metadata: t06t7jiybt -->
+<!-- metadata: 58e1trnyp8 -->
+<!-- metadata: o9w5824y13 -->
+<!-- metadata: cdxbmffc3k -->
+<!-- metadata: 8pz82ogjmx -->
+<!-- metadata: 1a8wr330sn -->
+<!-- metadata: 6b7ffm3gch -->
+<!-- metadata: uk5x14c75n -->
+<!-- metadata: zdk7tyyrkp -->
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
@@ -201,8 +211,6 @@ app/                  Next.js 14 App Router
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
-scripts/seed.ts       Seeds the demo network
-data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
