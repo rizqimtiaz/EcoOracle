@@ -10,6 +10,8 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
+- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
+  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
@@ -35,8 +37,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
-<!-- metadata: qj0wc9mnp2 -->
-<!-- metadata: hx6ox42yns -->
 dashboard or run `npm run seed`.
 
 ---
