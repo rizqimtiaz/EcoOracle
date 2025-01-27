@@ -65,6 +65,10 @@ dashboard or run `npm run seed`.
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
+│   /api/events       Filtered event log                              │
+│   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
+│   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -118,9 +122,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-<!-- metadata: rpcxwvpugc -->
-<!-- metadata: wkv9adgl5s -->
-<!-- metadata: wbrj0rwyow -->
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
