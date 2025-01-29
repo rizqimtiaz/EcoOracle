@@ -26,9 +26,6 @@ external services, no network access required.
 
 ---
 
-<!-- metadata: 9wza9bf5aa -->
-<!-- metadata: zrzpkj0lg2 -->
-<!-- metadata: lo85m5b7gw -->
 ## Quick start
 
 ```bash
@@ -207,6 +204,7 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
 ---
 
 ## License
