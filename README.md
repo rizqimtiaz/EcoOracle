@@ -21,8 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-Everything is fully functional out of the box — no external API keys, no
-external services, no network access required.
 
 ---
 
@@ -193,6 +191,12 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+<!-- metadata: nuc5xmf5lv -->
+<!-- metadata: ycpab94dhs -->
+<!-- metadata: 3abvfge4sj -->
+<!-- metadata: fn910vghxy -->
+<!-- metadata: l3i9q5hmli -->
+<!-- metadata: bs8jqrg8q3 -->
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
