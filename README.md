@@ -49,6 +49,7 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
+│   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
@@ -189,10 +190,6 @@ traded — the smart contract reverts.
 ```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
-<!-- metadata: jm88iw0s21 -->
-<!-- metadata: yjlhscmgvn -->
-<!-- metadata: 7svomyxuiv -->
-<!-- metadata: p4622ji5tu -->
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
