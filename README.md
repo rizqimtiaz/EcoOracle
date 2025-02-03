@@ -122,6 +122,9 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
+
+Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
@@ -144,10 +147,6 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
-<!-- metadata: 68bc73tgws -->
-<!-- metadata: 7jycyb4ll6 -->
-<!-- metadata: lh3pai3s8f -->
-<!-- metadata: jhs9ee78dc -->
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
