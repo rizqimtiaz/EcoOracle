@@ -48,11 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-<!-- metadata: fbunbg1dwg -->
-<!-- metadata: yrekd65puk -->
-<!-- metadata: par68ylmee -->
-<!-- metadata: x0v71qq2e1 -->
-<!-- metadata: 9dw8k1jxvp -->
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -105,6 +100,10 @@ State persists to `data/runtime/state.json`.
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
+
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
+baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
