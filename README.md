@@ -112,12 +112,6 @@ timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
-<!-- metadata: 6mk4sefhka -->
-<!-- metadata: 4uxddbk2m2 -->
-<!-- metadata: brraa8flib -->
-<!-- metadata: jerk70k0p0 -->
-<!-- metadata: 1u8rn11zo3 -->
-<!-- metadata: zrh5foypug -->
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
@@ -193,6 +187,8 @@ traded — the smart contract reverts.
 
 ## File map
 
+```
+app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
