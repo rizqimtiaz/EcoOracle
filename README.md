@@ -122,7 +122,6 @@ timestamp it deterministically computes:
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
-
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
@@ -197,6 +196,16 @@ app/                  Next.js 14 App Router
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
+<!-- metadata: hholf4tc7w -->
+<!-- metadata: lmjst3zn7l -->
+<!-- metadata: yf7f9ffo5g -->
+<!-- metadata: 0x25yqnfw3 -->
+<!-- metadata: ytvidqi43q -->
+<!-- metadata: v99gr2gsi0 -->
+<!-- metadata: roo5ocd870 -->
+<!-- metadata: h273wudsiy -->
+<!-- metadata: sxjrpgb0m1 -->
+<!-- metadata: ve9aybh8pp -->
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
