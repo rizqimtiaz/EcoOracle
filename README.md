@@ -179,9 +179,12 @@ traded — the smart contract reverts.
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+<!-- metadata: izrivwizpr -->
+<!-- metadata: em6ze76l2t -->
+<!-- metadata: phxtej4v2s -->
+<!-- metadata: doo0hxaehv -->
+<!-- metadata: glxjjggsyq -->
    visit `/portfolio` and confirm the retirement counter incremented.
-4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
-   (already invalidated) and watch credits gradually re-issue.
 
 ---
 
