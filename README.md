@@ -125,7 +125,6 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
-changed.
 
 ### 3. Autonomous Oracle
 
@@ -155,6 +154,8 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
+<!-- metadata: 11hab3fata -->
+<!-- metadata: idaej4p2ww -->
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
