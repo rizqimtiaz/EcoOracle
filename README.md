@@ -18,6 +18,16 @@ This repository contains:
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+<!-- metadata: 7fbe0quot6 -->
+<!-- metadata: q8jt49vpv6 -->
+<!-- metadata: jxwu88ww3i -->
+<!-- metadata: nxe18h9nee -->
+<!-- metadata: f0zrt3leqq -->
+<!-- metadata: qyfqfkz7tr -->
+<!-- metadata: ysq8xpvyuh -->
+<!-- metadata: 9tj1e45imp -->
+<!-- metadata: 1stlo5fefh -->
+<!-- metadata: 6i64qyfzjg -->
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -189,9 +199,6 @@ traded — the smart contract reverts.
 
 ```
 app/                  Next.js 14 App Router
-  layout.tsx          Global layout, navbar, footer, background
-  page.tsx            Landing page with hero, problem, pipeline, CTA
-  dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
