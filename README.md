@@ -70,6 +70,8 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -145,8 +147,6 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
-<!-- metadata: ona125exq2 -->
-<!-- metadata: ot6m3jy1pq -->
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
