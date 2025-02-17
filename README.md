@@ -93,13 +93,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-<!-- metadata: si04io95uj -->
-<!-- metadata: cppftkyujv -->
-<!-- metadata: 3dvzqm807q -->
-<!-- metadata: scaxo54n4a -->
-<!-- metadata: bc1unu82tj -->
-<!-- metadata: 71911xsxcl -->
-<!-- metadata: aehb295bgo -->
 State persists to `data/runtime/state.json`.
 
 ---
@@ -203,6 +196,8 @@ app/                  Next.js 14 App Router
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
+  portfolio/          Wallet holdings & retirement
+  api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
