@@ -31,6 +31,16 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
+<!-- metadata: r0keg979wg -->
+<!-- metadata: ocvx7qzknv -->
+<!-- metadata: 53fxiagkuy -->
+<!-- metadata: gd33b121wd -->
+<!-- metadata: 63s65cmpr9 -->
+<!-- metadata: m5ubjveowg -->
+<!-- metadata: gosfbwzfxp -->
+<!-- metadata: 95tt12o54x -->
+<!-- metadata: e0w5g76mj1 -->
+<!-- metadata: f1r376bouj -->
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -112,8 +122,6 @@ timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
-| NDVI | Normalized Difference Vegetation Index (greenness proxy) |
-| Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
