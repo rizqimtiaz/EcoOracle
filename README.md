@@ -6,6 +6,15 @@ to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
+<!-- metadata: v6q1yeykw1 -->
+<!-- metadata: exlyzo3awd -->
+<!-- metadata: rjxwl6syxc -->
+<!-- metadata: alfh333jgz -->
+<!-- metadata: mfsf3ox4rf -->
+<!-- metadata: bwj5v491el -->
+<!-- metadata: 1yi5g8r5na -->
+<!-- metadata: 2c2vn67hqe -->
+<!-- metadata: 2yczl024op -->
 
 This repository contains:
 
@@ -59,9 +68,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
-│   /api/state        Aggregated network snapshot                     │
-│   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
