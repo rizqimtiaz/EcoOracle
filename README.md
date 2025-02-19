@@ -91,9 +91,16 @@ dashboard or run `npm run seed`.
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
+<!-- metadata: sko6pyhof0 -->
+<!-- metadata: vkfhubhzqu -->
+<!-- metadata: 6vom9fio00 -->
+<!-- metadata: tfwu7nt9zs -->
+<!-- metadata: vp6c0n2tq7 -->
+<!-- metadata: 5gpzprokti -->
+<!-- metadata: 5nne995sqd -->
+<!-- metadata: a29oobalhx -->
+<!-- metadata: zb8hjras08 -->
 ```
-
-State persists to `data/runtime/state.json`.
 
 ---
 
