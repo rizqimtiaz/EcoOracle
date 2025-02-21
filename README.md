@@ -32,16 +32,6 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
-<!-- metadata: 923bmkxamm -->
-<!-- metadata: acbrtddmyv -->
-<!-- metadata: 7ljkx8rr7g -->
-<!-- metadata: sxoaxax774 -->
-<!-- metadata: h1xg7x4cx2 -->
-<!-- metadata: vmpsl054ag -->
-<!-- metadata: rukcgqe5zo -->
-<!-- metadata: 39mstuhvwx -->
-<!-- metadata: txmhm8mqa5 -->
-<!-- metadata: 2hbip3v3mp -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -110,6 +100,7 @@ State persists to `data/runtime/state.json`.
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
+
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
