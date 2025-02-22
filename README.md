@@ -33,6 +33,16 @@ npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
+<!-- metadata: sqw36yc3mx -->
+<!-- metadata: zw9oyg69xg -->
+<!-- metadata: kxwufo405b -->
+<!-- metadata: 7ew4w0gnfp -->
+<!-- metadata: bf90yq11we -->
+<!-- metadata: m41u8c7ivu -->
+<!-- metadata: bzkrm1dyot -->
+<!-- metadata: y3q4wh3thr -->
+<!-- metadata: 41jlgcr7j2 -->
+<!-- metadata: gxyk4m6vxv -->
 
 Open **http://localhost:3000** and explore.
 
@@ -182,7 +192,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-
 ---
 
 ## File map
