@@ -46,6 +46,14 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+<!-- metadata: cycfcpw9x6 -->
+<!-- metadata: ld30oyj1nz -->
+<!-- metadata: qmkgi8euog -->
+<!-- metadata: zbq4mdgexs -->
+<!-- metadata: gt7e5qxo0c -->
+<!-- metadata: tq7pbibl9t -->
+<!-- metadata: 96ab89twug -->
+<!-- metadata: 7y0g5703dc -->
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -159,8 +167,6 @@ valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
-
-### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
