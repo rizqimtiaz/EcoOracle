@@ -94,10 +94,6 @@ dashboard or run `npm run seed`.
 ```
 
 State persists to `data/runtime/state.json`.
-<!-- metadata: nu0cj6hadb -->
-<!-- metadata: uv57x5kqix -->
-<!-- metadata: j41cxcbwib -->
-<!-- metadata: x6j141rw9h -->
 
 ---
 
@@ -147,6 +143,7 @@ Run the autonomous oracle across all parcels with:
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
+
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
