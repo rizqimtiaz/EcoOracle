@@ -135,6 +135,14 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+<!-- metadata: x9i66nhtnk -->
+<!-- metadata: oqkzdbrhcp -->
+<!-- metadata: 3vkfve7k7n -->
+<!-- metadata: muqgw2usxy -->
+<!-- metadata: hn546h4g2k -->
+<!-- metadata: 34a44ay3go -->
+<!-- metadata: 661zdrqiol -->
+<!-- metadata: o4rjc8e2gv -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
@@ -198,7 +206,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
