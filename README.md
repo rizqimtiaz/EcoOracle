@@ -35,8 +35,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
-
-To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
 ---
@@ -144,6 +142,14 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
+<!-- metadata: uwdgqhsws2 -->
+<!-- metadata: zkeoxbkr8d -->
+<!-- metadata: 9s1stf8rd5 -->
+<!-- metadata: v8uklf4wx8 -->
+<!-- metadata: bqxd4c1hb9 -->
+<!-- metadata: hb4udubboe -->
+<!-- metadata: zsly88mkdn -->
+<!-- metadata: y3ih2y49nv -->
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
