@@ -63,9 +63,6 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
-<!-- metadata: fo58e3kicg -->
-<!-- metadata: hykj4qya3e -->
-<!-- metadata: 83j3twjlj0 -->
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -157,6 +154,8 @@ Run the autonomous oracle across all parcels with:
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
+co-sign a report, and `publishReport(...)` requires at least `minSigners`
+valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
