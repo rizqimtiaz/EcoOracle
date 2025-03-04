@@ -48,6 +48,9 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
+│   /dashboard       Live metrics, oracle controls, charts            │
+│   /map             Interactive globe with all parcels               │
+│   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
@@ -174,15 +177,6 @@ traded — the smart contract reverts.
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
-<!-- metadata: 2ahjruwzph -->
-<!-- metadata: jmuznwg5bg -->
-<!-- metadata: 62pahw6ed9 -->
-<!-- metadata: czmqqmj6jj -->
-<!-- metadata: 9pz8iprq9p -->
-<!-- metadata: y9ea7zftt6 -->
-<!-- metadata: vkk9a6nqnh -->
-<!-- metadata: ov6x354xb9 -->
-<!-- metadata: hm3hiedpoa -->
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
