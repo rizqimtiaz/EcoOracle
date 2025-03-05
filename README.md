@@ -28,6 +28,10 @@ external services, no network access required.
 
 ## Quick start
 
+```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
@@ -79,13 +83,6 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
-<!-- metadata: mez3z9sk5k -->
-<!-- metadata: 12aaq4do8e -->
-<!-- metadata: 4awha08wy5 -->
-<!-- metadata: 7eqc6316u6 -->
-<!-- metadata: rimqr4dd2s -->
-<!-- metadata: qnib00bjd7 -->
-<!-- metadata: 7p98kf60yb -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
