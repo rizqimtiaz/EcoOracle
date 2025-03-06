@@ -120,6 +120,10 @@ timestamp it deterministically computes:
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
+<!-- metadata: lnrx06xa3c -->
+<!-- metadata: ad7e149xvp -->
+<!-- metadata: 8vz8rxvcaa -->
+<!-- metadata: m27fesh3nc -->
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
@@ -148,10 +152,6 @@ Run the autonomous oracle across all parcels with:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
-- `updateCarbonState(...)` — only callable by the oracle.
-- `invalidate(...)` — burns all outstanding credits.
-- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-  to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
