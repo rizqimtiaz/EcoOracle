@@ -2,11 +2,6 @@
 
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
-<!-- metadata: hazxiu885v -->
-<!-- metadata: 3prcweypv2 -->
-<!-- metadata: xs5subot3u -->
-<!-- metadata: e9jm5ftm7l -->
-<!-- metadata: hl4bevx199 -->
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
@@ -74,6 +69,9 @@ dashboard or run `npm run seed`.
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
