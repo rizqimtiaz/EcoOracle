@@ -107,12 +107,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
-<!-- metadata: 7t0v4bi4im -->
-<!-- metadata: o9hpn782g5 -->
-<!-- metadata: vkrm36b6gw -->
-<!-- metadata: z39c4sg2bz -->
-<!-- metadata: hb96v31bes -->
-<!-- metadata: hrbc5afxnm -->
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
@@ -188,6 +182,8 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
+
+---
 
 ## File map
 
