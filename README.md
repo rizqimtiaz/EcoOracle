@@ -62,6 +62,8 @@ dashboard or run `npm run seed`.
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
+│   /api/parcels/:id  Single parcel + events + txs                    │
+│   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
@@ -204,15 +206,6 @@ data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
-<!-- metadata: 392k7hcegg -->
-<!-- metadata: 497gfbwt1o -->
-<!-- metadata: qtq6p14c4y -->
-<!-- metadata: kukujl42ti -->
-<!-- metadata: 3b4d76n3yd -->
-<!-- metadata: v32sm9l68k -->
-<!-- metadata: pzj0x2hmbn -->
-<!-- metadata: 8pq8dddmm9 -->
-<!-- metadata: tqaas0v4r1 -->
 
 ## License
 
