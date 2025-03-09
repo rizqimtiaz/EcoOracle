@@ -26,7 +26,6 @@ external services, no network access required.
 
 ---
 
-## Quick start
 
 ```bash
 npm install
@@ -167,6 +166,15 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
+<!-- metadata: 3bjqy6gsm6 -->
+<!-- metadata: yyzkiqsb6n -->
+<!-- metadata: zq961eonjo -->
+<!-- metadata: 6n8htisd00 -->
+<!-- metadata: dpf7mv4z09 -->
+<!-- metadata: 5d3xb76dud -->
+<!-- metadata: 4ohqs828f1 -->
+<!-- metadata: zwq39p5vyl -->
+<!-- metadata: py2hqs8b8g -->
 ---
 
 ## Demo scenarios to try
