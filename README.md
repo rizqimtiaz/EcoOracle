@@ -26,8 +26,6 @@ external services, no network access required.
 
 ---
 
-## Quick start
-
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -198,6 +196,13 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
+<!-- metadata: z7fvqzbgyn -->
+<!-- metadata: yetpisf0bt -->
+<!-- metadata: xlaelh4gvw -->
+<!-- metadata: quyhcz8m7k -->
+<!-- metadata: eikuzul85z -->
+<!-- metadata: 8xumgor11m -->
+<!-- metadata: dw7sqw0i63 -->
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
