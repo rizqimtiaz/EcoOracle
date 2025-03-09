@@ -37,10 +37,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
-<!-- metadata: oydxpt610p -->
-<!-- metadata: 6asrey6zix -->
-<!-- metadata: lxqz1kmdrw -->
-<!-- metadata: fh7s0odufp -->
 dashboard or run `npm run seed`.
 
 ---
@@ -164,6 +160,7 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
+### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
