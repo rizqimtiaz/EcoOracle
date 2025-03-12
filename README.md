@@ -30,6 +30,7 @@ external services, no network access required.
 
 ```bash
 npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -50,7 +51,6 @@ dashboard or run `npm run seed`.
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
-<!-- metadata: 3p8qhgewfo -->
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
