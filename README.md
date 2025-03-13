@@ -24,6 +24,8 @@ This repository contains:
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
+---
+
 ## Quick start
 
 ```bash
@@ -101,8 +103,6 @@ State persists to `data/runtime/state.json`.
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
-<!-- metadata: 0to26lktyh -->
-<!-- metadata: jer3yml69d -->
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
