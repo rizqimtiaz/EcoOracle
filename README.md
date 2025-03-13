@@ -129,6 +129,10 @@ changed.
 
 ### 3. Autonomous Oracle
 
+<!-- metadata: rikb5altpn -->
+<!-- metadata: sa7j423vbe -->
+<!-- metadata: p5cti1tsiq -->
+<!-- metadata: omrmtpp287 -->
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
@@ -152,10 +156,6 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
-
-`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
-co-sign a report, and `publishReport(...)` requires at least `minSigners`
-valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
