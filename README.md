@@ -130,6 +130,10 @@ changed.
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
+<!-- metadata: gu9z4xttol -->
+<!-- metadata: hu3ort8aif -->
+<!-- metadata: uuhnfosl2l -->
+<!-- metadata: 7s0u3fqbyd -->
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
@@ -146,9 +150,6 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonCreditDNFT.sol` implements:
 
-- A minimal ERC-721 surface (transfer, approve, balanceOf).
-- A `Parcel` struct per token with packed dynamic state.
-- `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
