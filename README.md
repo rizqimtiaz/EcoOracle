@@ -13,14 +13,6 @@ This repository contains:
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
-<!-- metadata: s9ynthv31b -->
-<!-- metadata: mzifu05rgu -->
-<!-- metadata: 5au2gtu2b5 -->
-<!-- metadata: glw56ku7ws -->
-<!-- metadata: wi9c0uatqp -->
-<!-- metadata: wangrbz5bg -->
-<!-- metadata: w27chlbf6g -->
-<!-- metadata: jaxogsl0dq -->
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
@@ -109,6 +101,9 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
+baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
