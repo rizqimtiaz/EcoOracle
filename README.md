@@ -53,6 +53,10 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
+│   /oracle          On-chain event log + tx log                      │
+│   /portfolio       Wallet holdings, retirement, P&L                 │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
@@ -173,15 +177,6 @@ traded — the smart contract reverts.
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
-<!-- metadata: scyox94n7d -->
-<!-- metadata: 2o4b73rnai -->
-<!-- metadata: dr74eyei43 -->
-<!-- metadata: u99dqawvux -->
-<!-- metadata: ixrdoswshd -->
-<!-- metadata: l5zz4vpsvh -->
-<!-- metadata: zmbpuk8vjz -->
-<!-- metadata: vq4i4gly02 -->
-<!-- metadata: 5oqpcdgny2 -->
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
