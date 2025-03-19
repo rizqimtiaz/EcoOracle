@@ -141,6 +141,9 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
+
+### 4. Smart contracts (`contracts/`)
+
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
@@ -158,10 +161,6 @@ For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
-<!-- metadata: 8xc5u7er9v -->
-<!-- metadata: fenboxcxyj -->
-<!-- metadata: 6nsbke58qy -->
-<!-- metadata: 38fpmj1qax -->
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
