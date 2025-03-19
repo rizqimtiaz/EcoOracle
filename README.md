@@ -4,9 +4,6 @@ EcoOracle is a full-stack reference implementation of an **autonomous carbon
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
-verified state on-chain in real time — minting, burning, or invalidating
-credits based on what the planet actually looks like today.
-
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -192,6 +189,16 @@ app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
+<!-- metadata: uisxb4eh53 -->
+<!-- metadata: l4f3mq7yy0 -->
+<!-- metadata: cybnmmh87w -->
+<!-- metadata: z40icyzaz2 -->
+<!-- metadata: 2q8ub0n2vu -->
+<!-- metadata: jqcug6d387 -->
+<!-- metadata: 8hqexebr0s -->
+<!-- metadata: 6w0r5mttqk -->
+<!-- metadata: wbdgczbpbg -->
+<!-- metadata: sd0czkav5z -->
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
