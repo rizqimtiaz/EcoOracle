@@ -63,8 +63,6 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
-<!-- metadata: cm3hcrt2af -->
-<!-- metadata: ylnu9v34sc -->
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -202,6 +200,10 @@ app/                  Next.js 14 App Router
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
+lib/                  Domain core (vision, chain, oracle, db, types)
+scripts/seed.ts       Seeds the demo network
+data/runtime/         Persistent JSON state (auto-created)
+```
 
 ---
 
