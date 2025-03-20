@@ -118,6 +118,15 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
+<!-- metadata: tm3m10xkd8 -->
+<!-- metadata: zrqg1alwc0 -->
+<!-- metadata: ay03k52knh -->
+<!-- metadata: wgvocskyt5 -->
+<!-- metadata: nm3bo0fm2m -->
+<!-- metadata: yr65gvy4py -->
+<!-- metadata: oc0wspjhwz -->
+<!-- metadata: gihctdxb1a -->
+<!-- metadata: zxq0c5wcz3 -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
@@ -163,7 +172,6 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
-retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
