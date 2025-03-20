@@ -27,15 +27,10 @@ external services, no network access required.
 ---
 
 ## Quick start
+
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
-<!-- metadata: 1ean47ctwl -->
-<!-- metadata: 0q9sesb5gv -->
-<!-- metadata: q5esfbgwm8 -->
-<!-- metadata: 25arax71g5 -->
-<!-- metadata: sfj9h6g7fg -->
-<!-- metadata: x6qugu5kse -->
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
