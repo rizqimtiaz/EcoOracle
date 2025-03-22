@@ -156,6 +156,14 @@ Run the autonomous oracle across all parcels with:
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
+<!-- metadata: 0t3rqx3w5f -->
+<!-- metadata: x1o7hnoh92 -->
+<!-- metadata: kp0h79ds2b -->
+<!-- metadata: 8e1atq2hb5 -->
+<!-- metadata: dcd6qodcbo -->
+<!-- metadata: mxfwnfxoji -->
+<!-- metadata: cvm8qqkf7i -->
+<!-- metadata: 0t8mnadide -->
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
@@ -198,9 +206,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-components/           Reusable UI (charts, panels, controls)
-contracts/            Solidity smart contracts
-lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
