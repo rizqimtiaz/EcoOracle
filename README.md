@@ -155,8 +155,6 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
-<!-- metadata: 9q3eb3nter -->
-<!-- metadata: 2yvfq6huw1 -->
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
@@ -175,6 +173,10 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
+2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
+   choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
+   parcel transition to **Invalidated**, all credits burned, an
+   `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
