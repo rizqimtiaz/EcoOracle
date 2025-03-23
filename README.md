@@ -44,8 +44,6 @@ dashboard or run `npm run seed`.
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -152,6 +150,12 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
+<!-- metadata: mti3weudb4 -->
+<!-- metadata: 5gn6xzvdrc -->
+<!-- metadata: 1wybyhngn7 -->
+<!-- metadata: ii47n5p35e -->
+<!-- metadata: b3r2lo0dug -->
+<!-- metadata: crh6c2wo38 -->
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
