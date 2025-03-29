@@ -49,10 +49,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
-│   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
-│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-│   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -207,6 +203,8 @@ data/runtime/         Persistent JSON state (auto-created)
 
 ---
 
+<!-- metadata: hlxne3hcez -->
+<!-- metadata: ny0ilzwbsa -->
 ## License
 
 MIT.
