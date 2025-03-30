@@ -16,7 +16,6 @@ This repository contains:
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
-- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -107,6 +106,11 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
 
+<!-- metadata: 1n3rl7rmnr -->
+<!-- metadata: s03zud3hmi -->
+<!-- metadata: 9hzhp7islj -->
+<!-- metadata: 24361kmw79 -->
+<!-- metadata: 3ak13ymnrn -->
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
