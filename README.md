@@ -71,9 +71,6 @@ dashboard or run `npm run seed`.
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
-<!-- metadata: xqyiw0evdp -->
-<!-- metadata: h9q9w7n298 -->
-<!-- metadata: 1hsjuplvv9 -->
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -115,6 +112,8 @@ timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
+| NDVI | Normalized Difference Vegetation Index (greenness proxy) |
+| Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
