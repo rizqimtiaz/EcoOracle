@@ -74,6 +74,7 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
+<!-- metadata: 60hzjt00ta -->
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
@@ -96,10 +97,6 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
-
-## How it works
-
-### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
