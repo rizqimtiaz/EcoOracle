@@ -73,6 +73,10 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        Domain core (lib/)                           │
+│                                                                     │
+│   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
@@ -135,13 +139,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-<!-- metadata: nd5ncpa49u -->
-<!-- metadata: 3ij31f4web -->
-<!-- metadata: ploej6xrxo -->
-<!-- metadata: gtgzqir3za -->
-<!-- metadata: 4d2z6mo1iz -->
-<!-- metadata: hnvusjxgrb -->
-<!-- metadata: f4s8kykccx -->
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
