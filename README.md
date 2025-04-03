@@ -97,8 +97,6 @@ State persists to `data/runtime/state.json`.
 
 ---
 
-<!-- metadata: cuo4v37lte -->
-<!-- metadata: h2kqywktcx -->
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -138,6 +136,9 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
+
+Run the autonomous oracle across all parcels with:
+
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
