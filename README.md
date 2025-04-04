@@ -34,8 +34,6 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
-Open **http://localhost:3000** and explore.
-
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
@@ -64,6 +62,12 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
+<!-- metadata: vrzqgplaw5 -->
+<!-- metadata: muejv6uty6 -->
+<!-- metadata: k0utpnknj2 -->
+<!-- metadata: b8v000yhia -->
+<!-- metadata: 9qotwqc4ai -->
+<!-- metadata: 9gocmf8yf1 -->
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
