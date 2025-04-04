@@ -36,7 +36,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 
 Open **http://localhost:3000** and explore.
 
-<!-- metadata: 05e5kc5cll -->
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
@@ -71,6 +70,10 @@ dashboard or run `npm run seed`.
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
