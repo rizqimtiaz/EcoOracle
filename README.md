@@ -58,11 +58,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: 3t0ls2qyi5 -->
-<!-- metadata: bd2whh97jf -->
-<!-- metadata: c2tv8t1r6w -->
-<!-- metadata: eamu2wtsw1 -->
-<!-- metadata: q8e3i9f8mh -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
@@ -186,6 +181,7 @@ traded — the smart contract reverts.
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
+   (already invalidated) and watch credits gradually re-issue.
 
 ---
 
