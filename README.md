@@ -7,6 +7,8 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+This repository contains:
+
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
@@ -140,16 +142,6 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
-<!-- metadata: wx2vnzgytb -->
-<!-- metadata: whcw852vwc -->
-<!-- metadata: 037shig3k6 -->
-<!-- metadata: los47dh1gq -->
-<!-- metadata: kqa4hnpzgv -->
-<!-- metadata: zpjwnqjzf7 -->
-<!-- metadata: p0z98ggsuy -->
-<!-- metadata: i4o991u0gu -->
-<!-- metadata: vo9okkflcn -->
-<!-- metadata: wu03mthkaf -->
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
