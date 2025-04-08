@@ -19,8 +19,6 @@ This repository contains:
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
-  pages, oracle event log, and corporate portfolio views.
-
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -160,6 +158,7 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
+<!-- metadata: vnlshtc5hi -->
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
