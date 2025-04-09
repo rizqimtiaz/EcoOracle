@@ -140,13 +140,6 @@ changed.
 Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
-<!-- metadata: 38aucddxe9 -->
-<!-- metadata: 65btan2arb -->
-<!-- metadata: n4mx5shg80 -->
-<!-- metadata: djsozve4x7 -->
-<!-- metadata: djtrpmsg9g -->
-<!-- metadata: zo3mz1730x -->
-<!-- metadata: v23g3bpxdi -->
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
@@ -211,6 +204,9 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
+---
+
 ## License
 
 MIT.
