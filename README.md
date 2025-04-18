@@ -82,15 +82,6 @@ dashboard or run `npm run seed`.
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
-<!-- metadata: tldykeo570 -->
-<!-- metadata: qbdujvb0kp -->
-<!-- metadata: 1sg7en2ufb -->
-<!-- metadata: cirfina1wg -->
-<!-- metadata: 61lona5hyo -->
-<!-- metadata: s5owsbw3ti -->
-<!-- metadata: 7nye96yqd7 -->
-<!-- metadata: 8zpjkkjt2s -->
-<!-- metadata: 8srfim8ita -->
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -176,6 +167,7 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
+---
 
 ## Demo scenarios to try
 
