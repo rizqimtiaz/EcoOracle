@@ -10,16 +10,6 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-<!-- metadata: vsvynf4m10 -->
-<!-- metadata: njdfwnlu83 -->
-<!-- metadata: 916f8f8qgz -->
-<!-- metadata: cc8ssddiqd -->
-<!-- metadata: xdb3d5l5yz -->
-<!-- metadata: 1y73h8d0ry -->
-<!-- metadata: w024pbpkat -->
-<!-- metadata: 1x19aiiz1i -->
-<!-- metadata: fdrqvdj6by -->
-<!-- metadata: fiajpcivs0 -->
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
@@ -147,6 +137,10 @@ changed.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
+Run the autonomous oracle across all parcels with:
+
+- The "Run Oracle Sweep" button on the dashboard, or
+- `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
