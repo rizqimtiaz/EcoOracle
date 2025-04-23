@@ -108,6 +108,10 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
+| Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
@@ -134,12 +138,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-<!-- metadata: sej4mjdthg -->
-<!-- metadata: 76lioh03eg -->
-<!-- metadata: fs5j3qcpg4 -->
-<!-- metadata: u27r5ivbke -->
-<!-- metadata: 8th3jd7432 -->
-<!-- metadata: 526tqsh7u1 -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
