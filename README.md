@@ -96,6 +96,10 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
+<!-- metadata: sarudtcg9t -->
+<!-- metadata: swp47aksyo -->
+<!-- metadata: 5op0vtnez9 -->
+<!-- metadata: xern4qsd3c -->
 
 ## How it works
 
@@ -160,9 +164,6 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
-### 5. Marketplace & Portfolio
-
-Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
