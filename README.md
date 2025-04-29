@@ -78,9 +78,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
-<!-- metadata: gts4omnyl9 -->
-<!-- metadata: 79bthwq7re -->
-<!-- metadata: wqjiptzp6r -->
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
@@ -137,6 +134,8 @@ changed.
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
+- Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+  appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
 
