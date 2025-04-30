@@ -139,6 +139,14 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
+<!-- metadata: pu9u83t9up -->
+<!-- metadata: qenbc5p9uv -->
+<!-- metadata: iuq2x75ge0 -->
+<!-- metadata: bjcz1og11k -->
+<!-- metadata: wmhf7pyxr8 -->
+<!-- metadata: y481uv1cmm -->
+<!-- metadata: qvbjzaihy7 -->
+<!-- metadata: h7y9rcdlnn -->
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
@@ -186,8 +194,6 @@ traded — the smart contract reverts.
 ---
 
 ## File map
-
-```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
