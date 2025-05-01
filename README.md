@@ -73,10 +73,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Domain core (lib/)                           │
-│                                                                     │
-│   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
@@ -205,6 +201,16 @@ scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
+<!-- metadata: drw6uvb46g -->
+<!-- metadata: tt555m8xep -->
+<!-- metadata: fejoifjwdr -->
+<!-- metadata: wv2c2q2xcw -->
+<!-- metadata: i6n1krrg90 -->
+<!-- metadata: q2jae8xu6o -->
+<!-- metadata: u1luceyev9 -->
+<!-- metadata: zir7a9hc7m -->
+<!-- metadata: 4dyugfn6wg -->
+<!-- metadata: jq2ty0qeov -->
 ---
 
 ## License
