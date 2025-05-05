@@ -54,13 +54,6 @@ dashboard or run `npm run seed`.
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
-<!-- metadata: 5fmpwy6cr9 -->
-<!-- metadata: y7n0kfxtax -->
-<!-- metadata: duo1ypf0vt -->
-<!-- metadata: yqrqcng2mw -->
-<!-- metadata: s1ajv2zhd0 -->
-<!-- metadata: 2zwe9s78jw -->
-<!-- metadata: kvdmot6hxk -->
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -128,6 +121,8 @@ timestamp it deterministically computes:
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+sequestration rate.
+
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
