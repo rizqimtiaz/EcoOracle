@@ -139,6 +139,8 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
+- The "Run Oracle Sweep" button on the dashboard, or
+- `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
@@ -205,16 +207,6 @@ data/runtime/         Persistent JSON state (auto-created)
 
 ---
 
-<!-- metadata: xedag066s6 -->
-<!-- metadata: 7916yordmf -->
-<!-- metadata: tb1udclxnf -->
-<!-- metadata: qahcy4ax4h -->
-<!-- metadata: 13f2ojwuzm -->
-<!-- metadata: lilmeg90hd -->
-<!-- metadata: 1jp58zunpg -->
-<!-- metadata: jcu5vsdbsz -->
-<!-- metadata: c9b3hzf9o6 -->
-<!-- metadata: 7xgjkva9hn -->
 ## License
 
 MIT.
