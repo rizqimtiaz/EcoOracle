@@ -11,15 +11,6 @@ This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-<!-- metadata: 1wvcm0q2qw -->
-<!-- metadata: zmcfcen93v -->
-<!-- metadata: 9ka3w299k8 -->
-<!-- metadata: k7qryc8sbj -->
-<!-- metadata: 3cyxbrkhnn -->
-<!-- metadata: wgn6ep2396 -->
-<!-- metadata: hesrdbbmv1 -->
-<!-- metadata: nd6knfhtga -->
-<!-- metadata: kpj95mb9of -->
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -52,6 +43,8 @@ dashboard or run `npm run seed`.
 
 ## Architecture
 
+```
+┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
