@@ -193,6 +193,7 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
+  marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
@@ -207,8 +208,5 @@ data/runtime/         Persistent JSON state (auto-created)
 ---
 
 ## License
-<!-- metadata: 1jssymc4le -->
-<!-- metadata: gy6swa21gt -->
-<!-- metadata: k9bspkofpe -->
 
 MIT.
