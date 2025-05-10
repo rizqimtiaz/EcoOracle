@@ -143,6 +143,10 @@ Run the autonomous oracle across all parcels with:
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
+
+`CarbonCreditDNFT.sol` implements:
+
+- A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
@@ -194,10 +198,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-<!-- metadata: kg45i6kzdq -->
-<!-- metadata: xfmgbubbar -->
-<!-- metadata: 9gaxlq8dgs -->
-<!-- metadata: pf9ljh8fk5 -->
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
