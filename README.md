@@ -85,10 +85,6 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Solidity contracts                           │
-│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -117,6 +113,11 @@ timestamp it deterministically computes:
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
+<!-- metadata: 04dm9shelv -->
+<!-- metadata: vx0zjfusgh -->
+<!-- metadata: zs5ovvv2ye -->
+<!-- metadata: usu8hc3bhl -->
+<!-- metadata: gvd74exo4y -->
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
