@@ -59,7 +59,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
@@ -111,6 +110,16 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 timestamp it deterministically computes:
 
 | Index | Description |
+<!-- metadata: 6h0nwozunz -->
+<!-- metadata: zxs7xpyugw -->
+<!-- metadata: 5vtptyqqi5 -->
+<!-- metadata: 5vrdled8vt -->
+<!-- metadata: ilj8vbw1o4 -->
+<!-- metadata: to9xhrdgjd -->
+<!-- metadata: 1dbktk2p65 -->
+<!-- metadata: ipssqmkp8e -->
+<!-- metadata: dx0dbxvadd -->
+<!-- metadata: rqrw4hjedo -->
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
