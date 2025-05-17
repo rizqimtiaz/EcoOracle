@@ -109,12 +109,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
-<!-- metadata: agcy03rjva -->
-<!-- metadata: 4gega6ca4s -->
-<!-- metadata: 00vlhzd3if -->
-<!-- metadata: jmu4mfr3am -->
-<!-- metadata: pi0wu9fl03 -->
-<!-- metadata: 9cqugyar0k -->
 
 | Index | Description |
 | ---- | ---- |
@@ -208,6 +202,10 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
+data/runtime/         Persistent JSON state (auto-created)
+```
+
+---
 
 ## License
 
