@@ -1,4 +1,5 @@
 # EcoOracle — Autonomous Carbon Integrity Network
+<!-- metadata: 36t7k4mrrz -->
 
 EcoOracle is a full-stack reference implementation of an **autonomous carbon
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
@@ -81,8 +82,6 @@ dashboard or run `npm run seed`.
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
-│   stats.ts        Network statistics & timeseries                   │
-│   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
