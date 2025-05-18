@@ -96,7 +96,6 @@ dashboard or run `npm run seed`.
 State persists to `data/runtime/state.json`.
 
 ---
-
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -142,6 +141,12 @@ Run the autonomous oracle across all parcels with:
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
+<!-- metadata: x97ghikqi3 -->
+<!-- metadata: 5f2n3jxvmf -->
+<!-- metadata: yjnb9lxd6f -->
+<!-- metadata: y674320s35 -->
+<!-- metadata: me92y8gy22 -->
+<!-- metadata: tt817nppmb -->
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
