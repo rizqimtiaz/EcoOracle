@@ -106,6 +106,10 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
+<!-- metadata: sud6wxdnel -->
+<!-- metadata: tcz4luzze5 -->
+<!-- metadata: 9z88ln2pgi -->
+<!-- metadata: vm6q153kh0 -->
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
@@ -116,8 +120,6 @@ timestamp it deterministically computes:
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
-| Moisture index | Soil moisture / canopy water proxy |
-| Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
