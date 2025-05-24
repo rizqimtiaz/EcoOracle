@@ -83,10 +83,6 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
-<!-- metadata: it282x2t36 -->
-<!-- metadata: fte19a154u -->
-<!-- metadata: mhroan5rn5 -->
-<!-- metadata: zhshh5l86m -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -177,6 +173,9 @@ traded — the smart contract reverts.
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
+2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
+   choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
+   parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
