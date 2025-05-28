@@ -31,8 +31,6 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
-npm run dev         # start the Next.js app at http://localhost:3000
-```
 
 Open **http://localhost:3000** and explore.
 
@@ -159,6 +157,9 @@ valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
+<!-- metadata: u91wl22jll -->
+<!-- metadata: 6pevokdnu1 -->
+<!-- metadata: ibt46zahn3 -->
 
 ### 5. Marketplace & Portfolio
 
