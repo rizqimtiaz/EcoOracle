@@ -94,9 +94,6 @@ dashboard or run `npm run seed`.
 ```
 
 State persists to `data/runtime/state.json`.
-
----
-
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
@@ -172,6 +169,8 @@ traded — the smart contract reverts.
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
+<!-- metadata: oqj8k6sv9a -->
+<!-- metadata: fn9rzykbda -->
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
