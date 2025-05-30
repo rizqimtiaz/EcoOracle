@@ -49,11 +49,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
-<!-- metadata: g4e5axu3gt -->
-<!-- metadata: ejo6vyam3v -->
-<!-- metadata: 1paj2q7dp3 -->
-<!-- metadata: 1x9e17xb73 -->
-<!-- metadata: eoq2ja460f -->
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
@@ -84,6 +79,9 @@ dashboard or run `npm run seed`.
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
+│   oracle.ts       Autonomous oracle bridging vision -> chain        │
+│   db.ts           File-based persistent state w/ mutex              │
+│   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
