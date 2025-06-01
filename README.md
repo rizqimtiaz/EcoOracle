@@ -88,10 +88,6 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
-│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
-│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-└─────────────────────────────────────────────────────────────────────┘
-```
 
 State persists to `data/runtime/state.json`.
 
@@ -125,6 +121,14 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
+<!-- metadata: aqic4uqyc0 -->
+<!-- metadata: 4ehumpa19g -->
+<!-- metadata: uzzfjn9z6r -->
+<!-- metadata: xrvs5ynomv -->
+<!-- metadata: nswe8o1tdr -->
+<!-- metadata: hzq5hv0y23 -->
+<!-- metadata: g81dpc81hl -->
+<!-- metadata: un39p2rv6o -->
 changed.
 
 ### 3. Autonomous Oracle
