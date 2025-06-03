@@ -125,6 +125,8 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
+changed.
+
 ### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
@@ -177,16 +179,6 @@ traded — the smart contract reverts.
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
-<!-- metadata: jffnf43gjb -->
-<!-- metadata: oksyjjedfv -->
-<!-- metadata: 2a8n1cja6o -->
-<!-- metadata: 75k1oh8jgj -->
-<!-- metadata: aqqqxfx5vb -->
-<!-- metadata: gy03vsaiua -->
-<!-- metadata: vi80k5wuek -->
-<!-- metadata: becz6h2ywf -->
-<!-- metadata: whudrk5ox9 -->
-<!-- metadata: 8b784imbam -->
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
