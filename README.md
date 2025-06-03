@@ -72,6 +72,13 @@ dashboard or run `npm run seed`.
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+<!-- metadata: c3p7updjgm -->
+<!-- metadata: bkf7jd6r1f -->
+<!-- metadata: quzf80qvl7 -->
+<!-- metadata: 1e8dn6x5zf -->
+<!-- metadata: iycbuzuo0w -->
+<!-- metadata: ftnsbmn6l3 -->
+<!-- metadata: yw941jbs73 -->
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -194,9 +201,6 @@ app/                  Next.js 14 App Router
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
-  analyze/            Live AI vision demo
-  oracle/             Event + transaction log
-  portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
