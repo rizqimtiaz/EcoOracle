@@ -11,7 +11,6 @@ This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-<!-- metadata: rsk91t16n9 -->
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
@@ -205,6 +204,8 @@ lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
+
+---
 
 ## License
 
