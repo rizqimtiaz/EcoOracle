@@ -65,6 +65,7 @@ dashboard or run `npm run seed`.
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
+│   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
@@ -151,11 +152,6 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
-<!-- metadata: 9da4ilw8dl -->
-<!-- metadata: fj9fnuqund -->
-<!-- metadata: km5yz199wo -->
-<!-- metadata: j0021emqg7 -->
-<!-- metadata: 2aqkcor3cc -->
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
