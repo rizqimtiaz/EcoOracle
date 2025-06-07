@@ -113,12 +113,6 @@ timestamp it deterministically computes:
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
-<!-- metadata: eeqvv4ge03 -->
-<!-- metadata: uwli8tahia -->
-<!-- metadata: bxqr57a9p6 -->
-<!-- metadata: fsladeuzsy -->
-<!-- metadata: 8mysedu21a -->
-<!-- metadata: ow57py6uob -->
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
@@ -144,6 +138,8 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
+
+- The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
