@@ -13,6 +13,15 @@ This repository contains:
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
+<!-- metadata: wdp3lvwptp -->
+<!-- metadata: kegp0zk8d0 -->
+<!-- metadata: vd9kzfstcj -->
+<!-- metadata: olg6nkjher -->
+<!-- metadata: b4refbiey0 -->
+<!-- metadata: b9z6tauyaj -->
+<!-- metadata: ohipx06ktz -->
+<!-- metadata: sbh8nypjfb -->
+<!-- metadata: e3vwpdzpm4 -->
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
@@ -73,9 +82,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Domain core (lib/)                           │
-│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
