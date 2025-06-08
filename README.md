@@ -88,6 +88,9 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
+│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
+│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 State persists to `data/runtime/state.json`.
@@ -142,7 +145,6 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
-<!-- metadata: bri7tsn2ur -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
