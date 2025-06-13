@@ -143,6 +143,7 @@ Run the autonomous oracle across all parcels with:
 - `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
+
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
@@ -193,14 +194,6 @@ app/                  Next.js 14 App Router
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
-<!-- metadata: 2g0js8cclr -->
-<!-- metadata: 3fojyqucg5 -->
-<!-- metadata: pk7bpgoxta -->
-<!-- metadata: ju31ds8m5b -->
-<!-- metadata: swjbp2hnas -->
-<!-- metadata: dctdgddf2l -->
-<!-- metadata: eph40tp5hc -->
-<!-- metadata: vm0s88c7ce -->
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
