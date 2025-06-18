@@ -48,13 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-<!-- metadata: s015o4n12r -->
-<!-- metadata: 39hl4gbaqv -->
-<!-- metadata: d3cepc3kri -->
-<!-- metadata: 16uxdy3x79 -->
-<!-- metadata: 9fwdktibpr -->
-<!-- metadata: cvntydsbhz -->
-<!-- metadata: hnjgiglj5b -->
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -72,6 +65,10 @@ dashboard or run `npm run seed`.
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
+│   /api/events       Filtered event log                              │
+│   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
+│   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
