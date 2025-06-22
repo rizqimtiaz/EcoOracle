@@ -33,11 +33,6 @@ npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
-<!-- metadata: ayis8qsj28 -->
-<!-- metadata: j1b6mk5xsv -->
-<!-- metadata: hxwowt9ip3 -->
-<!-- metadata: 5xqwzwt6qt -->
-<!-- metadata: rxevp8xx1t -->
 
 Open **http://localhost:3000** and explore.
 
@@ -141,6 +136,9 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
+
+Run the autonomous oracle across all parcels with:
+
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
