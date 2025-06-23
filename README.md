@@ -26,14 +26,6 @@ external services, no network access required.
 
 ---
 
-<!-- metadata: lkkfs3dyax -->
-<!-- metadata: 4ggggt1yn2 -->
-<!-- metadata: ze6iwaotf9 -->
-<!-- metadata: 7eawn6xxto -->
-<!-- metadata: 231rmqebka -->
-<!-- metadata: ysexffxt9p -->
-<!-- metadata: tqjzyr71b2 -->
-<!-- metadata: jfk4aque2f -->
 ## Quick start
 
 ```bash
@@ -182,6 +174,7 @@ traded — the smart contract reverts.
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
+   choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
