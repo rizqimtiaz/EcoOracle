@@ -150,12 +150,6 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
-<!-- metadata: yugynoduv8 -->
-<!-- metadata: 6ebnwkfd2w -->
-<!-- metadata: amm0fbtxu7 -->
-<!-- metadata: y8nw932xi1 -->
-<!-- metadata: h9kfd4py2n -->
-<!-- metadata: wkyrc8822v -->
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
@@ -211,6 +205,7 @@ scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
+---
 
 ## License
 
