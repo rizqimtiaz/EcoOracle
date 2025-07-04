@@ -68,7 +68,6 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
-│   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -172,6 +171,13 @@ traded — the smart contract reverts.
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
+<!-- metadata: z4zb81k48k -->
+<!-- metadata: tx5i3zxcmt -->
+<!-- metadata: x53d87tjrj -->
+<!-- metadata: 2alcs5dgge -->
+<!-- metadata: 8d1ecmtvol -->
+<!-- metadata: 30nhou26a3 -->
+<!-- metadata: nuv181nxd8 -->
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
