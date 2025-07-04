@@ -58,6 +58,10 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        REST API (Next.js Route Handlers)            │
+│   /api/state        Aggregated network snapshot                     │
+│   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
@@ -183,11 +187,6 @@ traded — the smart contract reverts.
 
 ## File map
 
-<!-- metadata: 4n41adn87c -->
-<!-- metadata: 9k26k6thip -->
-<!-- metadata: ajk4qfpy58 -->
-<!-- metadata: pqge2u7dwn -->
-<!-- metadata: 8ft4hxbjso -->
 ```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
