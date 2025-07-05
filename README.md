@@ -99,15 +99,6 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
-<!-- metadata: 3w5vhtglpp -->
-<!-- metadata: o93lir4pqf -->
-<!-- metadata: mx5l6ua6ya -->
-<!-- metadata: b37fwk7ee7 -->
-<!-- metadata: ymcn1lrqm3 -->
-<!-- metadata: qh13or81fk -->
-<!-- metadata: dlko7oyub5 -->
-<!-- metadata: vjj7wsj8eu -->
-<!-- metadata: qkccwz5s2j -->
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -186,6 +177,8 @@ traded — the smart contract reverts.
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
+3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
