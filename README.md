@@ -97,6 +97,7 @@ State persists to `data/runtime/state.json`.
 
 ---
 
+## How it works
 
 ### 1. Mint a parcel as a dNFT
 
@@ -181,16 +182,6 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
-<!-- metadata: bjl9svd6ge -->
-<!-- metadata: q69xw9wl1j -->
-<!-- metadata: 7kku428xvk -->
-<!-- metadata: l9necs9cpj -->
-<!-- metadata: txvygwhowa -->
-<!-- metadata: dqsy31llzn -->
-<!-- metadata: wfywzcwgnt -->
-<!-- metadata: 1hdqddnwnz -->
-<!-- metadata: m69wp7j8qp -->
-<!-- metadata: ep2w2j2wmd -->
 
 ---
 
