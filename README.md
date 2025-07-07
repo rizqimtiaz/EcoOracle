@@ -24,6 +24,8 @@ This repository contains:
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
+---
+
 ## Quick start
 
 ```bash
@@ -47,9 +49,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
-<!-- metadata: 6jt30mvnxh -->
-<!-- metadata: 66b6o99soo -->
-<!-- metadata: 7cy5y2v532 -->
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
