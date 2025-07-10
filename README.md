@@ -105,6 +105,13 @@ A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
+<!-- metadata: euv0qcw82g -->
+<!-- metadata: yn8er6gj7d -->
+<!-- metadata: okdd7t4rqb -->
+<!-- metadata: ncjib02kvk -->
+<!-- metadata: gsy2tuoeyu -->
+<!-- metadata: ab2scp9x8g -->
+<!-- metadata: jq25fb15i9 -->
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
@@ -118,9 +125,6 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
-
-It then derives an **estimated tonnes CO₂e** using a calibrated linear model
-that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
