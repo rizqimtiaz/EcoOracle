@@ -27,10 +27,6 @@ external services, no network access required.
 ---
 
 ## Quick start
-
-```bash
-npm install
-npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -121,6 +117,12 @@ timestamp it deterministically computes:
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+<!-- metadata: wl4tepjszv -->
+<!-- metadata: jg7140uj8a -->
+<!-- metadata: ot2o3dfmwj -->
+<!-- metadata: 4ulgc22cqd -->
+<!-- metadata: pvqs44y08h -->
+<!-- metadata: vpvoa2a88y -->
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
