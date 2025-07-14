@@ -72,6 +72,16 @@ dashboard or run `npm run seed`.
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+<!-- metadata: bsmmdhx88p -->
+<!-- metadata: wsa6xgjhis -->
+<!-- metadata: 7j335qi7bv -->
+<!-- metadata: s058ie5eal -->
+<!-- metadata: v6eajit29p -->
+<!-- metadata: 7gsrxzw4hx -->
+<!-- metadata: psn6ik3oba -->
+<!-- metadata: rupf7uh7r1 -->
+<!-- metadata: 60gh53xuvq -->
+<!-- metadata: t0rekyws40 -->
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -150,7 +160,6 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
-- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
