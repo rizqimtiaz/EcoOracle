@@ -54,11 +54,10 @@ dashboard or run `npm run seed`.
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
+<!-- metadata: vp0u9x5uaz -->
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
