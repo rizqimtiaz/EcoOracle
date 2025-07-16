@@ -32,6 +32,9 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
+<!-- metadata: vvzkzspmjy -->
+<!-- metadata: 7hbgodth4v -->
+<!-- metadata: uo2yma0m0a -->
 ```
 
 Open **http://localhost:3000** and explore.
@@ -185,10 +188,6 @@ traded — the smart contract reverts.
 
 ---
 
-## File map
-
-```
-app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
