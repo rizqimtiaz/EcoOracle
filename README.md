@@ -7,6 +7,12 @@ satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
+<!-- metadata: 3ejomojzac -->
+<!-- metadata: dxqqjcvm76 -->
+<!-- metadata: vobrlw40k7 -->
+<!-- metadata: 15ilytw7s6 -->
+<!-- metadata: 1hn913ewl3 -->
+<!-- metadata: afvfwf464k -->
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -178,7 +184,6 @@ traded — the smart contract reverts.
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
-   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
