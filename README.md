@@ -33,22 +33,13 @@ npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
-<!-- metadata: 9l5z0l12f8 -->
-<!-- metadata: w57257jrqt -->
-<!-- metadata: 0e6g07o8yh -->
-<!-- metadata: zc2jzfml2t -->
-<!-- metadata: fkg9680gym -->
-<!-- metadata: sp854qr60l -->
-<!-- metadata: 40vws2tou7 -->
-<!-- metadata: 9jr1i7f9k4 -->
-<!-- metadata: om7o476v4y -->
-<!-- metadata: b95i6anhsa -->
 
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
+---
 
 ## Architecture
 
