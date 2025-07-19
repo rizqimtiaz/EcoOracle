@@ -196,15 +196,11 @@ app/                  Next.js 14 App Router
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
-<!-- metadata: u4ucyxl6s9 -->
-<!-- metadata: fnb3kisakd -->
-<!-- metadata: 2t2eqfvibn -->
-<!-- metadata: xw9vwf10r2 -->
-<!-- metadata: o3bbyst26x -->
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
+lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
