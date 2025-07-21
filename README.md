@@ -62,6 +62,16 @@ dashboard or run `npm run seed`.
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
+<!-- metadata: fgax0291gw -->
+<!-- metadata: s4zkkg83jt -->
+<!-- metadata: 0pb8j8lnhk -->
+<!-- metadata: vz2pdcpy6f -->
+<!-- metadata: g3q1nt5iln -->
+<!-- metadata: 23eibzxz9f -->
+<!-- metadata: b47emm5wbj -->
+<!-- metadata: 4xykwscbas -->
+<!-- metadata: iv2296k5px -->
+<!-- metadata: fvx43v9x9u -->
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
@@ -131,9 +141,6 @@ changed.
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
-- Computes a target credit count (1 credit = 1 verified tonne).
-- Computes a target price (a function of health + scarcity + thermal risk).
-- Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
