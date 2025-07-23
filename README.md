@@ -160,10 +160,17 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
-### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
+<!-- metadata: n3cac0abno -->
+<!-- metadata: 0yh1p58wjn -->
+<!-- metadata: wc1kguahfu -->
+<!-- metadata: gg07zjmn3w -->
+<!-- metadata: zxxy4gteu6 -->
+<!-- metadata: 8l1pxtcf49 -->
+<!-- metadata: htcv7xkfbp -->
+<!-- metadata: acfkwezhyw -->
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
