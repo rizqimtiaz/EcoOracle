@@ -147,6 +147,8 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
+- `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
@@ -169,16 +171,6 @@ traded — the smart contract reverts.
 
 ## Demo scenarios to try
 
-<!-- metadata: ko9fujam8n -->
-<!-- metadata: pqw1w1wako -->
-<!-- metadata: reb5jd0odq -->
-<!-- metadata: ghbcnxda1f -->
-<!-- metadata: 4vqywrc63b -->
-<!-- metadata: jv4qif2mrw -->
-<!-- metadata: qcvuua3ae6 -->
-<!-- metadata: e70vvlhk0h -->
-<!-- metadata: tqtnw5vcvv -->
-<!-- metadata: jt9wi276e8 -->
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
