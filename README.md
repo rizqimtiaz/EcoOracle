@@ -132,6 +132,10 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
+- Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+  appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
 
@@ -164,10 +168,6 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
-<!-- metadata: npc1wos8s1 -->
-<!-- metadata: zv24gttsef -->
-<!-- metadata: 7qvydceubl -->
-<!-- metadata: 1nt8tcli1z -->
 
 ## Demo scenarios to try
 
