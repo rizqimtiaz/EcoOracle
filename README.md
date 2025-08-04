@@ -138,13 +138,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-<!-- metadata: 0a6847hqz9 -->
-<!-- metadata: ehkt51dxib -->
-<!-- metadata: smchwx0sz3 -->
-<!-- metadata: bkih42szbh -->
-<!-- metadata: skffdlq3ik -->
-<!-- metadata: bb69kpzljv -->
-<!-- metadata: apq2f69iyj -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
@@ -189,6 +182,8 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
+
+---
 
 ## File map
 
