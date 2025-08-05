@@ -43,15 +43,6 @@ dashboard or run `npm run seed`.
 
 ## Architecture
 
-<!-- metadata: wdqs1owey8 -->
-<!-- metadata: r1b5hlmgdw -->
-<!-- metadata: m1kt4p6buh -->
-<!-- metadata: kv6acmv4kh -->
-<!-- metadata: d69r06rqfl -->
-<!-- metadata: n1gbuncb8g -->
-<!-- metadata: kvlbq1cemz -->
-<!-- metadata: uccqhl9m3m -->
-<!-- metadata: tvdbn5ry8b -->
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -133,6 +124,8 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
+shift the indices, and the engine emits human-readable notes describing what
+changed.
 
 ### 3. Autonomous Oracle
 
