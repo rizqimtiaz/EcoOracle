@@ -88,16 +88,11 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
+│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
+│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
-<!-- metadata: 178ad7xj6n -->
-<!-- metadata: lkee5p1kqi -->
-<!-- metadata: w9g1i8279f -->
-<!-- metadata: ukvyc4qmg9 -->
-<!-- metadata: ab1qkbkbmo -->
-<!-- metadata: mc0mm655rb -->
-<!-- metadata: 36voqsov1w -->
-<!-- metadata: hwtmgd8oqv -->
-<!-- metadata: 0czi65ovfg -->
 State persists to `data/runtime/state.json`.
 
 ---
