@@ -68,10 +68,6 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
-<!-- metadata: 0ulsugk64s -->
-<!-- metadata: 5brj1mcxxy -->
-<!-- metadata: haxkxlrhrg -->
-<!-- metadata: 1sa8vcdhod -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -130,6 +126,8 @@ sequestration rate.
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
+
+### 3. Autonomous Oracle
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
