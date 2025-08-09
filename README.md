@@ -69,6 +69,9 @@ dashboard or run `npm run seed`.
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
@@ -199,10 +202,6 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
-<!-- metadata: ysdmpb36bz -->
-<!-- metadata: g9o8jfblwz -->
-<!-- metadata: uqs32wh4mb -->
-<!-- metadata: xohh0tnc9l -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
