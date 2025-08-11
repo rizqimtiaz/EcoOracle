@@ -114,8 +114,6 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
-| Biomass index | Above-ground biomass proxy |
-| Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
@@ -176,6 +174,13 @@ traded — the smart contract reverts.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
+<!-- metadata: tkchmu38lb -->
+<!-- metadata: k1twn4x9ao -->
+<!-- metadata: 3nywj49fbs -->
+<!-- metadata: xvkt709ra8 -->
+<!-- metadata: vznnt446zn -->
+<!-- metadata: 0vxvrtbvm7 -->
+<!-- metadata: t9vu35eg0e -->
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
