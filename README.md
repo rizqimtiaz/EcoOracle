@@ -149,6 +149,11 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
+<!-- metadata: xicu2fzab2 -->
+<!-- metadata: 9k8ref6fie -->
+<!-- metadata: 8p3sebkuge -->
+<!-- metadata: 9sb7zu1qyi -->
+<!-- metadata: 30gxwp5ln5 -->
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
@@ -159,7 +164,6 @@ valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
-
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
