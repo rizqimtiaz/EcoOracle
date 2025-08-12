@@ -48,15 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-<!-- metadata: pursn8ic7c -->
-<!-- metadata: 33nl0iau6n -->
-<!-- metadata: rlmie52b3g -->
-<!-- metadata: nds8flxs1a -->
-<!-- metadata: yt21lrl45z -->
-<!-- metadata: evfo5mpexo -->
-<!-- metadata: i2vy5h3rgg -->
-<!-- metadata: 69d239xgac -->
-<!-- metadata: byplggxduf -->
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -178,6 +169,7 @@ traded — the smart contract reverts.
 
 ---
 
+## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
