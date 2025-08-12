@@ -29,6 +29,7 @@ external services, no network access required.
 ## Quick start
 
 ```bash
+npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
@@ -100,8 +101,6 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
-<!-- metadata: zc37ca89p8 -->
-<!-- metadata: hppb40vio8 -->
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
