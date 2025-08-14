@@ -98,6 +98,7 @@ State persists to `data/runtime/state.json`.
 ---
 
 ## How it works
+
 ### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
@@ -125,12 +126,6 @@ sequestration rate.
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
-<!-- metadata: 76ppikn8ly -->
-<!-- metadata: j9ic3cdwlm -->
-<!-- metadata: vn7x5bpixi -->
-<!-- metadata: n4kwr9cuei -->
-<!-- metadata: b5cghbxwoh -->
-<!-- metadata: v9b1i8uxwq -->
 
 ### 3. Autonomous Oracle
 
