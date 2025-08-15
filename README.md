@@ -15,9 +15,6 @@ This repository contains:
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
-- An autonomous oracle service that bridges AI scans to on-chain state.
-- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
-  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -150,6 +147,11 @@ Run the autonomous oracle across all parcels with:
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
+<!-- metadata: rjee4fy83d -->
+<!-- metadata: 4oy4q4satj -->
+<!-- metadata: 3jwkhfkptw -->
+<!-- metadata: melen528lq -->
+<!-- metadata: bdb3f32iiw -->
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
