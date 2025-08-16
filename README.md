@@ -15,6 +15,9 @@ This repository contains:
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
+- An autonomous oracle service that bridges AI scans to on-chain state.
+- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -31,12 +34,6 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
-<!-- metadata: 2248qjjsay -->
-<!-- metadata: axn6fods2a -->
-<!-- metadata: omig06789v -->
-<!-- metadata: frwr4v4d1k -->
-<!-- metadata: d722w47c7h -->
-<!-- metadata: 8dvl5eh94h -->
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
