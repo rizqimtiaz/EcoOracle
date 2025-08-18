@@ -28,8 +28,6 @@ external services, no network access required.
 
 ## Quick start
 
-```bash
-npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
@@ -77,6 +75,8 @@ dashboard or run `npm run seed`.
 │                        Domain core (lib/)                           │
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
+<!-- metadata: l1r7hza16n -->
+<!-- metadata: ibtoukc35p -->
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
