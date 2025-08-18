@@ -8,14 +8,6 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
-<!-- metadata: fvhj3zvbjs -->
-<!-- metadata: u4n0pft65z -->
-<!-- metadata: tpov8hd7i3 -->
-<!-- metadata: qz3f2bw0l9 -->
-<!-- metadata: qnzqwxwmyg -->
-<!-- metadata: msh1bnfos6 -->
-<!-- metadata: jgwkfi6xxg -->
-<!-- metadata: 411yxture6 -->
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
@@ -190,6 +182,9 @@ traded — the smart contract reverts.
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
+
+---
+
 ## File map
 
 ```
