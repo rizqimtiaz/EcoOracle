@@ -5,6 +5,8 @@ integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
+credits based on what the planet actually looks like today.
+
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
@@ -109,13 +111,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 timestamp it deterministically computes:
 
 | Index | Description |
-<!-- metadata: 086trawbmr -->
-<!-- metadata: 76kmnx7x5p -->
-<!-- metadata: jy0tfxabb8 -->
-<!-- metadata: esd7kdppqg -->
-<!-- metadata: ncnel8iexp -->
-<!-- metadata: iob27huj2n -->
-<!-- metadata: i7gc2mhbnc -->
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
