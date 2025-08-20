@@ -68,6 +68,15 @@ dashboard or run `npm run seed`.
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
+<!-- metadata: lt80799vk5 -->
+<!-- metadata: d0lsy5n272 -->
+<!-- metadata: ukygktpxl8 -->
+<!-- metadata: 7cp3sv39g2 -->
+<!-- metadata: f6yvhf2bpl -->
+<!-- metadata: sk4gyoety1 -->
+<!-- metadata: kiix7pty71 -->
+<!-- metadata: p6o5k8vnn2 -->
+<!-- metadata: qzskrs9f5s -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -124,7 +133,6 @@ that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
-shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
