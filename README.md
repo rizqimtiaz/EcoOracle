@@ -18,6 +18,9 @@ This repository contains:
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+<!-- metadata: tx5o17edh8 -->
+<!-- metadata: 3dv1qr53lq -->
+<!-- metadata: b59wfh7keo -->
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
@@ -37,9 +40,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
-dashboard or run `npm run seed`.
-
----
 
 ## Architecture
 
