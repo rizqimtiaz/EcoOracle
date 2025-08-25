@@ -34,16 +34,6 @@ npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
-<!-- metadata: 6tbia04c3b -->
-<!-- metadata: qxjmspswnz -->
-<!-- metadata: yo013xekyd -->
-<!-- metadata: lkba39tu16 -->
-<!-- metadata: is4ttwwmoz -->
-<!-- metadata: 62651n32mc -->
-<!-- metadata: 0vneqm2v11 -->
-<!-- metadata: 13pkycy447 -->
-<!-- metadata: qjbdgfc90a -->
-<!-- metadata: zjkr9l1oif -->
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
@@ -156,6 +146,10 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonCreditDNFT.sol` implements:
 
+- A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
+- `updateCarbonState(...)` — only callable by the oracle.
+- `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
