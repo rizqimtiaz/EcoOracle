@@ -36,9 +36,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 
 Open **http://localhost:3000** and explore.
 
-To rebuild the demo network at any time, click **Reset Network** in the
-dashboard or run `npm run seed`.
-
 ---
 
 ## Architecture
@@ -83,6 +80,15 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
+<!-- metadata: 9mczttupmn -->
+<!-- metadata: xkmnc4cqsy -->
+<!-- metadata: 7sf2tqsyrv -->
+<!-- metadata: gbl7kmb0vw -->
+<!-- metadata: xggqx9pjhm -->
+<!-- metadata: g710jhhzd9 -->
+<!-- metadata: n0objno8jg -->
+<!-- metadata: 6oyom4f83e -->
+<!-- metadata: gsmpx7j4xg -->
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
