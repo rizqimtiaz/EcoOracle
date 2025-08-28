@@ -73,6 +73,10 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        Domain core (lib/)                           │
+│                                                                     │
+│   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
@@ -198,7 +202,6 @@ components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
-<!-- metadata: 543qa0anp6 -->
 data/runtime/         Persistent JSON state (auto-created)
 ```
 
