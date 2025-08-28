@@ -8,6 +8,14 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
+<!-- metadata: a2959kmx5c -->
+<!-- metadata: syzz47to4b -->
+<!-- metadata: 6v76mwdwwm -->
+<!-- metadata: abvllj986p -->
+<!-- metadata: afegrg3fto -->
+<!-- metadata: rd0db2rynp -->
+<!-- metadata: dxn8f3594n -->
+<!-- metadata: f2grpk3csf -->
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
@@ -36,8 +44,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 
 Open **http://localhost:3000** and explore.
 
-To rebuild the demo network at any time, click **Reset Network** in the
-dashboard or run `npm run seed`.
 
 ---
 
