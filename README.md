@@ -10,10 +10,6 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
-  thermal-anomaly indices, with per-ecosystem calibration.
-- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
@@ -176,6 +172,15 @@ traded — the smart contract reverts.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
+<!-- metadata: bwzg41wub9 -->
+<!-- metadata: 43hrv75m3l -->
+<!-- metadata: o1yrtlpo88 -->
+<!-- metadata: ng2kwa4x46 -->
+<!-- metadata: 77lv6tlzmb -->
+<!-- metadata: 3ngzm5cscc -->
+<!-- metadata: 2n2secepqe -->
+<!-- metadata: wt5mzmi7uv -->
+<!-- metadata: fqtxyq0hqu -->
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
