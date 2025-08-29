@@ -42,6 +42,12 @@ dashboard or run `npm run seed`.
 ---
 
 ## Architecture
+<!-- metadata: xjkvdtsj43 -->
+<!-- metadata: bkzh4q5s9q -->
+<!-- metadata: 7m5zasuer0 -->
+<!-- metadata: nz1obtgucj -->
+<!-- metadata: qkfmub375b -->
+<!-- metadata: ca1zxzkd8y -->
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -97,9 +103,6 @@ State persists to `data/runtime/state.json`.
 
 ---
 
-## How it works
-
-### 1. Mint a parcel as a dNFT
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
