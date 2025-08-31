@@ -17,15 +17,6 @@ This repository contains:
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
-<!-- metadata: 2z95o6z4i0 -->
-<!-- metadata: 8w52e2celd -->
-<!-- metadata: z6szur51pf -->
-<!-- metadata: 0l61l79yzq -->
-<!-- metadata: 83td8kftcm -->
-<!-- metadata: jvhzxujk6r -->
-<!-- metadata: ltddxxbnzx -->
-<!-- metadata: sgntk81rxh -->
-<!-- metadata: iqggzxl9cs -->
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -141,6 +132,10 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
+- Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+  appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
 
