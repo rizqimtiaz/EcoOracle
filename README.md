@@ -4,6 +4,15 @@ EcoOracle is a full-stack reference implementation of an **autonomous carbon
 integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
+<!-- metadata: fs1zptif97 -->
+<!-- metadata: lnc9q03ife -->
+<!-- metadata: l6quor6s23 -->
+<!-- metadata: 1sk35wqv36 -->
+<!-- metadata: qw2l8sovd6 -->
+<!-- metadata: h92ulamfvv -->
+<!-- metadata: ue38yjl4g7 -->
+<!-- metadata: w4d0t9civx -->
+<!-- metadata: 1o4lmo0kss -->
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
@@ -117,9 +126,6 @@ timestamp it deterministically computes:
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
-| Thermal anomaly | Heat anomaly (fire-risk proxy) |
-
-It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
