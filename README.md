@@ -21,6 +21,16 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
+<!-- metadata: 71ucafsase -->
+<!-- metadata: 561ypgohnp -->
+<!-- metadata: vkiu88tde0 -->
+<!-- metadata: 803yosbze4 -->
+<!-- metadata: joir2zvy2s -->
+<!-- metadata: hfiuocsr01 -->
+<!-- metadata: xvihq1pwsc -->
+<!-- metadata: pdctw1k0wg -->
+<!-- metadata: ct5h6e1nro -->
+<!-- metadata: tsz2qvcqai -->
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -149,9 +159,6 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
-- `invalidate(...)` — burns all outstanding credits.
-- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-  to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
