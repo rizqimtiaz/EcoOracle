@@ -14,7 +14,6 @@ This repository contains:
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
-  oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
@@ -146,6 +145,10 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonCreditDNFT.sol` implements:
 
+<!-- metadata: yv16xy55rz -->
+<!-- metadata: n4yv5e9w63 -->
+<!-- metadata: n2saeoj4ae -->
+<!-- metadata: owkc37fdux -->
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
