@@ -135,11 +135,6 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-<!-- metadata: mcmdujwq0u -->
-<!-- metadata: bdj2pp46ml -->
-<!-- metadata: dkugr0zi1c -->
-<!-- metadata: k71p9wjm4g -->
-<!-- metadata: lui7mtxjb2 -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
@@ -157,6 +152,8 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
+
+`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
