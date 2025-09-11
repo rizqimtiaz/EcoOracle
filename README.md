@@ -103,11 +103,6 @@ State persists to `data/runtime/state.json`.
 
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
-<!-- metadata: vbijixfrs9 -->
-<!-- metadata: mw1v5ib2gw -->
-<!-- metadata: da8jcxk2ko -->
-<!-- metadata: tp9q9079j6 -->
-<!-- metadata: 3yb3u6aaw8 -->
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
@@ -204,6 +199,10 @@ app/                  Next.js 14 App Router
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
+contracts/            Solidity smart contracts
+lib/                  Domain core (vision, chain, oracle, db, types)
+scripts/seed.ts       Seeds the demo network
+data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
