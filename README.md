@@ -120,10 +120,6 @@ timestamp it deterministically computes:
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
-that accounts for the parcel's age, hectares, and ecosystem-specific yearly
-sequestration rate.
-
-Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
 changed.
 
@@ -136,6 +132,11 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
+<!-- metadata: f0ic0uuzbc -->
+<!-- metadata: g2capzbfun -->
+<!-- metadata: wd3008s5e3 -->
+<!-- metadata: aq5zhdkdpe -->
+<!-- metadata: ao7mfqyxuc -->
 
 Run the autonomous oracle across all parcels with:
 
