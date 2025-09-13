@@ -5,10 +5,6 @@ integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
-<!-- metadata: 2mf3o7xjkz -->
-<!-- metadata: 295ss68gy2 -->
-<!-- metadata: 498opwqe78 -->
-<!-- metadata: 8kfj4ubryv -->
 credits based on what the planet actually looks like today.
 
 This repository contains:
@@ -21,6 +17,10 @@ This repository contains:
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
+  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
+- A live, interactive dashboard, world map, marketplace, parcel detail
+  pages, oracle event log, and corporate portfolio views.
+
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
