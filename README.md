@@ -64,9 +64,6 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
-│   /api/oracle/run   Run autonomous oracle across the network        │
-│   /api/events       Filtered event log                              │
-│   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
@@ -210,3 +207,8 @@ data/runtime/         Persistent JSON state (auto-created)
 ## License
 
 MIT.
+<!-- metadata: 6npxrgqwql -->
+<!-- metadata: 5vggt9vez6 -->
+<!-- metadata: b9gvenfp64 -->
+<!-- metadata: 0wqxf3zwtn -->
+<!-- metadata: iclie4bb5q -->
