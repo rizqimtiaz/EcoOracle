@@ -149,7 +149,6 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
-- `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
@@ -203,6 +202,11 @@ contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
+<!-- metadata: 8bxqf8qsgo -->
+<!-- metadata: jb9h9q8ubw -->
+<!-- metadata: kj3ad3n89o -->
+<!-- metadata: 6aapzkf80h -->
+<!-- metadata: qr0yw0dp47 -->
 ```
 
 ---
