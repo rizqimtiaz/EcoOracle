@@ -105,6 +105,8 @@ A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
+### 2. AI Vision Engine
+
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
 
@@ -137,10 +139,6 @@ changed.
 
 Run the autonomous oracle across all parcels with:
 
-<!-- metadata: 8csn2ewivj -->
-<!-- metadata: zwigyzro4x -->
-<!-- metadata: iwxb0eauoa -->
-<!-- metadata: vl7chpfok8 -->
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
