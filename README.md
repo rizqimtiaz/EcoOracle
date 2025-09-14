@@ -125,6 +125,7 @@ sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
+changed.
 
 ### 3. Autonomous Oracle
 
@@ -184,10 +185,6 @@ traded — the smart contract reverts.
 
 ---
 
-<!-- metadata: yq0qcg9wz1 -->
-<!-- metadata: ib7tfzs0sw -->
-<!-- metadata: t47l1x6y5g -->
-<!-- metadata: 9vlvbk9kdv -->
 ## File map
 
 ```
