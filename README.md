@@ -48,6 +48,8 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
+<!-- metadata: sgh15qseiu -->
+<!-- metadata: o00235xp7x -->
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
@@ -152,7 +154,6 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
-
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
