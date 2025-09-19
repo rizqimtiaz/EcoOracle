@@ -55,8 +55,6 @@ dashboard or run `npm run seed`.
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
@@ -97,6 +95,9 @@ State persists to `data/runtime/state.json`.
 
 ---
 
+<!-- metadata: ddluqu0ic3 -->
+<!-- metadata: ce0wd72zpr -->
+<!-- metadata: h0a7hmqm2m -->
 ## How it works
 
 ### 1. Mint a parcel as a dNFT
