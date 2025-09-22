@@ -101,6 +101,10 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+A protected plot of land is geo-fenced (polygon + center coordinate) and
+minted as an ERC-721 token. The token records the ecosystem type, hectares,
+baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
+
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
@@ -184,11 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-<!-- metadata: kl7xivs2cd -->
-<!-- metadata: cptn46bu3q -->
-<!-- metadata: bf6yrr2kon -->
-<!-- metadata: e5xhxbiout -->
-<!-- metadata: ypfegiz3iz -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
