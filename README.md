@@ -48,7 +48,6 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
-│   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
@@ -90,6 +89,7 @@ dashboard or run `npm run seed`.
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
+<!-- metadata: ncyytgf0oi -->
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
