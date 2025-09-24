@@ -10,13 +10,6 @@ credits based on what the planet actually looks like today.
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-<!-- metadata: rju4sd9fn7 -->
-<!-- metadata: bwhjm01xf9 -->
-<!-- metadata: 578mqmda5g -->
-<!-- metadata: iw6wg19g1h -->
-<!-- metadata: 8ewh812fv0 -->
-<!-- metadata: wj1r0ouni0 -->
-<!-- metadata: tonjwml9v3 -->
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
@@ -113,6 +106,9 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
+
+`lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
