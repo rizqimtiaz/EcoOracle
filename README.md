@@ -28,6 +28,9 @@ external services, no network access required.
 
 ## Quick start
 
+```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -132,14 +135,6 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-<!-- metadata: p4irzryi5h -->
-<!-- metadata: 3lfjs19ebr -->
-<!-- metadata: kqswhjgrzw -->
-<!-- metadata: wvz44429nr -->
-<!-- metadata: a2t4gkbc72 -->
-<!-- metadata: 0mx0j1yt9x -->
-<!-- metadata: wyrrto2peg -->
-<!-- metadata: qjgm0i5vwd -->
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
