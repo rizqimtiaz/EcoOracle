@@ -48,6 +48,9 @@ dashboard or run `npm run seed`.
 │                        EcoOracle Frontend (Next.js)                 │
 │                                                                     │
 │   /                Hero + landing                                   │
+│   /dashboard       Live metrics, oracle controls, charts            │
+│   /map             Interactive globe with all parcels               │
+│   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
@@ -111,16 +114,6 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
-<!-- metadata: lahgx1k6zs -->
-<!-- metadata: mn9l3reibp -->
-<!-- metadata: ptn1gycij0 -->
-<!-- metadata: a98vkjn8py -->
-<!-- metadata: 4svrkrlpq9 -->
-<!-- metadata: 1q5dlglklw -->
-<!-- metadata: q1sxpyt5er -->
-<!-- metadata: jdvsk4a0nt -->
-<!-- metadata: w38uvftz7q -->
-<!-- metadata: wvi50xph7c -->
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
