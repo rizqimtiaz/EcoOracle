@@ -51,13 +51,13 @@ dashboard or run `npm run seed`.
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
+│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
+│   /analyze         Live AI vision pipeline demo                     │
+│   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: ournzoseva -->
-<!-- metadata: jajlhxzres -->
-<!-- metadata: 0so9buebsx -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
