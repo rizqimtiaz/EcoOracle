@@ -19,10 +19,6 @@ This repository contains:
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
-<!-- metadata: krcnpsxhfq -->
-<!-- metadata: ekzv5wvlhg -->
-<!-- metadata: ss67ihwy7n -->
-<!-- metadata: 8e63q6mspc -->
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
@@ -182,6 +178,9 @@ traded — the smart contract reverts.
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+   visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
 
 ---
