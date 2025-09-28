@@ -86,6 +86,11 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+<!-- metadata: x48ye4z2y2 -->
+<!-- metadata: 3ebf240bav -->
+<!-- metadata: ge2xriyiry -->
+<!-- metadata: u0fzkicn5b -->
+<!-- metadata: e6jiwnfe1m -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
@@ -198,8 +203,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-components/           Reusable UI (charts, panels, controls)
-contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
