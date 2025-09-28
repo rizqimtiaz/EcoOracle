@@ -181,8 +181,6 @@ traded — the smart contract reverts.
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
-   (already invalidated) and watch credits gradually re-issue.
-
 ---
 
 ## File map
@@ -191,6 +189,15 @@ traded — the smart contract reverts.
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
+<!-- metadata: aj5ra30rub -->
+<!-- metadata: olobi7kzd3 -->
+<!-- metadata: 0kbpeu014j -->
+<!-- metadata: llxippmf5b -->
+<!-- metadata: o5kzr9y0i7 -->
+<!-- metadata: zzq7m1dmqw -->
+<!-- metadata: ja8nsdi3e1 -->
+<!-- metadata: vsyldultj4 -->
+<!-- metadata: ylxqxci4o5 -->
   dashboard/          Live network dashboard
   map/                Interactive global map
   marketplace/        dNFT catalogue & detail pages
