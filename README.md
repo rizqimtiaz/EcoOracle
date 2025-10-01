@@ -31,6 +31,9 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
+<!-- metadata: zr9k51ze6o -->
+<!-- metadata: 4d16a2ekc8 -->
+<!-- metadata: hiywy9ih0q -->
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -138,9 +141,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-
-- The "Run Oracle Sweep" button on the dashboard, or
-- `POST /api/oracle/run`.
 
 ### 4. Smart contracts (`contracts/`)
 
