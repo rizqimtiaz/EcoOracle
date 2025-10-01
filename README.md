@@ -149,14 +149,16 @@ Run the autonomous oracle across all parcels with:
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
-- `invalidate(...)` — burns all outstanding credits.
-- `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
-  to each token, retired credits flow into a global counter.
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+<!-- metadata: yz7pumn02e -->
+<!-- metadata: 7wr9jpfaer -->
+<!-- metadata: 4zzi240tmy -->
+<!-- metadata: 4h80dw24j0 -->
+<!-- metadata: fwute0wzq9 -->
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
