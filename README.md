@@ -60,14 +60,18 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
-│   /api/state        Aggregated network snapshot                     │
-│   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
+<!-- metadata: 581n0pjscw -->
+<!-- metadata: 10lqvefn0i -->
+<!-- metadata: xvoyquj7mz -->
+<!-- metadata: vr45vc1ryp -->
+<!-- metadata: bx6qqx6ejt -->
+<!-- metadata: xu3dm5nd3y -->
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
