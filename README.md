@@ -58,6 +58,9 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        REST API (Next.js Route Handlers)            │
+│   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
@@ -115,13 +118,6 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
-<!-- metadata: kfgjd0n0rh -->
-<!-- metadata: r89wj86wwo -->
-<!-- metadata: uoypaqd5tr -->
-<!-- metadata: 3rg5ribnlx -->
-<!-- metadata: 3wnfd302vx -->
-<!-- metadata: 7bj8jml3cn -->
-<!-- metadata: aik2vprbxb -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
