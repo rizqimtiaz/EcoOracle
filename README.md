@@ -66,6 +66,8 @@ dashboard or run `npm run seed`.
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
+│   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -127,12 +129,6 @@ changed.
 
 ### 3. Autonomous Oracle
 
-<!-- metadata: 8bf7zboh7m -->
-<!-- metadata: mcswxe14v5 -->
-<!-- metadata: ny4p9ucnqu -->
-<!-- metadata: gc8nh4jjah -->
-<!-- metadata: n3zto0ly8j -->
-<!-- metadata: ueq1dhmyee -->
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
