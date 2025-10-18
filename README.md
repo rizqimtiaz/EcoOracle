@@ -6,14 +6,20 @@ to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
+<!-- metadata: kdn2e2ah8x -->
+<!-- metadata: r66ggl4prm -->
+<!-- metadata: hcr42o85v7 -->
+<!-- metadata: xh9zzqkbrw -->
+<!-- metadata: hb6ti99zzg -->
+<!-- metadata: 5e6fa5pk4e -->
+<!-- metadata: rmtpbntyj7 -->
+<!-- metadata: l88l6erd1n -->
+<!-- metadata: lf26tdn556 -->
+<!-- metadata: 2d9rvw83kr -->
 
 This repository contains:
 
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
-- A self-contained AI vision engine that simulates a Sentinel-2 / Planet
-  pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
-  thermal-anomaly indices, with per-ecosystem calibration.
-- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
