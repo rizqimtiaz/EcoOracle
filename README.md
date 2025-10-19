@@ -69,6 +69,14 @@ dashboard or run `npm run seed`.
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
+<!-- metadata: bds8cridgl -->
+<!-- metadata: o7r9p2z7tc -->
+<!-- metadata: 29i96q6j33 -->
+<!-- metadata: lfqix19gll -->
+<!-- metadata: l0b3ownalz -->
+<!-- metadata: f7ssy6qx3i -->
+<!-- metadata: 2s46f9t7x7 -->
+<!-- metadata: yj7ugj2m93 -->
 │   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -198,9 +206,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-components/           Reusable UI (charts, panels, controls)
-contracts/            Solidity smart contracts
-lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
