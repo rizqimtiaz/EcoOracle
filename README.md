@@ -116,13 +116,6 @@ timestamp it deterministically computes:
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
-<!-- metadata: 4isfqrb8wd -->
-<!-- metadata: l0531t358q -->
-<!-- metadata: 9el5vwmk84 -->
-<!-- metadata: v27jdqiw62 -->
-<!-- metadata: 17y7fm0ylj -->
-<!-- metadata: hkr1joirq5 -->
-<!-- metadata: llr080z6rl -->
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
@@ -138,6 +131,10 @@ changed.
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
+- Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
+- Decides whether to update, downgrade, or invalidate the dNFT.
+- Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
