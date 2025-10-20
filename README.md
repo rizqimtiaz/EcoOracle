@@ -132,6 +132,7 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
+- Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
@@ -140,13 +141,6 @@ Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
-<!-- metadata: 9k6ckz8dkf -->
-<!-- metadata: h283lm8fsk -->
-<!-- metadata: dvr61inmlt -->
-<!-- metadata: mtv4miemdw -->
-<!-- metadata: 2d4f6micmx -->
-<!-- metadata: 3ro8rj0ag9 -->
-<!-- metadata: yoc021xa6b -->
 
 ### 4. Smart contracts (`contracts/`)
 
