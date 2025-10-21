@@ -43,6 +43,11 @@ dashboard or run `npm run seed`.
 
 ## Architecture
 
+<!-- metadata: rx45v6tznx -->
+<!-- metadata: 6as310ybte -->
+<!-- metadata: s1in0kr93a -->
+<!-- metadata: us1zqpbw1y -->
+<!-- metadata: l1r5d5pdnw -->
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -64,9 +69,6 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
-│   /api/oracle/run   Run autonomous oracle across the network        │
-│   /api/events       Filtered event log                              │
-│   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
 │   /api/seed         Reset to seeded state                           │
