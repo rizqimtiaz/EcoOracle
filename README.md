@@ -108,7 +108,6 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
-timestamp it deterministically computes:
 
 | Index | Description |
 | ---- | ---- |
@@ -157,6 +156,8 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+<!-- metadata: qoa64z6wc0 -->
+<!-- metadata: 8o8kj0eug7 -->
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
