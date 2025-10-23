@@ -43,6 +43,10 @@ dashboard or run `npm run seed`.
 
 ## Architecture
 
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                        EcoOracle Frontend (Next.js)                 │
+│                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
@@ -82,9 +86,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-<!-- metadata: 9h89pbtfxj -->
-<!-- metadata: h0vxwbcqqj -->
-<!-- metadata: 72v9naubuw -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
