@@ -155,10 +155,6 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
-valid signers before it forwards the call to the dNFT.
-
-For deployment instructions on any EVM chain, see the comments inside each
-contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
 
@@ -177,6 +173,14 @@ traded — the smart contract reverts.
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
    parcel transition to **Invalidated**, all credits burned, an
    `INVALIDATION` event written to chain.
+<!-- metadata: pp36tx8xma -->
+<!-- metadata: hfjfcwx595 -->
+<!-- metadata: 0x6dcu1san -->
+<!-- metadata: w513wpqlqc -->
+<!-- metadata: rr5kak0qna -->
+<!-- metadata: e35p0pjlvt -->
+<!-- metadata: lz26wyrscd -->
+<!-- metadata: jlr342jeby -->
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
