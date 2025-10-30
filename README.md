@@ -37,15 +37,6 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
-<!-- metadata: l1vkg4xu9c -->
-<!-- metadata: x3aarmvzi5 -->
-<!-- metadata: s83bhr4ewd -->
-<!-- metadata: igtlflpmrh -->
-<!-- metadata: aily3mzjwb -->
-<!-- metadata: 53ju7g9ahg -->
-<!-- metadata: dcu7y9xlcx -->
-<!-- metadata: arh3wnxfyj -->
-<!-- metadata: j1arv3vs8t -->
 dashboard or run `npm run seed`.
 
 ---
@@ -130,6 +121,7 @@ timestamp it deterministically computes:
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
+sequestration rate.
 
 Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
 shift the indices, and the engine emits human-readable notes describing what
