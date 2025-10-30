@@ -21,8 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-<!-- metadata: kv2b0lukqy -->
-<!-- metadata: 24tmzb84bs -->
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -85,6 +83,9 @@ dashboard or run `npm run seed`.
 │   db.ts           File-based persistent state w/ mutex              │
 │   stats.ts        Network statistics & timeseries                   │
 │   format.ts       Display formatters & status palettes              │
+└─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
