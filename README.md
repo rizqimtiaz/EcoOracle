@@ -101,10 +101,6 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
-A protected plot of land is geo-fenced (polygon + center coordinate) and
-minted as an ERC-721 token. The token records the ecosystem type, hectares,
-baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
-
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
@@ -134,6 +130,9 @@ changed.
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
+<!-- metadata: 629j1zrzb1 -->
+<!-- metadata: tue69s7d45 -->
+<!-- metadata: vk01u18unp -->
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
