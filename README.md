@@ -15,6 +15,15 @@ This repository contains:
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
+<!-- metadata: e8wjduaf2w -->
+<!-- metadata: mxs9ti9u7h -->
+<!-- metadata: a79los72zq -->
+<!-- metadata: wqdiruz2wv -->
+<!-- metadata: qgopmcd4r6 -->
+<!-- metadata: lv8coi1qx2 -->
+<!-- metadata: xswbxjw44q -->
+<!-- metadata: 4a6lu5so5k -->
+<!-- metadata: cav4v11jx6 -->
 - An autonomous oracle service that bridges AI scans to on-chain state.
 - Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
@@ -114,9 +123,6 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
-| Biomass index | Above-ground biomass proxy |
-| Soil carbon index | Belowground carbon proxy |
-| Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
