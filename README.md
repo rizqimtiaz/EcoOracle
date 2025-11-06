@@ -85,6 +85,9 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+<!-- metadata: yh3kmiodi6 -->
+<!-- metadata: rn62qyiwh1 -->
+<!-- metadata: m1f2p45aut -->
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
@@ -114,9 +117,6 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
-| Biomass index | Above-ground biomass proxy |
-| Soil carbon index | Belowground carbon proxy |
-| Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
