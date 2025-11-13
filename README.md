@@ -54,6 +54,8 @@ dashboard or run `npm run seed`.
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
+<!-- metadata: tbrfziy5gr -->
+<!-- metadata: q1n38tno1c -->
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
@@ -74,8 +76,6 @@ dashboard or run `npm run seed`.
                                   │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        Domain core (lib/)                           │
-│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
