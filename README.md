@@ -118,6 +118,8 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
+
+It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
 sequestration rate.
 
@@ -168,8 +170,6 @@ traded — the smart contract reverts.
 ---
 
 ## Demo scenarios to try
-<!-- metadata: dw51qc8exk -->
-<!-- metadata: fgvcu882m0 -->
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
