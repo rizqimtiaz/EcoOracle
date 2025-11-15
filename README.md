@@ -99,9 +99,6 @@ State persists to `data/runtime/state.json`.
 
 ## How it works
 
-### 1. Mint a parcel as a dNFT
-
-A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
@@ -156,6 +153,11 @@ Run the autonomous oracle across all parcels with:
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
+<!-- metadata: 8hjm34f1f3 -->
+<!-- metadata: p4okbbmzg9 -->
+<!-- metadata: 88lmlkf6hx -->
+<!-- metadata: 04n8nw4vhc -->
+<!-- metadata: g4ik6j0euh -->
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
