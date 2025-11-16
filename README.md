@@ -108,6 +108,10 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
+| Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
@@ -128,9 +132,6 @@ changed.
 `lib/oracle.ts` is the bridge. After each scan it:
 
 - Computes a target credit count (1 credit = 1 verified tonne).
-<!-- metadata: is67x2al6d -->
-<!-- metadata: rcw1mz3cq4 -->
-<!-- metadata: nt029f7efr -->
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
