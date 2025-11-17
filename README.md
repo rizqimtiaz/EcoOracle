@@ -56,6 +56,10 @@ dashboard or run `npm run seed`.
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
@@ -184,8 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-<!-- metadata: eshrhfhj08 -->
-<!-- metadata: cdwlsoernu -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
