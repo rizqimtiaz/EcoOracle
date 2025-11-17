@@ -137,6 +137,13 @@ changed.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
+<!-- metadata: 5jdrabpuos -->
+<!-- metadata: 1nq41m6b2p -->
+<!-- metadata: bc4t0crod4 -->
+<!-- metadata: l97t3fb9tr -->
+<!-- metadata: 2mopw7601i -->
+<!-- metadata: qtggy17li3 -->
+<!-- metadata: vrdi65ab2d -->
 Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
@@ -152,8 +159,6 @@ Run the autonomous oracle across all parcels with:
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
-
-`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
