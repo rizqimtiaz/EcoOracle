@@ -63,14 +63,6 @@ dashboard or run `npm run seed`.
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
-<!-- metadata: nowxncafy1 -->
-<!-- metadata: bdo23tu3mx -->
-<!-- metadata: zamo6h6guu -->
-<!-- metadata: q3xb2qq765 -->
-<!-- metadata: 6pjxy1h6w6 -->
-<!-- metadata: ica2mpsh82 -->
-<!-- metadata: ooepv6vybh -->
-<!-- metadata: ifx7rrihvi -->
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
@@ -117,6 +109,7 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
+
 | Index | Description |
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
