@@ -31,6 +31,7 @@ external services, no network access required.
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
 Open **http://localhost:3000** and explore.
@@ -63,14 +64,6 @@ dashboard or run `npm run seed`.
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
-<!-- metadata: 4tp5x51u44 -->
-<!-- metadata: n2ntvvxuei -->
-<!-- metadata: 7lzd4i6of2 -->
-<!-- metadata: c6d54vl4dv -->
-<!-- metadata: 9nq7xmaf0j -->
-<!-- metadata: 9tq4j7mu4v -->
-<!-- metadata: eq62tddjuv -->
-<!-- metadata: ovy6cbu1jo -->
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
