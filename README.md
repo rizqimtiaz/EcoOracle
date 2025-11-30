@@ -76,7 +76,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
 │                                                                     │
-│   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
@@ -148,6 +147,7 @@ Run the autonomous oracle across all parcels with:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
+<!-- metadata: jdcb12jrps -->
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
