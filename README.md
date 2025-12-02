@@ -46,6 +46,10 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
+│                                                                     │
+│   /                Hero + landing                                   │
+│   /dashboard       Live metrics, oracle controls, charts            │
+│   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
@@ -74,14 +78,6 @@ dashboard or run `npm run seed`.
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
-<!-- metadata: xjjugfeuug -->
-<!-- metadata: eu99dw5r6y -->
-<!-- metadata: sytgv1vq0i -->
-<!-- metadata: fjht7vkjyz -->
-<!-- metadata: 7v659m4ret -->
-<!-- metadata: eaqxxba1dt -->
-<!-- metadata: hs86q8cm2w -->
-<!-- metadata: 66gy0ahqdj -->
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
 │   oracle.ts       Autonomous oracle bridging vision -> chain        │
 │   db.ts           File-based persistent state w/ mutex              │
