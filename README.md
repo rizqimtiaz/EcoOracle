@@ -39,6 +39,7 @@ Open **http://localhost:3000** and explore.
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
 
+---
 
 ## Architecture
 
@@ -202,9 +203,6 @@ contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
-<!-- metadata: s6pumofkkq -->
-<!-- metadata: rnnwgi3dws -->
-<!-- metadata: ny6fhepmp2 -->
 ```
 
 ---
