@@ -43,6 +43,12 @@ dashboard or run `npm run seed`.
 
 ## Architecture
 
+<!-- metadata: si8rjnzkqz -->
+<!-- metadata: q405bljsmi -->
+<!-- metadata: d198tlb5hd -->
+<!-- metadata: wcs8af9g40 -->
+<!-- metadata: haerjvxuk2 -->
+<!-- metadata: gex1n69zlb -->
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
@@ -50,7 +56,6 @@ dashboard or run `npm run seed`.
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
-│   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
