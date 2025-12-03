@@ -167,6 +167,10 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
+---
+
+## Demo scenarios to try
+
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
@@ -194,13 +198,6 @@ app/                  Next.js 14 App Router
   oracle/             Event + transaction log
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
-<!-- metadata: vsoa8pj96t -->
-<!-- metadata: f4eb0oz64c -->
-<!-- metadata: 16r0uf1c1m -->
-<!-- metadata: rtflo1s9ke -->
-<!-- metadata: ilgbknn6xx -->
-<!-- metadata: 9gpz6lgu67 -->
-<!-- metadata: m5vag8lryk -->
 components/           Reusable UI (charts, panels, controls)
 contracts/            Solidity smart contracts
 lib/                  Domain core (vision, chain, oracle, db, types)
