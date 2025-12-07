@@ -41,13 +41,6 @@ dashboard or run `npm run seed`.
 
 ---
 
-<!-- metadata: hxg3h3vj1b -->
-<!-- metadata: mrllwqqp7p -->
-<!-- metadata: sr6bp7qtck -->
-<!-- metadata: 5jdnra4ys8 -->
-<!-- metadata: pjl9k33mrz -->
-<!-- metadata: 97h8o491ya -->
-<!-- metadata: ljtfztulit -->
 ## Architecture
 
 ```
@@ -182,6 +175,10 @@ traded — the smart contract reverts.
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
+   parcel transition to **Invalidated**, all credits burned, an
+   `INVALIDATION` event written to chain.
+3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
+   Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
    (already invalidated) and watch credits gradually re-issue.
