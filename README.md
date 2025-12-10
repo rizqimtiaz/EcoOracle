@@ -5,8 +5,6 @@ integrity network**. Every carbon credit is a **dynamic NFT (dNFT)** anchored
 to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
-<!-- metadata: q3ahanuybq -->
-<!-- metadata: u10ddr4lxb -->
 credits based on what the planet actually looks like today.
 
 This repository contains:
@@ -110,6 +108,10 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 ### 2. AI Vision Engine
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
+timestamp it deterministically computes:
+
+| Index | Description |
+| ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
 | Biomass index | Above-ground biomass proxy |
