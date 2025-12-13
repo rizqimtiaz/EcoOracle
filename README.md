@@ -118,12 +118,6 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
-<!-- metadata: f4m9k7nb3u -->
-<!-- metadata: z4x65lfbua -->
-<!-- metadata: 2bwdphgpik -->
-<!-- metadata: q0u3emx9p2 -->
-<!-- metadata: 0l6t36zmj3 -->
-<!-- metadata: n70uw5a3nd -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
@@ -141,6 +135,10 @@ changed.
 - Computes a target price (a function of health + scarcity + thermal risk).
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
+  appending a transaction and an event to the network log.
+
+Run the autonomous oracle across all parcels with:
+
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
 
