@@ -93,9 +93,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-State persists to `data/runtime/state.json`.
-
----
 
 ## How it works
 
@@ -137,6 +134,11 @@ changed.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
 
+<!-- metadata: m42f6fjacx -->
+<!-- metadata: zf7r1vhjk7 -->
+<!-- metadata: 8vic918dru -->
+<!-- metadata: 6yjxfqttpm -->
+<!-- metadata: dw85na8w4h -->
 Run the autonomous oracle across all parcels with:
 
 - The "Run Oracle Sweep" button on the dashboard, or
