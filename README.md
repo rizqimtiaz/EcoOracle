@@ -38,7 +38,6 @@ Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
 dashboard or run `npm run seed`.
-
 ---
 
 ## Architecture
@@ -206,6 +205,16 @@ data/runtime/         Persistent JSON state (auto-created)
 ```
 
 ---
+<!-- metadata: 8s54si4p2a -->
+<!-- metadata: dhhi7uecyr -->
+<!-- metadata: su9q7tiejh -->
+<!-- metadata: klkk21uunn -->
+<!-- metadata: jofjbc26b8 -->
+<!-- metadata: tuodvtwgxc -->
+<!-- metadata: fa54rr8zwa -->
+<!-- metadata: yfa4u8wvbi -->
+<!-- metadata: b7li6rjb9e -->
+<!-- metadata: 4z1i3kwqyb -->
 
 ## License
 
