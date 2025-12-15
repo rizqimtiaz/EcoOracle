@@ -26,8 +26,6 @@ external services, no network access required.
 
 ---
 
-## Quick start
-
 ```bash
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
@@ -114,6 +112,15 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
+<!-- metadata: gl4zkijku9 -->
+<!-- metadata: cxhmf7jcxr -->
+<!-- metadata: shyi31vpw4 -->
+<!-- metadata: invbqea9p6 -->
+<!-- metadata: 7yn06v2e9c -->
+<!-- metadata: zwhcmvz37c -->
+<!-- metadata: snjbfkprqd -->
+<!-- metadata: 838r14hp7n -->
+<!-- metadata: 86wlrc08zq -->
 | Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
