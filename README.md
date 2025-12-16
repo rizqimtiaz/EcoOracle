@@ -29,6 +29,8 @@ external services, no network access required.
 ## Quick start
 
 ```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
 
@@ -208,13 +210,3 @@ data/runtime/         Persistent JSON state (auto-created)
 ## License
 
 MIT.
-<!-- metadata: c8f7w02xmw -->
-<!-- metadata: 2d7mugmf2k -->
-<!-- metadata: 6nla53l3cy -->
-<!-- metadata: zraynh5c7q -->
-<!-- metadata: adfv7oqqx3 -->
-<!-- metadata: r9bam6slng -->
-<!-- metadata: zuyg4s3kn0 -->
-<!-- metadata: 4zaj7tsp4u -->
-<!-- metadata: kalhfr05f8 -->
-<!-- metadata: w800kqs09k -->
