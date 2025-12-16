@@ -53,9 +53,6 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
-<!-- metadata: p50qiqh5o4 -->
-<!-- metadata: ryziesvv2s -->
-<!-- metadata: 50jyux6thf -->
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -70,6 +67,9 @@ dashboard or run `npm run seed`.
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
 │   /api/transactions Raw transaction list                            │
+│   /api/portfolios   List wallets                                    │
+│   /api/trade        Buy / retire credits                            │
+│   /api/seed         Reset to seeded state                           │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
