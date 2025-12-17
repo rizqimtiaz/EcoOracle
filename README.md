@@ -29,6 +29,10 @@ external services, no network access required.
 ## Quick start
 
 ```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
+```
 
 Open **http://localhost:3000** and explore.
 
@@ -37,16 +41,6 @@ dashboard or run `npm run seed`.
 
 ---
 
-<!-- metadata: a8oqu0fqrg -->
-<!-- metadata: adhj9xnaed -->
-<!-- metadata: rtwes3l664 -->
-<!-- metadata: dntkkzrevi -->
-<!-- metadata: xakgc1kk7i -->
-<!-- metadata: fn1s8bzoqe -->
-<!-- metadata: j5i37vfpug -->
-<!-- metadata: hgm63zqza2 -->
-<!-- metadata: rl9dayzpyl -->
-<!-- metadata: g1nrddv8vb -->
 ## Architecture
 
 ```
