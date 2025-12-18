@@ -52,6 +52,12 @@ dashboard or run `npm run seed`.
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
+<!-- metadata: chjsi2377f -->
+<!-- metadata: bwlgqbc3ej -->
+<!-- metadata: kloddjdh1g -->
+<!-- metadata: evis3jx4l3 -->
+<!-- metadata: rb832ef2pq -->
+<!-- metadata: yxbplj5krm -->
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
@@ -199,8 +205,6 @@ app/                  Next.js 14 App Router
   portfolio/          Wallet holdings & retirement
   api/                Route handlers (REST endpoints)
 components/           Reusable UI (charts, panels, controls)
-contracts/            Solidity smart contracts
-lib/                  Domain core (vision, chain, oracle, db, types)
 scripts/seed.ts       Seeds the demo network
 data/runtime/         Persistent JSON state (auto-created)
 ```
