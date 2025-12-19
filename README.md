@@ -121,10 +121,6 @@ timestamp it deterministically computes:
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
-sequestration rate.
-
-Discrete events (`growth`, `deforestation`, `fire`, `regeneration`) materially
-shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
@@ -169,6 +165,8 @@ traded — the smart contract reverts.
 
 ---
 
+<!-- metadata: minypkkibo -->
+<!-- metadata: 07j1nc2962 -->
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
