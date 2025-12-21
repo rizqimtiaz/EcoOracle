@@ -85,6 +85,7 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
+                                  ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
@@ -166,9 +167,6 @@ retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
-<!-- metadata: ar21kuajd5 -->
-<!-- metadata: q9ixa13pi7 -->
-<!-- metadata: d0yto6zu3o -->
 ---
 
 ## Demo scenarios to try
