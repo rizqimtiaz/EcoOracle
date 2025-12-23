@@ -30,6 +30,8 @@ external services, no network access required.
 
 ```bash
 npm install
+<!-- metadata: s2lom2grv7 -->
+<!-- metadata: i3q1n0iz2n -->
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
@@ -89,9 +91,6 @@ dashboard or run `npm run seed`.
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
-│   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
-└─────────────────────────────────────────────────────────────────────┘
-```
 
 State persists to `data/runtime/state.json`.
 
