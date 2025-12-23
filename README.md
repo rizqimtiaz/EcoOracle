@@ -26,6 +26,10 @@ external services, no network access required.
 
 ---
 
+## Quick start
+
+```bash
+npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
 ```
@@ -162,7 +166,6 @@ Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
-<!-- metadata: 1noy9s5ycp -->
 
 ---
 
