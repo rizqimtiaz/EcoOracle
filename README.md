@@ -58,8 +58,6 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        REST API (Next.js Route Handlers)            │
 │   /api/state        Aggregated network snapshot                     │
 │   /api/parcels      List parcels                                    │
 │   /api/parcels/:id  Single parcel + events + txs                    │
@@ -184,6 +182,9 @@ traded — the smart contract reverts.
    (already invalidated) and watch credits gradually re-issue.
 
 ---
+<!-- metadata: 8re6caatx2 -->
+<!-- metadata: rgiesskm2w -->
+<!-- metadata: n4bjembtu2 -->
 
 ## File map
 
