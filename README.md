@@ -118,16 +118,6 @@ timestamp it deterministically computes:
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
-<!-- metadata: 740tytt2ge -->
-<!-- metadata: hga1onnpul -->
-<!-- metadata: 7wlw9u89sh -->
-<!-- metadata: x0y4aykyyk -->
-<!-- metadata: psuczieii2 -->
-<!-- metadata: sj8pzmhaz0 -->
-<!-- metadata: pivujhdx25 -->
-<!-- metadata: vbyq63yxz5 -->
-<!-- metadata: 3755d6tnnw -->
-<!-- metadata: luumgep5tm -->
 
 It then derives an **estimated tonnes CO₂e** using a calibrated linear model
 that accounts for the parcel's age, hectares, and ecosystem-specific yearly
@@ -195,6 +185,9 @@ traded — the smart contract reverts.
 
 ---
 
+## File map
+
+```
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
