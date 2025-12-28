@@ -13,6 +13,10 @@ This repository contains:
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
+- A simulated EVM-compatible blockchain layer (mint, transfer, retire,
+  oracle update, invalidate) with a complete event/transaction log.
+- An autonomous oracle service that bridges AI scans to on-chain state.
+- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -189,13 +193,6 @@ app/                  Next.js 14 App Router
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
-<!-- metadata: 0azlj2lj8u -->
-<!-- metadata: ddhbrh72v2 -->
-<!-- metadata: px9gkwl78s -->
-<!-- metadata: 14642z1zbd -->
-<!-- metadata: va22np3z6z -->
-<!-- metadata: 7y2m593mdd -->
-<!-- metadata: dw3xh1g6qd -->
   marketplace/        dNFT catalogue & detail pages
   analyze/            Live AI vision demo
   oracle/             Event + transaction log
