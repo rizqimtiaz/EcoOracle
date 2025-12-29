@@ -8,6 +8,7 @@ verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
 
 This repository contains:
+
 - A production-grade Next.js 14 frontend (App Router, TypeScript, Tailwind, Recharts).
 - A self-contained AI vision engine that simulates a Sentinel-2 / Planet
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
@@ -160,15 +161,6 @@ For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
-<!-- metadata: a5blae5jly -->
-<!-- metadata: kul35hvedi -->
-<!-- metadata: a9jayi4ukb -->
-<!-- metadata: 5o5asqrcyi -->
-<!-- metadata: zgkp0cbzd8 -->
-<!-- metadata: b99qchhyyl -->
-<!-- metadata: r2m0qrv5qr -->
-<!-- metadata: 538nahmo7c -->
-<!-- metadata: 8ylkxl5z0f -->
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
