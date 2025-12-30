@@ -66,7 +66,6 @@ dashboard or run `npm run seed`.
 │   /api/analyze      Run AI scan on a parcel (with optional event)   │
 │   /api/oracle/run   Run autonomous oracle across the network        │
 │   /api/events       Filtered event log                              │
-<!-- metadata: hnxvjeungy -->
 │   /api/transactions Raw transaction list                            │
 │   /api/portfolios   List wallets                                    │
 │   /api/trade        Buy / retire credits                            │
@@ -158,6 +157,8 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
+For deployment instructions on any EVM chain, see the comments inside each
+contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
 
