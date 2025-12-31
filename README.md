@@ -21,6 +21,10 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
+<!-- metadata: xcxhcrq4yd -->
+<!-- metadata: lvr8bt8q5q -->
+<!-- metadata: 22b706ra26 -->
+<!-- metadata: 4jm1qj2lel -->
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
 
@@ -160,7 +164,6 @@ valid signers before it forwards the call to the dNFT.
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
-### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
