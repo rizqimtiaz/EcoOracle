@@ -14,6 +14,9 @@ This repository contains:
   pipeline computing NDVI, canopy density, biomass, soil-carbon, moisture and
   thermal-anomaly indices, with per-ecosystem calibration.
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
+  oracle update, invalidate) with a complete event/transaction log.
+- An autonomous oracle service that bridges AI scans to on-chain state.
+- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
   `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
@@ -158,14 +161,6 @@ For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
-<!-- metadata: e8ix2p5eva -->
-<!-- metadata: rvzlygmw88 -->
-<!-- metadata: zwe02w0r0w -->
-<!-- metadata: lf12dhz9mc -->
-<!-- metadata: hpjfqdpven -->
-<!-- metadata: wy992jkrdn -->
-<!-- metadata: lqeqvss2vt -->
-<!-- metadata: rlf2fsejf8 -->
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
