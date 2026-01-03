@@ -85,10 +85,6 @@ dashboard or run `npm run seed`.
 │   format.ts       Display formatters & status palettes              │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
-                                  ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Solidity contracts                           │
-│   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
 │   CarbonOracle.sol       Whitelisted-signer oracle aggregator       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -101,6 +97,11 @@ State persists to `data/runtime/state.json`.
 
 ### 1. Mint a parcel as a dNFT
 
+<!-- metadata: 7exxb24f6i -->
+<!-- metadata: v87hx0juvp -->
+<!-- metadata: 1p58icnlsx -->
+<!-- metadata: nnrwod578r -->
+<!-- metadata: dzcitqdbx4 -->
 A protected plot of land is geo-fenced (polygon + center coordinate) and
 minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
