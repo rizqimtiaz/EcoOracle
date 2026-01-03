@@ -6,10 +6,6 @@ to a specific GPS coordinate. The platform runs an **AI vision pipeline** on
 satellite imagery in a continuous loop and an **autonomous oracle** pushes the
 verified state on-chain in real time — minting, burning, or invalidating
 credits based on what the planet actually looks like today.
-<!-- metadata: vhxy29qa4s -->
-<!-- metadata: zr4s4rs14c -->
-<!-- metadata: q7hxme5gbc -->
-<!-- metadata: yogdrr4o38 -->
 
 This repository contains:
 
@@ -33,6 +29,10 @@ external services, no network access required.
 ## Quick start
 
 ```bash
+npm install
+npm run seed        # populate the local devnet with 14 parcels worldwide
+npm run dev         # start the Next.js app at http://localhost:3000
+```
 
 Open **http://localhost:3000** and explore.
 
