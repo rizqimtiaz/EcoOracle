@@ -153,7 +153,6 @@ Run the autonomous oracle across all parcels with:
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
-`CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
@@ -163,6 +162,13 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
+<!-- metadata: t4qr7sb6ei -->
+<!-- metadata: m46ug4s950 -->
+<!-- metadata: yd5omqp37u -->
+<!-- metadata: st111k1c9u -->
+<!-- metadata: 9jpws4lz1c -->
+<!-- metadata: g2lb5ehk2p -->
+<!-- metadata: fpaavtjx4w -->
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
