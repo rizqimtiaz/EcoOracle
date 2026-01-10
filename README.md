@@ -50,6 +50,7 @@ dashboard or run `npm run seed`.
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
+<!-- metadata: jrdcty0z1p -->
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
@@ -114,7 +115,6 @@ timestamp it deterministically computes:
 | ---- | ---- |
 | NDVI | Normalized Difference Vegetation Index (greenness proxy) |
 | Canopy density | Tree cover proportion |
-| Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
