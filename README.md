@@ -37,6 +37,8 @@ npm run dev         # start the Next.js app at http://localhost:3000
 Open **http://localhost:3000** and explore.
 
 To rebuild the demo network at any time, click **Reset Network** in the
+dashboard or run `npm run seed`.
+
 ---
 
 ## Architecture
@@ -184,7 +186,6 @@ traded — the smart contract reverts.
 ---
 
 ## File map
-<!-- metadata: u435m7qm9o -->
 
 ```
 app/                  Next.js 14 App Router
