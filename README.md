@@ -138,10 +138,6 @@ changed.
   appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
-<!-- metadata: x8c4b84y8d -->
-<!-- metadata: vfiejwd9p3 -->
-<!-- metadata: bg1u2xu9x2 -->
-<!-- metadata: oidtn52brb -->
 
 - The "Run Oracle Sweep" button on the dashboard, or
 - `POST /api/oracle/run`.
@@ -190,6 +186,10 @@ traded — the smart contract reverts.
 ---
 
 ## File map
+
+```
+app/                  Next.js 14 App Router
+  layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
   dashboard/          Live network dashboard
   map/                Interactive global map
