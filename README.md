@@ -128,12 +128,6 @@ shift the indices, and the engine emits human-readable notes describing what
 changed.
 
 ### 3. Autonomous Oracle
-<!-- metadata: rycua0g6ox -->
-<!-- metadata: tqkd8ccvej -->
-<!-- metadata: 3evpuyj3sv -->
-<!-- metadata: yk1glcb7wc -->
-<!-- metadata: d1hz0u3zr9 -->
-<!-- metadata: q71nqv8et4 -->
 
 `lib/oracle.ts` is the bridge. After each scan it:
 
@@ -185,6 +179,10 @@ traded — the smart contract reverts.
    `INVALIDATION` event written to chain.
 3. Go to `/marketplace`, find an active parcel, open it and use the **Trade &
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
+   visit `/portfolio` and confirm the retirement counter incremented.
+4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
+   (already invalidated) and watch credits gradually re-issue.
+
 ---
 
 ## File map
