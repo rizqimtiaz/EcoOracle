@@ -53,14 +53,6 @@ dashboard or run `npm run seed`.
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
-<!-- metadata: 99akmtin73 -->
-<!-- metadata: vp4sied1oj -->
-<!-- metadata: 7vchjvuxio -->
-<!-- metadata: xrjc8hhntq -->
-<!-- metadata: 23srliqv5d -->
-<!-- metadata: wdpe3eh1pg -->
-<!-- metadata: g3h0dokybe -->
-<!-- metadata: fdv3w39te5 -->
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -152,6 +144,10 @@ Run the autonomous oracle across all parcels with:
 
 ### 4. Smart contracts (`contracts/`)
 
+`CarbonCreditDNFT.sol` implements:
+
+- A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
 - `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
