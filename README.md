@@ -75,6 +75,14 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
+<!-- metadata: c8h6zlmd61 -->
+<!-- metadata: etmb9mpl8z -->
+<!-- metadata: edmr8kkyve -->
+<!-- metadata: ga0qgryohf -->
+<!-- metadata: jwh4bpztca -->
+<!-- metadata: 2emt5ddcy1 -->
+<!-- metadata: hxr9ufy79d -->
+<!-- metadata: ajyap2t6i0 -->
 │                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
@@ -168,7 +176,6 @@ and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
-
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
