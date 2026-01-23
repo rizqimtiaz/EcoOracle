@@ -111,6 +111,10 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 timestamp it deterministically computes:
 
 | Index | Description |
+| ---- | ---- |
+| NDVI | Normalized Difference Vegetation Index (greenness proxy) |
+| Canopy density | Tree cover proportion |
+| Biomass index | Above-ground biomass proxy |
 | Soil carbon index | Belowground carbon proxy |
 | Moisture index | Soil moisture / canopy water proxy |
 | Thermal anomaly | Heat anomaly (fire-risk proxy) |
@@ -184,9 +188,6 @@ traded — the smart contract reverts.
 ## File map
 
 ```
-<!-- metadata: 4ty9y9dobr -->
-<!-- metadata: lka3imbst5 -->
-<!-- metadata: aqfp1a25bb -->
 app/                  Next.js 14 App Router
   layout.tsx          Global layout, navbar, footer, background
   page.tsx            Landing page with hero, problem, pipeline, CTA
