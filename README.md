@@ -54,9 +54,6 @@ dashboard or run `npm run seed`.
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
-│   /portfolio       Wallet holdings, retirement, P&L                 │
-└─────────────────────────────────────────────────────────────────────┘
-                                  │
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        REST API (Next.js Route Handlers)            │
@@ -86,6 +83,13 @@ dashboard or run `npm run seed`.
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
+<!-- metadata: lch9hx0864 -->
+<!-- metadata: u6wt8zhy7j -->
+<!-- metadata: db8n4rxqwu -->
+<!-- metadata: tgl63l9qux -->
+<!-- metadata: qztvf27rnp -->
+<!-- metadata: sriyfmerj5 -->
+<!-- metadata: tyw7xk6nze -->
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Solidity contracts                           │
 │   CarbonCreditDNFT.sol   ERC-721 dNFT with mutable carbon state     │
