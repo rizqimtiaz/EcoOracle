@@ -52,9 +52,6 @@ dashboard or run `npm run seed`.
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
 │   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-<!-- metadata: dcmbj7kop8 -->
-<!-- metadata: x5jpbns4c2 -->
-<!-- metadata: d7k0dzgpv3 -->
 │   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
@@ -168,6 +165,10 @@ contract — both compile as-is with `solc 0.8.20`.
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
+traded — the smart contract reverts.
+
+---
+
 ## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
