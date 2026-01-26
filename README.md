@@ -133,9 +133,6 @@ changed.
 
 - Computes a target credit count (1 credit = 1 verified tonne).
 - Computes a target price (a function of health + scarcity + thermal risk).
-- Decides whether to update, downgrade, or invalidate the dNFT.
-- Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
-  appending a transaction and an event to the network log.
 
 Run the autonomous oracle across all parcels with:
 
@@ -156,6 +153,8 @@ Run the autonomous oracle across all parcels with:
 `CarbonOracle.sol` is a whitelist-aggregator: only authorized DON nodes can
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
+<!-- metadata: oqvqxwdv0c -->
+<!-- metadata: bd3pydksb7 -->
 
 For deployment instructions on any EVM chain, see the comments inside each
 contract — both compile as-is with `solc 0.8.20`.
