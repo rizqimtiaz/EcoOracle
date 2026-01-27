@@ -136,15 +136,6 @@ changed.
 - Decides whether to update, downgrade, or invalidate the dNFT.
 - Pushes the change on-chain via `chainOracleUpdate` or `chainInvalidate`,
   appending a transaction and an event to the network log.
-<!-- metadata: qem9hm6h64 -->
-<!-- metadata: dlw88v5ama -->
-<!-- metadata: 5zs0alkrpx -->
-<!-- metadata: yhhn30mjo5 -->
-<!-- metadata: h9wh34x955 -->
-<!-- metadata: huww9t3j72 -->
-<!-- metadata: yf4qy5058h -->
-<!-- metadata: cg57nxnq4i -->
-<!-- metadata: 2q95iwugyk -->
 
 Run the autonomous oracle across all parcels with:
 
@@ -156,6 +147,9 @@ Run the autonomous oracle across all parcels with:
 `CarbonCreditDNFT.sol` implements:
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
+- A `Parcel` struct per token with packed dynamic state.
+- `updateCarbonState(...)` — only callable by the oracle.
+- `invalidate(...)` — burns all outstanding credits.
 - `transferCredits(...)` and `retireCredits(...)` — fungible credits attached
   to each token, retired credits flow into a global counter.
 
