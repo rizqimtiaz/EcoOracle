@@ -171,6 +171,7 @@ traded — the smart contract reverts.
 
 ## Demo scenarios to try
 
+1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
 2. Open `/analyze`, pick a healthy parcel like *Tongass Boreal Carbon Sink*,
    choose the **Wildfire** scenario at 80% magnitude, and run. Observe the
@@ -180,11 +181,6 @@ traded — the smart contract reverts.
    Retire** panel to retire 1,000 credits on behalf of *Acme Aviation*. Then
    visit `/portfolio` and confirm the retirement counter incremented.
 4. Trigger a **Regeneration** event on the *Kalimantan Burn Recovery Block*
-<!-- metadata: udq16jjhlv -->
-<!-- metadata: sgvmm3kg0o -->
-<!-- metadata: vtkatgxa2d -->
-<!-- metadata: 5vtsfulmof -->
-<!-- metadata: l5clmf1uso -->
    (already invalidated) and watch credits gradually re-issue.
 
 ---
