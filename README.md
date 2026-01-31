@@ -23,10 +23,6 @@ This repository contains:
 
 Everything is fully functional out of the box — no external API keys, no
 external services, no network access required.
-<!-- metadata: fv14793422 -->
-<!-- metadata: jytb03ee7l -->
-<!-- metadata: pk8yx8d2t3 -->
-<!-- metadata: acceqo6qtf -->
 
 ---
 
@@ -101,6 +97,7 @@ State persists to `data/runtime/state.json`.
 
 ---
 
+## How it works
 
 ### 1. Mint a parcel as a dNFT
 
