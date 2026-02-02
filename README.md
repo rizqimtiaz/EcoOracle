@@ -145,6 +145,13 @@ Run the autonomous oracle across all parcels with:
 ### 4. Smart contracts (`contracts/`)
 
 `CarbonCreditDNFT.sol` implements:
+<!-- metadata: 1f4du44uty -->
+<!-- metadata: 0cs8t577wf -->
+<!-- metadata: hv8m0th92z -->
+<!-- metadata: o76r78wkyg -->
+<!-- metadata: d76ldqdk2f -->
+<!-- metadata: 0f7pqqhur8 -->
+<!-- metadata: 2n5riwkams -->
 
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
@@ -157,10 +164,6 @@ Run the autonomous oracle across all parcels with:
 co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
-For deployment instructions on any EVM chain, see the comments inside each
-contract — both compile as-is with `solc 0.8.20`.
-
-### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
