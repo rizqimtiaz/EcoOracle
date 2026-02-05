@@ -16,9 +16,6 @@ This repository contains:
 - A simulated EVM-compatible blockchain layer (mint, transfer, retire,
   oracle update, invalidate) with a complete event/transaction log.
 - An autonomous oracle service that bridges AI scans to on-chain state.
-- Two Solidity smart contracts (`CarbonCreditDNFT.sol` and
-  `CarbonOracle.sol`) ready for deployment on any EVM L1/L2.
-- A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
 Everything is fully functional out of the box — no external API keys, no
@@ -158,6 +155,9 @@ co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
+<!-- metadata: 0ex86y6v4h -->
+<!-- metadata: 4046qcz5do -->
+<!-- metadata: 45fbd5la0g -->
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
