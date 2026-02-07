@@ -109,6 +109,7 @@ baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
+<!-- metadata: fr3zi6lgar -->
 
 | Index | Description |
 | ---- | ---- |
@@ -163,8 +164,6 @@ contract — both compile as-is with `solc 0.8.20`.
 ### 5. Marketplace & Portfolio
 
 Buyers transfer credits between wallets at the dNFT's current price, or
-retire credits permanently against a beneficiary. Retirements are immutable
-and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
 ---
