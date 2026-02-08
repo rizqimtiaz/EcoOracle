@@ -21,9 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-Everything is fully functional out of the box — no external API keys, no
-external services, no network access required.
-
 ---
 
 ## Quick start
@@ -207,6 +204,16 @@ data/runtime/         Persistent JSON state (auto-created)
 
 ---
 
+<!-- metadata: 2im3p6j9hx -->
+<!-- metadata: c59ogdtg43 -->
+<!-- metadata: kf4mjpki1s -->
+<!-- metadata: b1xcwz6ftg -->
+<!-- metadata: 5v546dmdm0 -->
+<!-- metadata: 4ewvrvow4p -->
+<!-- metadata: twuz5j9gfw -->
+<!-- metadata: isku2da4z9 -->
+<!-- metadata: wgvgwimer6 -->
+<!-- metadata: 4g5qhopxnc -->
 ## License
 
 MIT.
