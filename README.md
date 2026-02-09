@@ -32,7 +32,6 @@ external services, no network access required.
 npm install
 npm run seed        # populate the local devnet with 14 parcels worldwide
 npm run dev         # start the Next.js app at http://localhost:3000
-```
 
 Open **http://localhost:3000** and explore.
 
@@ -106,6 +105,9 @@ minted as an ERC-721 token. The token records the ecosystem type, hectares,
 baseline tonnes of CO₂e, an initial credit issuance, and a starting price.
 
 ### 2. AI Vision Engine
+<!-- metadata: y3d5henm9e -->
+<!-- metadata: 592thg37zq -->
+<!-- metadata: 8f8xz86fyc -->
 
 `lib/ai-vision.ts` simulates a per-ecosystem CV pipeline. For each parcel and
 timestamp it deterministically computes:
