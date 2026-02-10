@@ -21,9 +21,6 @@ This repository contains:
 - A live, interactive dashboard, world map, marketplace, parcel detail
   pages, oracle event log, and corporate portfolio views.
 
-Everything is fully functional out of the box — no external API keys, no
-external services, no network access required.
-
 ---
 
 ## Quick start
@@ -146,6 +143,14 @@ Run the autonomous oracle across all parcels with:
 
 `CarbonCreditDNFT.sol` implements:
 
+<!-- metadata: nzlzznn93s -->
+<!-- metadata: z8oybc8oyx -->
+<!-- metadata: d1sfr2tsab -->
+<!-- metadata: 0ey0uznryk -->
+<!-- metadata: 3gf58tqunm -->
+<!-- metadata: r712sn2zer -->
+<!-- metadata: hbivj15tia -->
+<!-- metadata: 1xkxih379p -->
 - A minimal ERC-721 surface (transfer, approve, balanceOf).
 - A `Parcel` struct per token with packed dynamic state.
 - `updateCarbonState(...)` — only callable by the oracle.
