@@ -46,15 +46,6 @@ dashboard or run `npm run seed`.
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        EcoOracle Frontend (Next.js)                 │
-<!-- metadata: jd2oowedxo -->
-<!-- metadata: 6xlf2gf3va -->
-<!-- metadata: trpr6o0m7v -->
-<!-- metadata: oywxfv5www -->
-<!-- metadata: xsoid6590a -->
-<!-- metadata: 5leec0lb3n -->
-<!-- metadata: lkc0lbglew -->
-<!-- metadata: 58iqhrnu83 -->
-<!-- metadata: rm3fb0yi1z -->
 │                                                                     │
 │   /                Hero + landing                                   │
 │   /dashboard       Live metrics, oracle controls, charts            │
@@ -175,6 +166,10 @@ Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
+
+---
+
+## Demo scenarios to try
 
 1. Open `/dashboard` and click **Run Oracle Sweep**. Watch verified tonnes and
    credit counts shift across all parcels.
