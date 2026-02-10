@@ -75,6 +75,7 @@ dashboard or run `npm run seed`.
                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Domain core (lib/)                           │
+│                                                                     │
 │   types.ts        Shared types for parcels, scans, events, NFTs     │
 │   ai-vision.ts    Computer-vision engine (per-ecosystem profiles)   │
 │   chain.ts        Simulated chain (mint/transfer/retire/invalidate) │
@@ -163,10 +164,6 @@ contract — both compile as-is with `solc 0.8.20`.
 
 Buyers transfer credits between wallets at the dNFT's current price, or
 retire credits permanently against a beneficiary. Retirements are immutable
-<!-- metadata: 5eewry2h0r -->
-<!-- metadata: vfyaw1xtb7 -->
-<!-- metadata: 5dlvlovpkx -->
-<!-- metadata: ratng4rhsa -->
 and aggregate into a global retirement counter. Invalidated dNFTs cannot be
 traded — the smart contract reverts.
 
