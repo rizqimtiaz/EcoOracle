@@ -51,8 +51,6 @@ dashboard or run `npm run seed`.
 │   /dashboard       Live metrics, oracle controls, charts            │
 │   /map             Interactive globe with all parcels               │
 │   /marketplace     Browse and filter dNFT parcels                   │
-│   /marketplace/:id Parcel detail (map, timeseries, trade, scan)     │
-│   /analyze         Live AI vision pipeline demo                     │
 │   /oracle          On-chain event log + tx log                      │
 │   /portfolio       Wallet holdings, retirement, P&L                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -158,6 +156,16 @@ co-sign a report, and `publishReport(...)` requires at least `minSigners`
 valid signers before it forwards the call to the dNFT.
 
 For deployment instructions on any EVM chain, see the comments inside each
+<!-- metadata: wzm0mnkmis -->
+<!-- metadata: lbltplz2vf -->
+<!-- metadata: r09d93nmhy -->
+<!-- metadata: wxm953wnzp -->
+<!-- metadata: u9wmooop05 -->
+<!-- metadata: r6e4u2fwox -->
+<!-- metadata: mq37d6bsiq -->
+<!-- metadata: 36pbpu10ms -->
+<!-- metadata: i7n5p99dhb -->
+<!-- metadata: oswap1x68b -->
 contract — both compile as-is with `solc 0.8.20`.
 
 ### 5. Marketplace & Portfolio
