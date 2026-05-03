@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    background-color: theme("colors.bg.DEFAULT");
+    color: rgb(229 231 235);
+    font-family: theme("fontFamily.sans");
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: theme("colors.eco.500");
+    color: #001b0f;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.16);
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-2xl border border-bg-line bg-bg-card/80 backdrop-blur-sm;
+  }
+
+  .panel-soft {
+    @apply rounded-xl border border-bg-line bg-bg-soft/60;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium ring-1;
+  }
+
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-lg px-3.5 py-2 text-sm font-medium transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-eco-500 text-bg shadow-glow hover:bg-eco-400;
+  }
+
+  .btn-secondary {
+    @apply btn border border-bg-line bg-bg-panel/80 text-white/90 hover:bg-bg-panel hover:border-eco-700;
+  }
+
+  .btn-ghost {
+    @apply btn text-white/70 hover:bg-white/5 hover:text-white;
+  }
+
+  .btn-danger {
+    @apply btn border border-danger-600/40 bg-danger-500/10 text-danger-400 hover:bg-danger-500/20;
+  }
+
+  .stat-tile {
+    @apply panel p-5 flex flex-col gap-1;
+  }
+
+  .stat-label {
+    @apply text-xs uppercase tracking-wider text-white/50;
+  }
+
+  .stat-value {
+    @apply text-2xl font-semibold text-white;
+  }
+
+  .table-row {
+    @apply grid grid-cols-12 items-center gap-3 border-b border-bg-line/60 px-4 py-3 text-sm last:border-0;
+  }
+
+  .kbd {
+    @apply rounded border border-bg-line bg-bg-panel px-1.5 py-0.5 text-[10px] font-mono text-white/60;
+  }
+
+  .glow-line {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(46, 241, 145, 0.4) 50%,
+      transparent 100%
+    );
+  }
+}
+
+/* Animated grid background used on hero sections */
+.bg-grid-eco {
+  background-image:
+    linear-gradient(to right, rgba(46, 241, 145, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(46, 241, 145, 0.07) 1px, transparent 1px);
+  background-size: 56px 56px;
+  background-position: -1px -1px;
+}
+
+.bg-noise {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px
+  );
+  background-size: 4px 4px;
+}
+
+.scanline-mask {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.5) 70%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.5) 70%,
+    transparent 100%
+  );
+}
+
+.vignette::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.06),
+    transparent
+  );
+  animation: shimmer 2.4s infinite;
+  transform: translateX(-100%);
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.tracking-wider-2 {
+  letter-spacing: 0.18em;
+}
